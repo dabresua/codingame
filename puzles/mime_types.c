@@ -8,87 +8,132 @@
  * the standard input according to the problem statement.
  **/
 
+#define DEBUG 1
+#define DEBUG_VERBOSE 1
+
 #define TO_UPPER(_c) (_c)+'A'-'a'
 
 typedef struct ext_mime_t {
-    char ext[12];
-    char mt[51+1];
-    int ext_len;
-    unsigned long weigth;
+	char ext[12];
+	char mt[51+1];
+	int ext_len;
+	unsigned long weigth;
 } ext_mime_t;
 
+#ifdef DEBUG
+#define EXT_MIME_FMT "len [%d], w [%d], ext[%s], mime[%s]"
+#define EXT_MIME_PRM(_em) (_em)->ext_len, (_em)->weigth, (_em)->ext, (_em)->mt
+#endif /* DEBUG */
+
+int binarySearch(ext_mime_t a[], ext_mime_t item, int low, int high)
+{
+	if (high <= low)
+		return (item.weigth > a[low].weigth)?  (low + 1): low;
+
+	int mid = (low + high)/2;
+
+	if(item.weigth == a[mid].weigth)
+		return mid+1;
+
+	if(item.weigth > a[mid].weigth)
+		return binarySearch(a, item, mid+1, high);
+	return binarySearch(a, item, low, mid-1);
+}
+
+void insertionSort(ext_mime_t a[], int n)
+{
+	int i, loc, j, k;
+	ext_mime_t selected;
+
+	for (i = 1;i < n;++i)
+	{
+		j = i - 1;
+		ext_mime_cpy(&selected, &a[i]);
+
+		// find location where selected sould be inseretd
+		loc = binarySearch(a, selected, 0, j);
+
+		// Move all elements after location to create space
+		while (j >= loc)
+		{
+			ext_mime_cpy(&a[j+1], &a[j]);
+			j--;
+		}
+		ext_mime_cpy(&a[j+1], &selected);
+	}
+}
+
 void ext_mime_cpy(ext_mime_t *to, const ext_mime_t *from) {
-    to->ext_len = from->ext_len;
-    to->weigth = from->weigth;
-    //fprintf(stderr, "len, %d\n", to->ext_len);
-    //memcpy(to->ext, from->ext, to->ext_len);
-    memcpy(to->mt, from->mt, 51);
+	to->ext_len = from->ext_len;
+	to->weigth = from->weigth;
+	memcpy(to->ext, from->ext, 11);
+	memcpy(to->mt, from->mt, 51);
 }
 
 void ext_mime_init(ext_mime_t *em, char *ext, char *mt)
 {
-    em->ext_len = 0;
-    em->weigth = 0;
-    while(em->ext_len < 12) {
-        if(ext[em->ext_len] == 0)
-            break;
-        if(ext[em->ext_len] > 'Z') {
-            em->ext[em->ext_len] = TO_UPPER(ext[em->ext_len]);
-        } else {
-            em->ext[em->ext_len] = ext[em->ext_len];
-        }
-        em->weigth += (em->ext[em->ext_len]-'0') << (5*em->ext_len);
-        em->ext_len++;
-    }
-    em->ext[em->ext_len] = 0;
-    memcpy(&em->mt, mt, 51);
+	em->ext_len = 0;
+	em->weigth = 0;
+	while(em->ext_len < 12) {
+		if(ext[em->ext_len] == 0)
+		break;
+		if(ext[em->ext_len] > 'Z') {
+			em->ext[em->ext_len] = TO_UPPER(ext[em->ext_len]);
+		} else {
+			em->ext[em->ext_len] = ext[em->ext_len];
+		}
+		em->weigth += (em->ext[em->ext_len]-'0') << (5*em->ext_len);
+		em->ext_len++;
+	}
+	em->ext[em->ext_len] = 0;
+	memcpy(&em->mt, mt, 51);
 }
 
 int ext_extractor(const char *in, char *out, unsigned long *w)
 {
-    int end = 0;
-    while(end < 257) {
-        if(in[end] == '\n') {
-            break;
-        }
-        end++;
-    }
-    if(end == 257)
-        return 0;
+	int end = 0;
+	while(end < 257) {
+		if(in[end] == '\n') {
+			break;
+		}
+		end++;
+	}
+	if(end == 257)
+	return 0;
 
-    int init = end-1;
-    while(init > 0) {
-        if(in[init] == '.')
-            break;
-        init--;
-    }
-    if(init == 0 && in[0] != '.')
-        return 0;
+	int init = end-1;
+	while(init > 0) {
+		if(in[init] == '.')
+		break;
+		init--;
+	}
+	if(init == 0 && in[0] != '.')
+	return 0;
 
-    int i_o = 0;
-    for(int i = init+1; i < end; i++) {
-        if(in[i] > 'Z') {
-            out[i_o] = TO_UPPER(in[i]);
-        } else {
-            out[i_o] = in[i];
-        }
-        *w += (out[i_o]-'0') << (5*i_o);
-        i_o++;
-    }
-    return (end-init-1);
+	int i_o = 0;
+	for(int i = init+1; i < end; i++) {
+		if(in[i] > 'Z') {
+			out[i_o] = TO_UPPER(in[i]);
+		} else {
+			out[i_o] = in[i];
+		}
+		*w += (out[i_o]-'0') << (5*i_o);
+		i_o++;
+	}
+	return (end-init-1);
 }
 #if 0
 bool ext_mime_cmp(ext_mime_t *em, char *ext, int ext_len, unsigned long w)
 {
-    if(ext_len != em->ext_len || w != em->weigth)
-        return false;
-    /*
-    for(int i = 0; i < ext_len; i++) {
-        if((ext[i] != em->ext[i]))
-            return false;
-    }
-    */
-    return true;
+	if(ext_len != em->ext_len || w != em->weigth)
+	return false;
+	/*
+	for(int i = 0; i < ext_len; i++) {
+	if((ext[i] != em->ext[i]))
+	return false;
+	}
+	*/
+	return true;
 }
 #endif /* 0 */
 
@@ -103,91 +148,114 @@ int max_on_table(int N)
 
 int main()
 {
-    // Number of elements which make up the association table.
-    int N;
-    scanf("%d", &N);
-    // Number Q of file names to be analyzed.
-    int Q;
-    scanf("%d", &Q);
-    //fprintf(stderr, "N %d, Q %d\n", N, Q);
+	// Number of elements which make up the association table.
+	int N;
+	scanf("%d", &N);
+	// Number Q of file names to be analyzed.
+	int Q;
+	scanf("%d", &Q);
+	//fprintf(stderr, "N %d, Q %d\n", N, Q);
 
-    ext_mime_t unsorted[N];
-    for (int i = 0; i < N; i++) {
-        // file extension
-        char EXT[11];
-        // MIME type.
-        char MT[51];
-        scanf("%s%s", EXT, MT); fgetc(stdin);
-        ext_mime_init(&unsorted[i], EXT, MT);
-        //fprintf(stderr, "EXT[%s], MT[%s], len %d, w %lu\n",
-        //        unsorted[i].ext, unsorted[i].mt, unsorted[i].ext_len,
-        //        unsorted[i].weigth);
-    }
-    // TODO: sort by weigth
-	int max = max_on_table(N);
-	//fprintf(stderr, "max %d\n", max);
-    ext_mime_t em[(1 << max)];
-    bool sorted[N];
-    for(int i = 0; i < N; i++) {
-        unsigned int min = -1;
-        int min_index = N;
-        for(int j = 0; j < N; j++) {
-            if(!sorted[j] && unsorted[j].weigth < min) {
-                min_index = j;
-                min = unsorted[j].weigth;
-            }
-        }
-        sorted[min_index] = true;
-        ext_mime_cpy(&em[i], &unsorted[min_index]);
-        //fprintf(stderr, "%d: %lu[%s]\n", i, em[i].weigth, em[i].ext);
-    }
+	ext_mime_t em[N];
+	for (int i = 0; i < N; i++) {
+		// file extension
+		char EXT[11];
+		// MIME type.
+		char MT[51];
+		scanf("%s%s", EXT, MT); fgetc(stdin);
+		ext_mime_init(&em[i], EXT, MT);
+	}
 
-    for (int i = 0; i < Q; i++) {
-        // One file name per line.
-        char FNAME[257];
-        fgets(FNAME, 257, stdin);
-        //fprintf(stderr, "FNAME [%s]\n", FNAME);
+	insertionSort(em, N);
+	int min = em[0].weigth;
+	int max = em[N-1].weigth;
+	int step = (max-min)/N;
 
-        char ext[12];
-        long w = 0;
-        int len = ext_extractor(FNAME, ext, &w);
-        if(len > 0) {
-            //fprintf(stderr, "ext %lu:[%s]\n", w, ext);
-			int count = 1;
-			int index = (1 << max)/(1 << count);
+	#ifdef DEBUG
+	for (int i = 0; i < N; i++) {
+		fprintf(stderr, "em[%d]: " EXT_MIME_FMT "\n", i, EXT_MIME_PRM(&em[i]));
+	}
+	fprintf(stderr, "min %d, max %d, step %d\n", min, max, step);
+	#endif /* DEBUG */
+
+	for (int i = 0; i < Q; i++) {
+		// One file name per line.
+		char FNAME[257];
+		fgets(FNAME, 257, stdin);
+		#ifdef DEBUG
+		fprintf(stderr, "FNAME [%s]\n", FNAME);
+		#endif /* DEBUG */
+
+		char ext[12];
+		long w = 0;
+		int len = ext_extractor(FNAME, ext, &w);
+		#ifdef DEBUG
+		fprintf(stderr, "len %d, w %d, ext %s\n", len, w, ext);
+		#endif /* DEBUG */
+		if(len > 0) {
 			bool found = false;
-            while(count <= max) {
-				//fprintf(stderr, "index %d\n", index-1);
-                if(w == em[index-1].weigth) {
-                    printf("%s\n", em[index-1].mt);
+			if(w == max) {
+				found = true;
+				printf("%s\n", em[N-1].mt);
+			}
+			int index = (w-min)/step;
+			int up = index;
+			int down = index;
+			int count = 1;
+			int last = 0;
+			#ifdef DEBUG_VERBOSE
+			fprintf(stderr, "First index %d\n", index);
+			#endif /* DEBUG_VERBOSE */
+			while(count <= N && index < N && !found) {
+				#ifdef DEBUG_VERBOSE
+				fprintf(stderr, "index %d\n", index);
+				#endif /* DEBUG_VERBOSE */
+				int wi = em[index].weigth;
+				if(wi == w) {
+					#ifdef DEBUG_VERBOSE
+					fprintf(stderr, "Found!!! %s\n", em[index].mt);
+					#endif /* DEBUG_VERBOSE */
+					printf("%s\n", em[index].mt);
 					found = true;
-                    break;
-                } else if(w == em[index].weigth) {
-                    printf("%s\n", em[index].mt);
-					found = true;
-                    break;
-                } else if(w > em[index-1].weigth) {
-					count++;
-					index+= (1 << max)/(1 << count);
-                } else {
-					count++;
-					index-= (1 << max)/(1 << count);
-                }
-            }
-            if(!found) {
-                printf("UNKNOWN\n");
-            }
-        } else {
-            printf("UNKNOWN\n");
-        }
-    }
+					break;
+				} else if(wi > w) {
+					#ifdef DEBUG_VERBOSE
+					fprintf(stderr, "look down\n");
+					#endif /* DEBUG_VERBOSE */
+					if(down == 0 || last == 1)
+						break;
+					index = down - 1;
+					down = index;
+					last = -1;
+				} else {
+					#ifdef DEBUG_VERBOSE
+					fprintf(stderr, "look up\n");
+					#endif /* DEBUG_VERBOSE */
+					if(up == N-1 || last == -1)
+						break;
+					index = up + 1;
+					up = index;
+					last = 1;
+				}
+				count++;
+			}
+			if(!found) {
+				#ifdef DEBUG_VERBOSE
+				fprintf(stderr, "---\n");
+				#endif /* DEBUG_VERBOSE */
+				printf("UNKNOWN\n");
+			}
+		} else {
+			printf("UNKNOWN\n");
+		}
+	}
 
-    // Write an answer using printf(). DON'T FORGET THE TRAILING \n
-    // To debug: fprintf(stderr, "Debug messages...\n");
+	// Write an answer using printf(). DON'T FORGET THE TRAILING \n
+	// To debug: fprintf(stderr, "Debug messages...\n");
 
 
-    // For each of the Q filenames, display on a line the corresponding MIME type. If there is no corresponding type, then display UNKNOWN.
-    //printf("UNKNOWN\n");
+	// For each of the Q filenames, display on a line the corresponding MIME type. If there is no corresponding type, then display UNKNOWN.
+	//printf("UNKNOWN\n");
 
-    return 0;
+	return 0;
 }
