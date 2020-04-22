@@ -10,17 +10,17 @@
 
 int main()
 {
-    int N;
-    scanf("%d", &N);
-    for (int i = 0; i < N; i++) {
-        int pi;
-        scanf("%d", &pi);
-    }
+	int N;
+	scanf("%d", &N);
+	for (int i = 0; i < N; i++) {
+		int pi;
+		scanf("%d", &pi);
+	}
 
-    // Write an answer using printf(). DON'T FORGET THE TRAILING \n
-    // To debug: fprintf(stderr, "Debug messages...\n");
+	// Write an answer using printf(). DON'T FORGET THE TRAILING \n
+	// To debug: fprintf(stderr, "Debug messages...\n");
 
-    printf("answer\n");
+	printf("answer\n");
 
-    return 0;
+	return 0;
 }
