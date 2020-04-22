@@ -78,13 +78,24 @@ int main()
 			printf("%d %d %d\n", next_checkpoint_x, next_checkpoint_y, thrust);
 			continue;
 		}
-		if (next_checkpoint_dist > 8000 ||
-		    next_checkpoint_dist > 5000 && vel < 100) {
+		fprintf(stderr, "%d\n", next_checkpoint_angle*vel/next_checkpoint_dist);
+		if(next_checkpoint_angle*vel > next_checkpoint_dist) {
+			thrust = 100 - 3*next_checkpoint_angle*vel/next_checkpoint_dist;
+			if(thrust < 0)
+			    thrust = 0;
+			printf("%d %d %d\n", next_checkpoint_x, next_checkpoint_y, thrust);
+			continue;
+		}
+		if (next_checkpoint_angle == 0 && (next_checkpoint_dist > 8000 ||
+		    next_checkpoint_dist > 5000 && vel < 300)) {
 			printf("%d %d BOOST\n", next_checkpoint_x, next_checkpoint_y);
 			continue;
 		}
+		if (next_checkpoint_dist < 1000 && vel > 200) {
+			thrust = 100 - vel/10;
+		}
 
-		printf("%d %d %d\n", next_checkpoint_x, next_checkpoint_y, 100);
+		printf("%d %d %d\n", next_checkpoint_x, next_checkpoint_y, thrust);
 	}
 
 	return 0;
