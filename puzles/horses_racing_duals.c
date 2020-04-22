@@ -31,6 +31,8 @@ int main()
 		if(min < min_diff) {
 			min_diff = min;
 		}
+		if(min_diff == 1)
+			break;
 	}
 
 	// Write an answer using printf(). DON'T FORGET THE TRAILING \n
