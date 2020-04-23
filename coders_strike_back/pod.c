@@ -91,9 +91,15 @@ int main()
 			printf("%d %d BOOST\n", next_checkpoint_x, next_checkpoint_y);
 			continue;
 		}
-		if (next_checkpoint_dist < 1000 && vel > 200) {
-			thrust = 100 - vel/10;
+		
+		if (next_checkpoint_dist < 3000 && next_checkpoint_dist > 0) {
+		    int r = vel*100/next_checkpoint_dist;
+		    if(r>60) {
+		        r=60;
+		    }
+			thrust = 100 - vel*100/next_checkpoint_dist;
 		}
+		
 
 		printf("%d %d %d\n", next_checkpoint_x, next_checkpoint_y, thrust);
 	}
