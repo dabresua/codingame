@@ -8,8 +8,8 @@
  * the standard input according to the problem statement.
  **/
 
-#define DEBUG 1
-#define DEBUG_VERBOSE 1
+//#define DEBUG 1
+//#define DEBUG_VERBOSE 1
 
 #define TO_UPPER(_c) (_c)+'A'-'a'
 
@@ -24,6 +24,8 @@ typedef struct ext_mime_t {
 #define EXT_MIME_FMT "len [%d], w [%lu], ext[%s], mime[%s]"
 #define EXT_MIME_PRM(_em) (_em)->ext_len, (_em)->weigth, (_em)->ext, (_em)->mt
 #endif /* DEBUG */
+
+#define MAX_COUNT (N/2)
 
 int binarySearch(ext_mime_t a[], ext_mime_t item, int low, int high)
 {
@@ -92,22 +94,30 @@ void ext_mime_init(ext_mime_t *em, char *ext, char *mt)
 int ext_extractor(const char *in, char *out, unsigned long *w)
 {
 	int end = 0;
-	while(end < 257) {
+	bool found = false;
+	while(end < 128) {
 		if(in[end] == '\n') {
+		    found = true;
 			break;
+		} else if(in[256-end] == '\n') {
+		    found = true;
+		    end = 256-end;
+		    break;
 		}
 		end++;
 	}
-	if(end == 257)
+	if(!found)
 	    return 0;
 
 	int init = end-1;
-	while(init > 0) {
+	int count = 0;
+	while(init > 0 && count < 12) {
 		if(in[init] == '.')
-		break;
+		    break;
 		init--;
+		count++;
 	}
-	if(init == 0 && in[0] != '.')
+	if(count == 12 || (init == 0 && in[0] != '.'))
 	    return 0;
 
 	int i_o = 0;
@@ -177,18 +187,22 @@ int main()
 	}
 	fprintf(stderr, "min %lu, max %lu, step %lu\n", min, max, step);
 	#endif /* DEBUG */
-
-	for (int i = 0; i < Q; i++) {
+	
+	int i = 0;
+	char FNAME[Q][257];
+	for (i = 0; i < Q; i++) {
 		// One file name per line.
-		char FNAME[257];
-		fgets(FNAME, 257, stdin);
+		
+		fgets(FNAME[i], 257, stdin);
 		#ifdef DEBUG
 		fprintf(stderr, "FNAME [%s]\n", FNAME);
 		#endif /* DEBUG */
-
+	}
+	
+    for (i = 0; i < Q; i++) {
 		char ext[12];
 		long w = 0;
-		int len = ext_extractor(FNAME, ext, &w);
+		int len = ext_extractor(FNAME[i], ext, &w);
 		#ifdef DEBUG
 		fprintf(stderr, "len %d, w %ld, ext %s\n", len, w, ext);
 		#endif /* DEBUG */
@@ -209,10 +223,11 @@ int main()
 		    } else if(wi < w) {
 		        //up
 		        index++;
+		        int count = 0;
 		        #ifdef DEBUG_VERBOSE
     		    fprintf(stderr, "Next up %d\n", index);
     			#endif /* DEBUG_VERBOSE */
-		        while(index < N) {
+		        while(index < N && count < MAX_COUNT) {
 		            wi = em[index].weigth;
 		            if(wi == w) {
     					#ifdef DEBUG_VERBOSE
@@ -225,16 +240,18 @@ int main()
 		                found = false;
 		                break;
 		            } else {
+		                count++;
 		                index++;
 		            }
 		        }
 		    } else {
 		        //down
 		        index--;
+		        int count = 0;
 		        #ifdef DEBUG_VERBOSE
     		    fprintf(stderr, "Next down %d\n", index);
     			#endif /* DEBUG_VERBOSE */
-		        while(index >= 0) {
+		        while(index >= 0 && count < MAX_COUNT) {
 		            wi = em[index].weigth;
 		            if(wi == w) {
     					#ifdef DEBUG_VERBOSE
@@ -247,6 +264,7 @@ int main()
 		                found = false;
 		                break;
 		            } else {
+		                count++;
 		                index--;
 		            }
 		        }
