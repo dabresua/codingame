@@ -21,7 +21,7 @@ typedef struct ext_mime_t {
 } ext_mime_t;
 
 #ifdef DEBUG
-#define EXT_MIME_FMT "len [%d], w [%d], ext[%s], mime[%s]"
+#define EXT_MIME_FMT "len [%d], w [%lu], ext[%s], mime[%s]"
 #define EXT_MIME_PRM(_em) (_em)->ext_len, (_em)->weigth, (_em)->ext, (_em)->mt
 #endif /* DEBUG */
 
@@ -99,7 +99,7 @@ int ext_extractor(const char *in, char *out, unsigned long *w)
 		end++;
 	}
 	if(end == 257)
-	return 0;
+	    return 0;
 
 	int init = end-1;
 	while(init > 0) {
@@ -108,7 +108,7 @@ int ext_extractor(const char *in, char *out, unsigned long *w)
 		init--;
 	}
 	if(init == 0 && in[0] != '.')
-	return 0;
+	    return 0;
 
 	int i_o = 0;
 	for(int i = init+1; i < end; i++) {
@@ -167,15 +167,15 @@ int main()
 	}
 
 	insertionSort(em, N);
-	int min = em[0].weigth;
-	int max = em[N-1].weigth;
-	int step = (max-min)/N;
+	unsigned long min = em[0].weigth;
+	unsigned long max = em[N-1].weigth;
+	unsigned long step = (max-min)/N;
 
 	#ifdef DEBUG
 	for (int i = 0; i < N; i++) {
 		fprintf(stderr, "em[%d]: " EXT_MIME_FMT "\n", i, EXT_MIME_PRM(&em[i]));
 	}
-	fprintf(stderr, "min %d, max %d, step %d\n", min, max, step);
+	fprintf(stderr, "min %lu, max %lu, step %lu\n", min, max, step);
 	#endif /* DEBUG */
 
 	for (int i = 0; i < Q; i++) {
@@ -190,55 +190,67 @@ int main()
 		long w = 0;
 		int len = ext_extractor(FNAME, ext, &w);
 		#ifdef DEBUG
-		fprintf(stderr, "len %d, w %d, ext %s\n", len, w, ext);
+		fprintf(stderr, "len %d, w %ld, ext %s\n", len, w, ext);
 		#endif /* DEBUG */
-		if(len > 0) {
-			bool found = false;
-			if(w == max) {
-				found = true;
-				printf("%s\n", em[N-1].mt);
-			}
-			int index = (w-min)/step;
-			int up = index;
-			int down = index;
-			int count = 1;
-			int last = 0;
-			#ifdef DEBUG_VERBOSE
-			fprintf(stderr, "First index %d\n", index);
+		if(len > 0 && w >= min && w <= max) {
+		    unsigned long index = (w-min)/(step+1);
+		    #ifdef DEBUG_VERBOSE
+		    fprintf(stderr, "Starts with %lu\n", index);
 			#endif /* DEBUG_VERBOSE */
-			while(count <= N && index < N && !found) {
-				#ifdef DEBUG_VERBOSE
-				fprintf(stderr, "index %d\n", index);
-				#endif /* DEBUG_VERBOSE */
-				int wi = em[index].weigth;
-				if(wi == w) {
+		    bool up = false;
+		    bool found = false;
+		    int wi = em[index].weigth;
+		    if(wi == w) {
 					#ifdef DEBUG_VERBOSE
 					fprintf(stderr, "Found!!! %s\n", em[index].mt);
 					#endif /* DEBUG_VERBOSE */
 					printf("%s\n", em[index].mt);
 					found = true;
-					break;
-				} else if(wi > w) {
-					#ifdef DEBUG_VERBOSE
-					fprintf(stderr, "look down\n");
-					#endif /* DEBUG_VERBOSE */
-					if(down == 0 || last == 1)
-						break;
-					index = down - 1;
-					down = index;
-					last = -1;
-				} else {
-					#ifdef DEBUG_VERBOSE
-					fprintf(stderr, "look up\n");
-					#endif /* DEBUG_VERBOSE */
-					if(up == N-1 || last == -1)
-						break;
-					index = up + 1;
-					up = index;
-					last = 1;
-				}
-				count++;
-			}
+		    } else if(wi < w) {
+		        //up
+		        index++;
+		        #ifdef DEBUG_VERBOSE
+    		    fprintf(stderr, "Next up %d\n", index);
+    			#endif /* DEBUG_VERBOSE */
+		        while(index < N) {
+		            wi = em[index].weigth;
+		            if(wi == w) {
+    					#ifdef DEBUG_VERBOSE
+    					fprintf(stderr, "Found!!! %s\n", em[index].mt);
+    					#endif /* DEBUG_VERBOSE */
+    					printf("%s\n", em[index].mt);
+					    found = true;
+    					break;
+		            } else if(wi > w) {
+		                found = false;
+		                break;
+		            } else {
+		                index++;
+		            }
+		        }
+		    } else {
+		        //down
+		        index--;
+		        #ifdef DEBUG_VERBOSE
+    		    fprintf(stderr, "Next down %d\n", index);
+    			#endif /* DEBUG_VERBOSE */
+		        while(index >= 0) {
+		            wi = em[index].weigth;
+		            if(wi == w) {
+    					#ifdef DEBUG_VERBOSE
+    					fprintf(stderr, "Found!!! %s\n", em[index].mt);
+    					#endif /* DEBUG_VERBOSE */
+    					printf("%s\n", em[index].mt);
+    					found = true;
+    					break;
+		            } else if(wi < w) {
+		                found = false;
+		                break;
+		            } else {
+		                index--;
+		            }
+		        }
+		    }
 			if(!found) {
 				#ifdef DEBUG_VERBOSE
 				fprintf(stderr, "---\n");
