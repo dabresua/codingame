@@ -11,6 +11,15 @@
 
 #define DEBUG 1
 
+#define KI 2
+#define KD 2
+
+static int calc_err_acu(int old_err, int nca, int spd, int ncd)
+{
+	int new_err = nca*spd/ncd;
+	return new_err + old_err/KI + (new_err-old_err)/KD;
+}
+
 static inline int calc_vel(int x, int y, int lx, int ly)
 {
 	int dx = (x > lx)?(x - lx):(lx - x);
@@ -29,6 +38,7 @@ int main()
 
 	// game loop
 	int last_x = -1, last_y = -1;
+	int err_acu = 0;
 	while (1) {
 		int x;
 		int y;
@@ -76,22 +86,27 @@ int main()
 		if(next_checkpoint_angle > 90) {
 			thrust = 0;
 			printf("%d %d %d\n", next_checkpoint_x, next_checkpoint_y, thrust);
+			err_acu = calc_err_acu(err_acu, next_checkpoint_angle, vel,
+			                       next_checkpoint_dist);
 			continue;
 		}
 		fprintf(stderr, "%d\n", next_checkpoint_angle*vel/next_checkpoint_dist);
 		if(next_checkpoint_angle*vel > next_checkpoint_dist) {
-			thrust = 100 - 3*next_checkpoint_angle*vel/next_checkpoint_dist;
+			err_acu = calc_err_acu(err_acu, next_checkpoint_angle, vel,
+			                       next_checkpoint_dist);
+			thrust = 100 - err_acu;
 			if(thrust < 0)
 			    thrust = 0;
 			printf("%d %d %d\n", next_checkpoint_x, next_checkpoint_y, thrust);
 			continue;
 		}
+		err_acu = 0;
 		if (next_checkpoint_angle == 0 && (next_checkpoint_dist > 8000 ||
 		    next_checkpoint_dist > 5000 && vel < 300)) {
 			printf("%d %d BOOST\n", next_checkpoint_x, next_checkpoint_y);
 			continue;
 		}
-		
+
 		if (next_checkpoint_dist < 3000 && next_checkpoint_dist > 0) {
 		    int r = vel*100/next_checkpoint_dist;
 		    if(r>60) {
@@ -99,7 +114,7 @@ int main()
 		    }
 			thrust = 100 - vel*100/next_checkpoint_dist;
 		}
-		
+
 
 		printf("%d %d %d\n", next_checkpoint_x, next_checkpoint_y, thrust);
 	}
