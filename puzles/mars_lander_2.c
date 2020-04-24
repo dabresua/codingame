@@ -18,6 +18,21 @@ typedef struct objective_t {
 #define OBJECTIVE_FMT "%s x:[%d %d] y: %d"
 #define OBJECTIVE_PRM(_obj) (_obj).ok?"OK":"ERR", (_obj).x1, (_obj).x2, (_obj).y
 
+typedef int error_t;
+
+static void error_calculate(error_t *err, int obj, int pos, int spd, bool rigth)
+{
+	*err = obj - pos;
+	if(*err == 0) {
+		*err = rigth?spd:-spd;
+	}
+}
+
+#define KI_X 1
+#define KD_X 1
+#define KI_Y 1
+#define KD_Y 1
+
 int main()
 {
 	// the number of points used to draw the surface of Mars.
@@ -53,6 +68,10 @@ int main()
 	fprintf(stderr, OBJECTIVE_FMT "\n", OBJECTIVE_PRM(obj));
 
 	// game loop
+	int obj_x = (obj.x2 + obj.x1)/2;
+	bool rigth;
+	error_t err_x = 0, err_y = 0;
+	int last_x = 0;
 	while (1) {
 		int X;
 		int Y;
@@ -68,12 +87,45 @@ int main()
 		int power;
 		scanf("%d%d%d%d%d%d%d", &X, &Y, &h_speed, &v_speed, &fuel, &rotate, &power);
 
+		if(X > obj.x2) {
+			obj_x = obj.x2;
+		} else if(X < obj.x1) {
+			obj_x = obj.x1;
+		} else {
+			obj_x = X;
+		}
+		rigth = last_x < X;
+		last_x = X;
+		fprintf(stderr, "X[%d] obj_x[%d], %s\n", X, obj_x, rigth?"R":"L");
+
 		// Write an action using printf(). DON'T FORGET THE TRAILING \n
 		// To debug: fprintf(stderr, "Debug messages...\n");
+		//fprintf(stderr, "[%d][%d][%d][%d][%d][%d][%d]\n", X, Y, h_speed,
+		//        v_speed, fuel, rotate, power);
 
 
+		error_calculate(&err_x, obj_x, X, v_speed, rigth);
+		//error_calculate(&err_y, obj.y, Y, h_speed);
+		fprintf(stderr, "err_x[%d] vx[%d], err_y[%d]\n", err_x, h_speed, err_y);
+		int pwden = 0;
+		int angle = 0;
+		if (err_x == 0) {
+			angle = 0;
+			pwden = (err_y < 0)?0:4;
+		} else {
+			if(err_x > 500 || err_x < 500) {
+				angle = 45-v_speed/10;
+				if(angle < 0)
+					angle = 0;
+				if (err_x > 0)
+					angle = -1*angle;
+			} else {
+				angle = 0;
+			}
+			pwden = 4;
+		}
 		// rotate power. rotate is the desired rotation angle. power is the desired thrust power.
-		printf("-20 3\n");
+		printf("%d %d\n", angle, pwden);
 	}
 
 	return 0;
