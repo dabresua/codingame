@@ -18,11 +18,15 @@ typedef struct objective_t {
 #define OBJECTIVE_FMT "%s x:[%d %d] y: %d"
 #define OBJECTIVE_PRM(_obj) (_obj).ok?"OK":"ERR", (_obj).x1, (_obj).x2, (_obj).y
 
+#define ANGLE_LIMIT 40
+#define MASS 2
+
 typedef int error_t;
 
 static void error_calculate(error_t *err, int obj, int pos, int spd)
 {
-	*err = obj + 10*spd - pos;
+	*err = obj - pos;
+	*err += (spd > 0)?MASS/2*spd*spd:-1*MASS/2*spd*spd;
 }
 
 int main()
@@ -93,15 +97,16 @@ int main()
 		int pwden = 4;
 		int angle = 0;
 		angle = -1*err_x/10;
-		if(angle > 45)
-			angle = 45;
-		if(angle < -45)
-			angle = -45;
+		if(angle > ANGLE_LIMIT)
+			angle = ANGLE_LIMIT;
+		if(angle < -ANGLE_LIMIT)
+			angle = -ANGLE_LIMIT;
 
-		if(err_x > -10 && err_x < 10) {
-			pwden = (v_speed<(-10))?4:2;
-			pwden = (-1*v_speed)*4/10;
-			if (pwden > 4)
+		if(err_x > -100 && err_x < 100) {
+			if(obj_x == X)
+				angle = 0;
+			pwden = (-1*v_speed)/10;
+			if (pwden > 4 ||  (-1*v_speed) > 35)
 				pwden = 4;
 			if (pwden < 0)
 				pwden = 0;
