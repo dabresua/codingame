@@ -20,18 +20,10 @@ typedef struct objective_t {
 
 typedef int error_t;
 
-static void error_calculate(error_t *err, int obj, int pos, int spd, bool rigth)
+static void error_calculate(error_t *err, int obj, int pos, int spd)
 {
-	*err = obj - pos;
-	if(*err == 0) {
-		*err = rigth?spd:-spd;
-	}
+	*err = obj + 10*spd - pos;
 }
-
-#define KI_X 1
-#define KD_X 1
-#define KI_Y 1
-#define KD_Y 1
 
 int main()
 {
@@ -94,36 +86,27 @@ int main()
 		} else {
 			obj_x = X;
 		}
-		rigth = last_x < X;
-		last_x = X;
-		fprintf(stderr, "X[%d] obj_x[%d], %s\n", X, obj_x, rigth?"R":"L");
+		fprintf(stderr, "X[%d] obj_x[%d]\n", X, obj_x);
 
-		// Write an action using printf(). DON'T FORGET THE TRAILING \n
-		// To debug: fprintf(stderr, "Debug messages...\n");
-		//fprintf(stderr, "[%d][%d][%d][%d][%d][%d][%d]\n", X, Y, h_speed,
-		//        v_speed, fuel, rotate, power);
-
-
-		error_calculate(&err_x, obj_x, X, v_speed, rigth);
-		//error_calculate(&err_y, obj.y, Y, h_speed);
+		error_calculate(&err_x, obj_x, X, -1*h_speed);
 		fprintf(stderr, "err_x[%d] vx[%d], err_y[%d]\n", err_x, h_speed, err_y);
-		int pwden = 0;
+		int pwden = 4;
 		int angle = 0;
-		if (err_x == 0) {
-			angle = 0;
-			pwden = (err_y < 0)?0:4;
-		} else {
-			if(err_x > 500 || err_x < 500) {
-				angle = 45-v_speed/10;
-				if(angle < 0)
-					angle = 0;
-				if (err_x > 0)
-					angle = -1*angle;
-			} else {
-				angle = 0;
-			}
-			pwden = 4;
+		angle = -1*err_x/10;
+		if(angle > 45)
+			angle = 45;
+		if(angle < -45)
+			angle = -45;
+
+		if(err_x > -10 && err_x < 10) {
+			pwden = (v_speed<(-10))?4:2;
+			pwden = (-1*v_speed)*4/10;
+			if (pwden > 4)
+				pwden = 4;
+			if (pwden < 0)
+				pwden = 0;
 		}
+
 		// rotate power. rotate is the desired rotation angle. power is the desired thrust power.
 		printf("%d %d\n", angle, pwden);
 	}
