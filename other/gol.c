@@ -9,6 +9,8 @@
 #define GOL_BOOL_FMT "%c"
 #define GOL_BOOL_PRM(_b) (_b)?'x':' '
 
+#define WORLD_LEN(_w, _h) w*h/(8*sizeof(int))
+
 static void cell_set(unsigned int *world, int c, int f, int w, int h, bool value)
 {
 	if(c > w || f > h) {
@@ -35,10 +37,10 @@ static void generate_world(unsigned int *world, int w, int h)
 	}
 }
 
-static void print_world(unsigned int *world, unsigned int w, unsigned int h)
+static void print_world(unsigned int *world, int w, int h)
 {
 	int counter = 0;
-	for (int i = 0; i < w*h/(8*sizeof(int)); i++) {
+	for (int i = 0; i < WORLD_LEN(w, h); i++) {
 		//printf("--%d:%x--\n", i, world[i]);
 		for (int j = 8*sizeof(int); j > 0 ; j--) {
 			printf("%c", (world[i]&(1<<(j-1))) > 0?'x':'-');
@@ -64,7 +66,7 @@ int main(int argc, char *argv[])
 	printf("%ld\n", sizeof(int));
 	printf("GOL %d %d\n", w, h);
 
-	long len = w*h/(8*sizeof(int));
+	long len = WORLD_LEN(w, h);
 	printf("%ld\n", len);
 	unsigned int world[len];
 	for (int i = 0; i < len; i++) {
