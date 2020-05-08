@@ -57,7 +57,11 @@ while True:
     # To debug: print("Debug messages...", file=sys.stderr)
 
     print("visible_pac_count " + str(visible_pac_count), file=sys.stderr)
+    print("my_pac_count " + str(len(x_list)), file=sys.stderr)
 
     # MOVE <pacId> <x> <y>
+    str_out = ""
     for j in range(len(x_list)):
-         print("MOVE "+ str(j) + " " + str(x_obj[j]) + " " + str(y_obj[j]))
+        str_out = str_out+ "MOVE "+ str(j) + " " + str(x_obj[j]) + " " + str(y_obj[j])+"|"
+         
+    print(str_out)
