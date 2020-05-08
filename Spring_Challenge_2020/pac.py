@@ -20,6 +20,8 @@ while True:
 	visible_pac_count = int(input())  # all your pacs and enemy pacs in sight
 	x_list = []
 	y_list = []
+	pac_list = []
+
 	for i in range(visible_pac_count):
 		# pac_id: pac number (unique within a team)
 		# mine: true if this pac is yours
@@ -35,11 +37,14 @@ while True:
 		if mine:
 			x_list.append(int(x))
 			y_list.append(int(y))
+			pac_list.append(pac_id)
 
 		speed_turns_left = int(speed_turns_left)
 		ability_cooldown = int(ability_cooldown)
 
 	visible_pellet_count = int(input())  # all pellets in sight
+
+
 	best_list = [0]*len(x_list)
 	x_obj = [0]*len(x_list)
 	y_obj = [0]*len(x_list)
@@ -55,15 +60,27 @@ while True:
 				x_obj[j] = x
 				y_obj[j] = y
 
+	for j in range(len(x_list)):
+		if best_list[j] == 0:
+			if x_list[j] < width/2:
+				x_obj[j] = width-1
+			else:
+				x_obj[j] = 0
+			if y_list[j] < height/2:
+				y_obj[j] = height-1
+			else:
+				y_obj[j] = 0
+
 	# Write an action using print
 	# To debug: print("Debug messages...", file=sys.stderr)
 
-	print("visible_pac_count " + str(visible_pac_count), file=sys.stderr)
-	print("my_pac_count " + str(len(x_list)), file=sys.stderr)
-
 	# MOVE <pacId> <x> <y>
 	str_out = ""
+	x_last = []
+	y_last = []
 	for j in range(len(x_list)):
-		str_out = str_out+ "MOVE "+ str(j) + " " + str(x_obj[j]) + " " + str(y_obj[j])+"|"
+		x_last.append(x_obj[j])
+		y_last.append(y_obj[j])
+		str_out = str_out+ "MOVE "+ str(pac_list[j]) + " " + str(x_obj[j]) + " " + str(y_obj[j])+"|"
 
 	print(str_out)
