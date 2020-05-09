@@ -21,7 +21,9 @@ while True:
 	visible_pac_count = int(input())  # all your pacs and enemy pacs in sight
 	x_list = []
 	y_list = []
+	y_list = [] 
 	pac_list = []
+	speed_turns_left_list = []
 
 	for i in range(visible_pac_count):
 		# pac_id: pac number (unique within a team)
@@ -39,8 +41,8 @@ while True:
 			x_list.append(int(x))
 			y_list.append(int(y))
 			pac_list.append(pac_id)
+			speed_turns_left_list.append(int(speed_turns_left))
 
-		speed_turns_left = int(speed_turns_left)
 		ability_cooldown = int(ability_cooldown)
 
 	visible_pellet_count = int(input())  # all pellets in sight
@@ -49,11 +51,14 @@ while True:
 	best_list = [0]*len(x_list)
 	x_obj = [0]*len(x_list)
 	y_obj = [0]*len(x_list)
+	command_list = ["MOVE"]*len(x_list)
 	if first == 1:
 		first = 0
 		escape_obj = [-1]*len(x_list)
 		x_last = [-1]*len(x_list)
 		y_last = [-1]*len(x_list)
+		cool_down = [0]*len(x_list)
+		clockwise = [0]*len(x_list)
 
 	for i in range(visible_pellet_count):
 		# value: amount of points this pellet is worth
@@ -67,11 +72,16 @@ while True:
 				y_obj[j] = y
 
 	for j in range(len(x_list)):
-		if best_list[j] == 0:
+		print("now " + str(x_list[j]) + ", " + str(y_list[j]), file=sys.stderr)
+		if best_list[j] == 0 or (x_last[j] == x_list[j] and y_last[j] == y_list[j]):
 			escape = 1
 			if escape_obj[j] == -1:
 				recalculate = 1
 			if x_last[j] == x_list[j] and y_last[j] == y_list[j]:
+				if clockwise[j] == 1:
+					clockwise[j] == 0
+				else:
+					clockwise[j] == 0
 				recalculate = 1
 
 			if recalculate == 1:
@@ -82,19 +92,40 @@ while True:
 				if y_list[j] > height/2:
 					escape_obj[j] = escape_obj[j]+2
 			
-	        #Anti-clockwise
-			if escape_obj[j] == 0:
-				x_obj[j] = 0
-				y_obj[j] = height-1
-			elif escape_obj[j] == 1:
-				x_obj[j] = 0
-				y_obj[j] = 0
-			elif escape_obj[j] == 2:
-				x_obj[j] = width-1
-				y_obj[j] = height-1
-			elif escape_obj[j] == 3:
-				x_obj[j] = width-1
-				y_obj[j] = 0
+			#Anti-clockwise
+			if clockwise[j] == 1:
+				if escape_obj[j] == 0:
+					x_obj[j] = 0
+					y_obj[j] = height-1
+				elif escape_obj[j] == 1:
+					x_obj[j] = 0
+					y_obj[j] = 0
+				elif escape_obj[j] == 2:
+					x_obj[j] = width-1
+					y_obj[j] = height-1
+				elif escape_obj[j] == 3:
+					x_obj[j] = width-1
+					y_obj[j] = 0
+			else :
+				if escape_obj[j] == 0:
+					x_obj[j] = 0
+					y_obj[j] = height-1
+				elif escape_obj[j] == 1:
+					x_obj[j] = 0
+					y_obj[j] = 0
+				elif escape_obj[j] == 2:
+					x_obj[j] = width-1
+					y_obj[j] = height-1
+				elif escape_obj[j] == 3:
+					x_obj[j] = width-1
+					y_obj[j] = 0
+		print("speed " + str(speed_turns_left_list[j]), file=sys.stderr)
+		if speed_turns_left_list[j] == 0 and cool_down[j] <= 0:
+			command_list[j] = "SPEED"
+			cool_down[j] = 10
+		else:
+			command_list[j] = "MOVE"
+			cool_down[j] = cool_down[j] - 1
 
 	# Write an action using print
 	# To debug: print("Debug messages...", file=sys.stderr)
@@ -104,6 +135,6 @@ while True:
 	for j in range(len(x_list)):
 		x_last[j] = x_list[j]
 		y_last[j] = y_list[j]
-		str_out = str_out+ "MOVE "+ str(pac_list[j]) + " " + str(x_obj[j]) + " " + str(y_obj[j])+"|"
+		str_out = str_out+ command_list[j] +" "+ str(pac_list[j]) + " " + str(x_obj[j]) + " " + str(y_obj[j])+"|"
 
 	print(str_out)
