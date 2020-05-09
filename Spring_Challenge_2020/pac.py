@@ -3,10 +3,10 @@ import math
 
 # Grab the pellets as fast as you can!
 def calc_value(x1, y1, x2, y2, val):
-    dx = x1-x2
-    dy = y1-y2
-    dist = math.sqrt(dx**2 + dy**2)
-    return val/dist
+	dx = x1-x2
+	dy = y1-y2
+	dist = math.sqrt(dx**2 + dy**2)
+	return val/dist
 
 # width: size of the grid
 # height: top left corner is (x=0, y=0)
@@ -15,6 +15,7 @@ for i in range(height):
 	row = input()  # one line of the grid: space " " is floor, pound "#" is wall
 
 # game loop
+first = 1
 while True:
 	my_score, opponent_score = [int(i) for i in input().split()]
 	visible_pac_count = int(input())  # all your pacs and enemy pacs in sight
@@ -48,6 +49,11 @@ while True:
 	best_list = [0]*len(x_list)
 	x_obj = [0]*len(x_list)
 	y_obj = [0]*len(x_list)
+	if first == 1:
+		first = 0
+		escape_obj = [-1]*len(x_list)
+		x_last = [-1]*len(x_list)
+		y_last = [-1]*len(x_list)
 
 	for i in range(visible_pellet_count):
 		# value: amount of points this pellet is worth
@@ -62,13 +68,32 @@ while True:
 
 	for j in range(len(x_list)):
 		if best_list[j] == 0:
-			if x_list[j] < width/2:
-				x_obj[j] = width-1
-			else:
+			escape = 1
+			if escape_obj[j] == -1:
+				recalculate = 1
+			if x_last[j] == x_list[j] and y_last[j] == y_list[j]:
+				recalculate = 1
+
+			if recalculate == 1:
+				if x_list[j] < width/2:
+					escape_obj[j] = 0
+				else:
+					escape_obj[j] = 1
+				if y_list[j] > height/2:
+					escape_obj[j] = escape_obj[j]+2
+			
+	        #Anti-clockwise
+			if escape_obj[j] == 0:
 				x_obj[j] = 0
-			if y_list[j] < height/2:
 				y_obj[j] = height-1
-			else:
+			elif escape_obj[j] == 1:
+				x_obj[j] = 0
+				y_obj[j] = 0
+			elif escape_obj[j] == 2:
+				x_obj[j] = width-1
+				y_obj[j] = height-1
+			elif escape_obj[j] == 3:
+				x_obj[j] = width-1
 				y_obj[j] = 0
 
 	# Write an action using print
@@ -76,11 +101,9 @@ while True:
 
 	# MOVE <pacId> <x> <y>
 	str_out = ""
-	x_last = []
-	y_last = []
 	for j in range(len(x_list)):
-		x_last.append(x_obj[j])
-		y_last.append(y_obj[j])
+		x_last[j] = x_list[j]
+		y_last[j] = y_list[j]
 		str_out = str_out+ "MOVE "+ str(pac_list[j]) + " " + str(x_obj[j]) + " " + str(y_obj[j])+"|"
 
 	print(str_out)
