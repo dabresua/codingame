@@ -2,8 +2,11 @@ import sys
 import math
 
 ASH_SPEED = 1000
+ASH_RANGE = 2000
 ZOMBIE_SPEED = 400
 INT_INF = 10000
+
+APPROACH = 3
 
 # Save humans, destroy zombies!
 class Ash:
@@ -23,6 +26,7 @@ class Human:
 		self.alive = INT_INF
 		self.to_reach = INT_INF
 		self.priority = INT_INF
+		self.zombie = None
 
 	def set_alive(self, zombie_turns):
 		self.alive = math.floor(zombie_turns)
@@ -36,7 +40,7 @@ class Human:
 			self.priority = INT_INF
 
 	def debug(self):
-		print("["+str(self.x)+" "+str(self.y)+"] "+str(self.priority), file=sys.stderr, flush=True)
+		print("H:["+str(self.x)+" "+str(self.y)+"] "+str(self.priority), file=sys.stderr, flush=True)
 
 class Zombie:
 	def __init__(self, id, x, y, nx, ny):
@@ -45,6 +49,13 @@ class Zombie:
 		self.y = y
 		self.nx = nx
 		self.ny = ny
+		self.to_reach = INT_INF
+
+	def set_distance(self, ash_turns):
+		self.to_reach = math.floor(ash_turns)
+
+	def debug(self):
+		print("Z:["+str(self.x)+" "+str(self.y)+"] "+str(self.to_reach), file=sys.stderr, flush=True)
 
 def calc_dist(x1, y1, x2, y2):
 	dx = x2 - x1
@@ -72,19 +83,28 @@ class Actors:
 		for h in self.humans:
 			closest_zombie = None
 			distance = float("inf")
+			myzombie = None
 			for z in self.zombies:
 				tmp_dist = calc_dist(h.x, h.y, z.x, z.y)
 				if (tmp_dist < distance):
 					closest_zombie = z
 					distance = tmp_dist
+					myzombie = z
+			h.zombie = myzombie
 			h.set_alive(distance/ZOMBIE_SPEED)
 			tmp_dist = calc_dist(h.x, h.y, self.ash.x, self.ash.y)
-			h.set_distance(tmp_dist/ASH_SPEED-1)
+			h.set_distance((tmp_dist-ASH_RANGE/2)/ASH_SPEED)
 			h.update_priority()
 			h.debug()
 
+	def update_zombies(self):
+		for z in self.zombies:
+			dist = calc_dist(self.ash.x, self.ash.y, z.x, z.y)
+			z.set_distance((dist-ASH_RANGE)/ASH_SPEED)
+			z.debug()
+
 	def get_most_prioritary(self):
-		ret = Human(0,0,0)
+		ret = self.humans[0]
 		for h in self.humans:
 			if (h.priority < ret.priority):
 				ret = h
@@ -116,12 +136,30 @@ while True:
 		z = Zombie(zombie_id, zombie_x, zombie_y, zombie_xnext, zombie_ynext)
 		actors.add_zombie(z)
 
-	# Fist approach: Try to save the closest human (not always possible)
-	#h = actors.get_closest_human()
+	if (APPROACH == 1):
+		# Fist approach: Try to save the closest human (not always possible)
+		# 31k points
+		h = actors.get_closest_human()
+		print(str(h.x)+" "+str(h.y))
+	elif (APPROACH == 2):
+		# Second approach: Sort the humans for priority and save th most prioritary
+		# 42k points
+		actors.update_humans()
+		h = actors.get_most_prioritary()
+		print(str(h.x)+" "+str(h.y))
+	elif (APPROACH == 3):
+		# Third approach: Sort the humans for priority and save th most prioritary
+		#                 UNLESS there is enough time to go killing some zombies
+		# 52k points
+		actors.update_zombies()
+		actors.update_humans()
+		h = actors.get_most_prioritary()
+		z = h.zombie
+		if (h.priority > z.to_reach):
+			print(str(z.x)+" "+str(z.y)) # Kill zombies
+		else:
+			print(str(h.x)+" "+str(h.y)) # Save human
+	else:
+		sys.exit("APPROACH "+str(APPROACH)+" not valid")
 
-	# Second approach: Sort the humans for priority and save th most prioritary
-	actors.update_humans()
-	h = actors.get_most_prioritary()
-
-	# Your destination coordinates
-	print(str(h.x)+" "+str(h.y))
+	# Fourth approach, take into consideration that ash can be used as bait
