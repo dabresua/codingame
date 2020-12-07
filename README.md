@@ -8,4 +8,8 @@ Puzzles and challenges, solved or at least I have tried :D
 
 ## Codewars
 
-TODO
+[Codewars Profile](https://www.codewars.com/users/dabresua)
+
+## Autotools
+
+GNU autotools training

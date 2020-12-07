@@ -2,6 +2,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <algorithm>
 
 static std::vector<std::string> inArray(std::vector<std::string> &array1,
                                         std::vector<std::string> &array2)
@@ -15,7 +16,7 @@ static std::vector<std::string> inArray(std::vector<std::string> &array1,
 			}
 		}
 	}
-	sort(res.begin(), res.end());
+	std::sort(res.begin(), res.end());
 	return res;
 }
 
