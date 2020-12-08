@@ -10,3 +10,7 @@ sum_of_numbers
 which_are_in
 bit_counting
 greed_is_good
+Makefile.am
+valid_braces
+valid_parentheses
+valid_parentheses.c

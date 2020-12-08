@@ -1,8 +1,10 @@
-bin_PROGRAMS = sum_of_numbers bit_counting which_are_in middle_char duplicate_encoder findnextsquare exes_and_ohs mult_table greed_is_good is_square
+bin_PROGRAMS = sum_of_numbers bit_counting which_are_in valid_braces middle_char valid_parentheses duplicate_encoder findnextsquare exes_and_ohs mult_table greed_is_good is_square
 sum_of_numbers_SOURCES = sum_of_numbers.cpp
 bit_counting_SOURCES = bit_counting.cpp
 which_are_in_SOURCES = which_are_in.cpp
+valid_braces_SOURCES = valid_braces.cpp
 middle_char_SOURCES = middle_char.cpp
+valid_parentheses_SOURCES = valid_parentheses.c
 duplicate_encoder_SOURCES = duplicate_encoder.cpp
 findnextsquare_SOURCES = findnextsquare.cpp
 exes_and_ohs_SOURCES = exes_and_ohs.cpp

@@ -4,3 +4,4 @@
 cd src
 ../../../tools/automake/update_makefile.sh
 cd ..
+make && cd src && ./../../tools/git/add2gitignore.sh
