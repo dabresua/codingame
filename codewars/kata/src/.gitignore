@@ -14,3 +14,9 @@ Makefile.am
 valid_braces
 valid_parentheses
 valid_parentheses.c
+sum_of_digits_digital_root
+ten_minute_walk
+same_arrays
+tribonacci
+findOdd
+decomp
