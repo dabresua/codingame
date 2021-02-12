@@ -1,4 +1,4 @@
-bin_PROGRAMS = same_arrays tickets tribonacci sum_of_numbers bit_counting which_are_in valid_braces middle_char valid_parentheses sum_of_digits_digital_root duplicate_encoder findnextsquare ten_minute_walk decomp enoughisenough findOdd exes_and_ohs multiplication_table mult_table likes greed_is_good is_square
+bin_PROGRAMS = same_arrays tickets tribonacci sum_of_numbers bit_counting which_are_in valid_braces middle_char valid_parentheses sum_of_digits_digital_root duplicate_encoder findnextsquare ten_minute_walk decomp enoughisenough findOdd exes_and_ohs multiplication_table mult_table likes greed_is_good sum_of_fractions is_square
 same_arrays_SOURCES = same_arrays.cpp
 tickets_SOURCES = tickets.cpp
 tribonacci_SOURCES = tribonacci.cpp
@@ -20,4 +20,5 @@ multiplication_table_SOURCES = multiplication_table.cpp
 mult_table_SOURCES = mult_table.cpp
 likes_SOURCES = likes.cpp
 greed_is_good_SOURCES = greed_is_good.cpp
+sum_of_fractions_SOURCES = sum_of_fractions.cpp
 is_square_SOURCES = is_square.cpp
