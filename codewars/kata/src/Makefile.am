@@ -1,4 +1,4 @@
-bin_PROGRAMS = same_arrays tickets tribonacci sum_of_numbers bit_counting which_are_in valid_braces middle_char valid_parentheses sum_of_digits_digital_root duplicate_encoder findnextsquare ten_minute_walk decomp enoughisenough findOdd exes_and_ohs multiplication_table mult_table likes greed_is_good sum_of_fractions is_square
+bin_PROGRAMS = same_arrays tickets tribonacci sum_of_numbers bit_counting which_are_in valid_braces middle_char valid_parentheses sum_of_digits_digital_root two_sum duplicate_encoder findnextsquare proper_fractions ten_minute_walk decomp enoughisenough findOdd exes_and_ohs multiplication_table mult_table likes greed_is_good sum_of_fractions is_square
 same_arrays_SOURCES = same_arrays.cpp
 tickets_SOURCES = tickets.cpp
 tribonacci_SOURCES = tribonacci.cpp
@@ -9,8 +9,10 @@ valid_braces_SOURCES = valid_braces.cpp
 middle_char_SOURCES = middle_char.cpp
 valid_parentheses_SOURCES = valid_parentheses.c
 sum_of_digits_digital_root_SOURCES = sum_of_digits_digital_root.cpp
+two_sum_SOURCES = two_sum.cpp
 duplicate_encoder_SOURCES = duplicate_encoder.cpp
 findnextsquare_SOURCES = findnextsquare.cpp
+proper_fractions_SOURCES = proper_fractions.cpp
 ten_minute_walk_SOURCES = ten_minute_walk.cpp
 decomp_SOURCES = decomp.cpp
 enoughisenough_SOURCES = enoughisenough.cpp
