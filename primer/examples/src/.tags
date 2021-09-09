@@ -1,0 +1,224 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACLOCAL	Makefile	/^ACLOCAL = ${SHELL} \/home\/bret\/workspace\/training\/primer\/examples\/missing aclocal-1.15$/;"	m
+ACLOCAL_M4	Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+AMTAR	Makefile	/^AMTAR = $${TAR-tar}$/;"	m
+AM_DEFAULT_VERBOSITY	Makefile	/^AM_DEFAULT_VERBOSITY = 1$/;"	m
+AM_V_CXX	Makefile	/^AM_V_CXX = $(am__v_CXX_$(V))$/;"	m
+AM_V_CXXLD	Makefile	/^AM_V_CXXLD = $(am__v_CXXLD_$(V))$/;"	m
+AM_V_GEN	Makefile	/^AM_V_GEN = $(am__v_GEN_$(V))$/;"	m
+AM_V_P	Makefile	/^AM_V_P = $(am__v_P_$(V))$/;"	m
+AM_V_at	Makefile	/^AM_V_at = $(am__v_at_$(V))$/;"	m
+AUTOCONF	Makefile	/^AUTOCONF = ${SHELL} \/home\/bret\/workspace\/training\/primer\/examples\/missing autoconf$/;"	m
+AUTOHEADER	Makefile	/^AUTOHEADER = ${SHELL} \/home\/bret\/workspace\/training\/primer\/examples\/missing autoheader$/;"	m
+AUTOMAKE	Makefile	/^AUTOMAKE = ${SHELL} \/home\/bret\/workspace\/training\/primer\/examples\/missing automake-1.15$/;"	m
+AWK	Makefile	/^AWK = gawk$/;"	m
+BootstrapTest	hello.cpp	/^	BootstrapTest() {$/;"	f	class:BootstrapTest
+BootstrapTest	hello.cpp	/^class BootstrapTest {$/;"	c	file:
+C	threads2.cpp	/^	C() : std::atomic<int>(0) {}$/;"	f	struct:C
+C	threads2.cpp	/^struct C : std::atomic<int> {$/;"	s	file:
+CC	Makefile	/^CC = gcc$/;"	m
+CCDEPMODE	Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -g -O2$/;"	m
+CONFIG_CLEAN_FILES	Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_HEADER	Makefile	/^CONFIG_HEADER = $(top_builddir)\/config.h$/;"	m
+CPPFLAGS	Makefile	/^CPPFLAGS = $/;"	m
+CTAGS	Makefile	/^CTAGS = ctags$/;"	m
+CXX	Makefile	/^CXX = g++$/;"	m
+CXXCOMPILE	Makefile	/^CXXCOMPILE = $(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) \\$/;"	m
+CXXDEPMODE	Makefile	/^CXXDEPMODE = depmode=gcc3$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS = -g -O2$/;"	m
+CXXLD	Makefile	/^CXXLD = $(CXX)$/;"	m
+CXXLINK	Makefile	/^CXXLINK = $(CXXLD) $(AM_CXXFLAGS) $(CXXFLAGS) $(AM_LDFLAGS) $(LDFLAGS) \\$/;"	m
+CYGPATH_W	Makefile	/^CYGPATH_W = echo$/;"	m
+DEFAULT_INCLUDES	Makefile	/^DEFAULT_INCLUDES = -I. -I$(top_builddir)$/;"	m
+DEFS	Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEPDIR	Makefile	/^DEPDIR = .deps$/;"	m
+DISTFILES	Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DIST_COMMON	Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.am $(am__DIST_COMMON)$/;"	m
+DIST_SOURCES	Makefile	/^DIST_SOURCES = $(ea_SOURCES) $(hello_SOURCES) $(swapping_SOURCES) \\$/;"	m
+ECHO_C	Makefile	/^ECHO_C = $/;"	m
+ECHO_N	Makefile	/^ECHO_N = -n$/;"	m
+ECHO_T	Makefile	/^ECHO_T = $/;"	m
+ETAGS	Makefile	/^ETAGS = etags$/;"	m
+EXEEXT	Makefile	/^EXEEXT = $/;"	m
+INSTALL	Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL_DATA	Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_HEADER	Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_STRIP_PROGRAM	Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS = $/;"	m
+LIBOBJS	Makefile	/^LIBOBJS = $/;"	m
+LIBS	Makefile	/^LIBS = $/;"	m
+LTLIBOBJS	Makefile	/^LTLIBOBJS = $/;"	m
+MAKEINFO	Makefile	/^MAKEINFO = ${SHELL} \/home\/bret\/workspace\/training\/primer\/examples\/missing makeinfo$/;"	m
+MAX_THREADS	threads1.cpp	4;"	d	file:
+MKDIR_P	Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+NORMAL_INSTALL	Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_UNINSTALL	Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+OBJEXT	Makefile	/^OBJEXT = o$/;"	m
+PACKAGE	Makefile	/^PACKAGE = primer$/;"	m
+PACKAGE_BUGREPORT	Makefile	/^PACKAGE_BUGREPORT = d.breton.suarez@gmail.com$/;"	m
+PACKAGE_NAME	Makefile	/^PACKAGE_NAME = primer$/;"	m
+PACKAGE_STRING	Makefile	/^PACKAGE_STRING = primer 1.0$/;"	m
+PACKAGE_TARNAME	Makefile	/^PACKAGE_TARNAME = primer$/;"	m
+PACKAGE_URL	Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_VERSION	Makefile	/^PACKAGE_VERSION = 1.0$/;"	m
+PATH_SEPARATOR	Makefile	/^PATH_SEPARATOR = :$/;"	m
+POST_INSTALL	Makefile	/^POST_INSTALL = :$/;"	m
+POST_UNINSTALL	Makefile	/^POST_UNINSTALL = :$/;"	m
+PRE_INSTALL	Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_UNINSTALL	Makefile	/^PRE_UNINSTALL = :$/;"	m
+PRINT	swapping.cpp	85;"	d	file:
+PROGRAMS	Makefile	/^PROGRAMS = $(bin_PROGRAMS)$/;"	m
+SET_MAKE	Makefile	/^SET_MAKE = $/;"	m
+SHELL	Makefile	/^SHELL = \/bin\/bash$/;"	m
+SOURCES	Makefile	/^SOURCES = $(ea_SOURCES) $(hello_SOURCES) $(swapping_SOURCES) \\$/;"	m
+STRIP	Makefile	/^STRIP = $/;"	m
+VERSION	Makefile	/^VERSION = 1.0$/;"	m
+abs_builddir	Makefile	/^abs_builddir = \/home\/bret\/workspace\/training\/primer\/examples\/src$/;"	m
+abs_srcdir	Makefile	/^abs_srcdir = \/home\/bret\/workspace\/training\/primer\/examples\/src$/;"	m
+abs_top_builddir	Makefile	/^abs_top_builddir = \/home\/bret\/workspace\/training\/primer\/examples$/;"	m
+abs_top_srcdir	Makefile	/^abs_top_srcdir = \/home\/bret\/workspace\/training\/primer\/examples$/;"	m
+ac_ct_CC	Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CXX	Makefile	/^ac_ct_CXX = g++$/;"	m
+am__DIST_COMMON	Makefile	/^am__DIST_COMMON = $(srcdir)\/Makefile.in $(top_srcdir)\/depcomp$/;"	m
+am__aclocal_m4_deps	Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/configure.ac$/;"	m
+am__can_run_installinfo	Makefile	/^am__can_run_installinfo = \\$/;"	m
+am__cd	Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__configure_deps	Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__define_uniq_tagged_files	Makefile	/^am__define_uniq_tagged_files = \\$/;"	m
+am__depfiles_maybe	Makefile	/^am__depfiles_maybe = depfiles$/;"	m
+am__include	Makefile	/^am__include = include$/;"	m
+am__installdirs	Makefile	/^am__installdirs = "$(DESTDIR)$(bindir)"$/;"	m
+am__is_gnu_make	Makefile	/^am__is_gnu_make = { \\$/;"	m
+am__leading_dot	Makefile	/^am__leading_dot = .$/;"	m
+am__make_dryrun	Makefile	/^am__make_dryrun = (target_option=n; $(am__make_running_with_option))$/;"	m
+am__make_keepgoing	Makefile	/^am__make_keepgoing = (target_option=k; $(am__make_running_with_option))$/;"	m
+am__make_running_with_option	Makefile	/^am__make_running_with_option = \\$/;"	m
+am__mv	Makefile	/^am__mv = mv -f$/;"	m
+am__quote	Makefile	/^am__quote = $/;"	m
+am__tagged_files	Makefile	/^am__tagged_files = $(HEADERS) $(SOURCES) $(TAGS_FILES) $(LISP)$/;"	m
+am__tar	Makefile	/^am__tar = $${TAR-tar} chof - "$$tardir"$/;"	m
+am__uniquify_input	Makefile	/^am__uniquify_input = $(AWK) '\\$/;"	m
+am__untar	Makefile	/^am__untar = $${TAR-tar} xf -$/;"	m
+am__v_CXXLD_	Makefile	/^am__v_CXXLD_ = $(am__v_CXXLD_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CXXLD_0	Makefile	/^am__v_CXXLD_0 = @echo "  CXXLD   " $@;$/;"	m
+am__v_CXXLD_1	Makefile	/^am__v_CXXLD_1 = $/;"	m
+am__v_CXX_	Makefile	/^am__v_CXX_ = $(am__v_CXX_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CXX_0	Makefile	/^am__v_CXX_0 = @echo "  CXX     " $@;$/;"	m
+am__v_CXX_1	Makefile	/^am__v_CXX_1 = $/;"	m
+am__v_GEN_	Makefile	/^am__v_GEN_ = $(am__v_GEN_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_GEN_0	Makefile	/^am__v_GEN_0 = @echo "  GEN     " $@;$/;"	m
+am__v_GEN_1	Makefile	/^am__v_GEN_1 = $/;"	m
+am__v_P_	Makefile	/^am__v_P_ = $(am__v_P_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_P_0	Makefile	/^am__v_P_0 = false$/;"	m
+am__v_P_1	Makefile	/^am__v_P_1 = :$/;"	m
+am__v_at_	Makefile	/^am__v_at_ = $(am__v_at_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_at_0	Makefile	/^am__v_at_0 = @$/;"	m
+am__v_at_1	Makefile	/^am__v_at_1 = $/;"	m
+am_ea_OBJECTS	Makefile	/^am_ea_OBJECTS = ea.$(OBJEXT)$/;"	m
+am_hello_OBJECTS	Makefile	/^am_hello_OBJECTS = hello.$(OBJEXT)$/;"	m
+am_swapping_OBJECTS	Makefile	/^am_swapping_OBJECTS = swapping.$(OBJEXT)$/;"	m
+am_threads1_OBJECTS	Makefile	/^am_threads1_OBJECTS = threads1.$(OBJEXT)$/;"	m
+am_threads2_OBJECTS	Makefile	/^am_threads2_OBJECTS = threads2.$(OBJEXT)$/;"	m
+am_waitting_OBJECTS	Makefile	/^am_waitting_OBJECTS = waitting.$(OBJEXT)$/;"	m
+b1	hello.cpp	/^BootstrapTest b1;$/;"	v
+b2	hello.cpp	/^BootstrapTest b2;$/;"	v
+bin_PROGRAMS	Makefile	/^bin_PROGRAMS = threads1$(EXEEXT) waitting$(EXEEXT) swapping$(EXEEXT) \\$/;"	m
+bindir	Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+build_alias	Makefile	/^build_alias = $/;"	m
+builddir	Makefile	/^builddir = .$/;"	m
+copy	swapping.cpp	/^void copy(int &a, const int &b)$/;"	f
+counter	hello.cpp	/^	static int counter;$/;"	m	class:BootstrapTest	file:
+counter	hello.cpp	/^int BootstrapTest::counter = 0; \/* Allocation and initialization for shared counter *\/$/;"	m	class:BootstrapTest	file:
+createTest	hello.cpp	/^void createTest(void) {$/;"	f
+datadir	Makefile	/^datadir = ${datarootdir}$/;"	m
+datarootdir	Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+depcomp	Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/depcomp$/;"	m
+division	swapping.cpp	/^T division(T a, T b)$/;"	f
+division	swapping.cpp	/^bool division(bool a, bool b)$/;"	f
+division	swapping.cpp	/^template <> char division<char>(char a, char b)$/;"	f
+docdir	Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+dvidir	Makefile	/^dvidir = ${docdir}$/;"	m
+ea_LDADD	Makefile	/^ea_LDADD = $(LDADD)$/;"	m
+ea_OBJECTS	Makefile	/^ea_OBJECTS = $(am_ea_OBJECTS)$/;"	m
+ea_SOURCES	Makefile	/^ea_SOURCES = ea.cpp$/;"	m
+exec_prefix	Makefile	/^exec_prefix = ${prefix}$/;"	m
+hello_LDADD	Makefile	/^hello_LDADD = $(LDADD)$/;"	m
+hello_OBJECTS	Makefile	/^hello_OBJECTS = $(am_hello_OBJECTS)$/;"	m
+hello_SOURCES	Makefile	/^hello_SOURCES = hello.cpp$/;"	m
+host_alias	Makefile	/^host_alias = $/;"	m
+htmldir	Makefile	/^htmldir = ${docdir}$/;"	m
+includedir	Makefile	/^includedir = ${prefix}\/include$/;"	m
+increase_global	threads2.cpp	/^void increase_global (int n) { for (int i=0; i<n; ++i) ++global_counter; }$/;"	f
+increase_member	threads2.cpp	/^	void increase_member (int n) { for (int i=0; i<n; ++i) fetch_add(1); }$/;"	f	struct:C
+increase_reference	threads2.cpp	/^void increase_reference (std::atomic<int>& variable, int n) { for (int i=0; i<n; ++i) ++variable; }$/;"	f
+infodir	Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+install_sh	Makefile	/^install_sh = ${SHELL} \/home\/bret\/workspace\/training\/primer\/examples\/install-sh$/;"	m
+install_sh_DATA	Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_PROGRAM	Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+libdir	Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libexecdir	Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+localedir	Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localstatedir	Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+main	ea.cpp	/^int main() {$/;"	f
+main	hello.cpp	/^int main()$/;"	f
+main	swapping.cpp	/^int main() {$/;"	f
+main	threads1.cpp	/^int main()$/;"	f
+main	threads2.cpp	/^int main ()$/;"	f
+main	waitting.cpp	/^int main() {$/;"	f
+mandir	Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mkdir_p	Makefile	/^mkdir_p = $(MKDIR_P)$/;"	m
+mkinstalldirs	Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+oldincludedir	Makefile	/^oldincludedir = \/usr\/include$/;"	m
+operator <<	hello.cpp	/^ostream& operator <<(ostream &os, const BootstrapTest &b)$/;"	f
+operator <<	swapping.cpp	/^std::ostream& operator<<(std::ostream& os, std::vector<int> v)$/;"	f
+pdfdir	Makefile	/^pdfdir = ${docdir}$/;"	m
+pkgdatadir	Makefile	/^pkgdatadir = $(datadir)\/primer$/;"	m
+pkgincludedir	Makefile	/^pkgincludedir = $(includedir)\/primer$/;"	m
+pkglibdir	Makefile	/^pkglibdir = $(libdir)\/primer$/;"	m
+pkglibexecdir	Makefile	/^pkglibexecdir = $(libexecdir)\/primer$/;"	m
+prefix	Makefile	/^prefix = \/usr\/local$/;"	m
+print	swapping.cpp	/^void print(const int &a, const int &b)$/;"	f
+printHello	threads1.cpp	/^void printHello(int N)$/;"	f
+program_transform_name	Makefile	/^program_transform_name = s,x,x,$/;"	m
+psdir	Makefile	/^psdir = ${docdir}$/;"	m
+runstatedir	Makefile	/^runstatedir = ${localstatedir}\/run$/;"	m
+sbindir	Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sharedstatedir	Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+srcdir	Makefile	/^srcdir = .$/;"	m
+subdir	Makefile	/^subdir = src$/;"	m
+sum	swapping.cpp	/^int sum(int a, int b = 7)$/;"	f
+sum	swapping.cpp	/^long sum(long a, long b = 2)$/;"	f
+swap_a	swapping.cpp	/^void swap_a(int* pa, int* pb)$/;"	f
+swap_b	swapping.cpp	/^void swap_b(int a, int b)$/;"	f
+swap_c	swapping.cpp	/^void swap_c(int &a, int &b)$/;"	f
+swapping_LDADD	Makefile	/^swapping_LDADD = $(LDADD)$/;"	m
+swapping_OBJECTS	Makefile	/^swapping_OBJECTS = $(am_swapping_OBJECTS)$/;"	m
+swapping_SOURCES	Makefile	/^swapping_SOURCES = swapping.cpp $/;"	m
+sysconfdir	Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+target_alias	Makefile	/^target_alias = $/;"	m
+threads1_LDADD	Makefile	/^threads1_LDADD = $(LDADD)$/;"	m
+threads1_OBJECTS	Makefile	/^threads1_OBJECTS = $(am_threads1_OBJECTS)$/;"	m
+threads1_SOURCES	Makefile	/^threads1_SOURCES = threads1.cpp$/;"	m
+threads2_LDADD	Makefile	/^threads2_LDADD = $(LDADD)$/;"	m
+threads2_OBJECTS	Makefile	/^threads2_OBJECTS = $(am_threads2_OBJECTS)$/;"	m
+threads2_SOURCES	Makefile	/^threads2_SOURCES = threads2.cpp$/;"	m
+top_build_prefix	Makefile	/^top_build_prefix = ..\/$/;"	m
+top_builddir	Makefile	/^top_builddir = ..$/;"	m
+top_srcdir	Makefile	/^top_srcdir = ..$/;"	m
+transform	Makefile	/^transform = $(program_transform_name)$/;"	m
+version	swapping.cpp	/^const std::string & version(std::string & s1, const std::string & s2)$/;"	f
+version2	swapping.cpp	/^const std::string & version2(const std::string & s1, const std::string & s2)$/;"	f
+waitting_LDADD	Makefile	/^waitting_LDADD = $(LDADD)$/;"	m
+waitting_OBJECTS	Makefile	/^waitting_OBJECTS = $(am_waitting_OBJECTS)$/;"	m
+waitting_SOURCES	Makefile	/^waitting_SOURCES = waitting.cpp$/;"	m
+~BootstrapTest	hello.cpp	/^	~BootstrapTest() {$/;"	f	class:BootstrapTest

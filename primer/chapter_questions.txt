@@ -1,0 +1,137 @@
+1. functions
+2. includes the library
+3. uses name convention std::
+4. std::cout << "hello" << std::endl;
+5. int cheeses;
+6. cheeses = 32;
+7. std::cin >> cheeses;
+8. std::cout << "We have " << cheeses << " varieties of cheese" << std::endl;
+9. the input arguments and the return type. The name is some kind of description
+10. in case is a void function
+
+
+1. Different size on bytes
+2. short a = 80; unsigned int b = 42110; long c = 3000000000;
+3. No
+4. 33L is long 33 is int
+   1. yes 																		<---- Not the same, depends on platform
+6. char c = 88; cout << c << endl; || cout << char(88) << endl;
+   1. Can also happen															Depends on platform
+8. 74, 4, 0, 4.5, 3
+9. int sum = static_cast<int> (x1) + static_cast<int> (x2);
+
+
+1. char actors[30];
+2. int ints[5] = {1,3,5,7,9};
+3. int even = ints[0] + ints[4];
+4. cout << ideas[1] << endl;
+5. char ch[] = "cheeseburger";
+6. typedef struct fish_t {
+   enum kind;
+   int weigth;
+   double len
+   };
+7. fish_t f = {fishy, 7, 22.4};
+8. enum Response = {No=0,Yes,Maybe};
+9. double* pted = &ted; cout << *pted << endl;
+10. float* ptreacle = &treacle[0]; cout < *ptreacle << " " << *(ptreacle+9) << endl;
+11. int user; cout << "enter integer: "; cin >> user; int* users = new int[user];
+12. Yes, the address of the first element of "Home of the jolly bytes"
+13. fish_t* pf = new fish_t; cout << pf->kind << endl;
+14. cin stops a spaces, tabs, new lines.
+
+
+1. Entry evaluates before entering the loop, exit condition to finish the loop. for has entry, do-while finish, while entry.
+2. 01234(new line)
+3. 0369(new line)12(newline)
+4. 6(newline)8(newline)
+5.  k = 8(newline)
+6. for (int i = 1; i <= 64; i*=2) { cout << i << " ";}
+7. with brackets
+8. yes, assings 024 (octal number) to x. Yes, asigns 1 to y
+9. cin >> ch skips over spaces, tabs and newlines
+
+1. Don't test twice if first condition
+2. ch+1 is considered an integer instead of char(ch+1) or (char)(ch+1)
+3. H$ct1 = 1, ct2 = 0\n
+4. if (weight > 115 && weight < 125);
+   if ('q' == ch || 'Q' == ch);
+   if (x % 2 && x != 26); if ((donation >= 1000 && donation < 2000) || 1 == guest)
+   if (isLower(ch) || isUpper(ch))
+5. Only if is a bool
+6. int abs = x < 0 ? -x : x;
+7. switch(ch) {
+	case 'A': a_grade++; break
+	default: f_grade++;
+   }
+8. Can not process char if is suited for ints
+9. while ((ch = cin.get()) != 'Q') { if (ch != '\n') {line++;}}
+
+
+1. Declare it (prototipe). Define it (body). Call it.
+2. void igor(); float tofu(int i); double mpg(double a, double b);
+	long summation(long []array, long a_size);
+	double doctor(const char* str); double doctor(const std::string* std);
+	void ofcourse(const doctor_t* d); std::string map(const map_t* m);
+3. void set(int *ar, int ar_len, int val) { for(int i = 0; i < ar_len; i++) {ar[i] = val};}
+4. void fun(int* first, int* last, int val) { while(first<last) {*first = val; first++;};}
+5. fuck off
+6. Because the compiler copies the contents (get by value)
+7. char* c; "abc"; char c[len+1]
+8. fuck off
+9. Pointer to c-style string, 'c'
+10. value: f(glitz), address: f(&glitz). Value copies -> slower bug safer
+11. int judge(int (*f2)(const char*))
+
+1. Short body functions and non-recursive
+2. a
+   1. void song (char *ch, int times=1)
+   2. None
+   3. yes
+3. paso
+4. void fun(const box &b) {cout << b.maker << " " << b.xxx < ...}; void fun2(box &b)
+5. double mass(double density, double volume = 1.0) {return density*volume;}
+   1. default values only from right to the left
+   2. overloading
+   3. can't
+
+1. auto, external & extern, static global, static local
+2. using directive imports all namespaces, using declaration only one
+3. std::cout, ...
+4. using std::cout, using std::cin, ...
+5. with scope resolution abc::average, def::average, using declarations or using directives inside local function scopes
+6. 10 4 0 other(): 10 1, another(): 10 -4
+7. 1 2 2 4 4 4 4
+8.
+
+
+1. A user-defined type with data and methods that define how to modify the data
+2. Placing the data on private area and providing methods to access it, this methods are also hidded to the user.
+3. Objects are instances of a class
+4. Functions can be public or private, data use to be private always. Memory is reserved for each instance of the class, methods don't
+5.
+class Bank {
+private:
+	string dep_name;
+	double balance;
+public:
+	Bank(string dep_name, double balance = 0.0);
+	void print(void) const;
+	void deposit(double amount);
+	void withdraw(double amount);
+}
+
+6. Constructors when creating the class or calling them, destructors at the end of scope.
+7. bank::bank() {dep_name="Pringao"; balance=0;}
+8. Default constructor does not take any parameters. Allows to not initialize objects, allows to create arrays.
+9. getters and setters
+10. this is a pointer to the class instance that calls the function i.e. in a.b(), this is a pointer to a (this = &a). then *this = a
+
+
+1. as
+2. member functions can access the class members like this->member, friend are external to the class so they have to use the object passed as a parameter
+3. If those members are private, Yes
+4. friend operator*
+5. sizeof, ., .*, ::, ? :
+6. use a member function
+7. explicit double Vector(Vector &v) {return v.magnitude;}

@@ -1,0 +1,2039 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACLOCAL	autotools/hello_example/Makefile	/^ACLOCAL = ${SHELL} \/home\/bret\/workspace\/training\/autotools\/hello_example\/missing aclocal-1.15$/;"	m
+ACLOCAL	autotools/hello_example/src/Makefile	/^ACLOCAL = ${SHELL} \/home\/bret\/workspace\/training\/autotools\/hello_example\/missing aclocal-1.15$/;"	m
+ACLOCAL	codewars/kata/Makefile	/^ACLOCAL = ${SHELL} \/home\/bret\/workspace\/training\/codewars\/kata\/missing aclocal-1.15$/;"	m
+ACLOCAL	codewars/kata/src/Makefile	/^ACLOCAL = ${SHELL} \/home\/bret\/workspace\/training\/codewars\/kata\/missing aclocal-1.15$/;"	m
+ACLOCAL	ea_test/Makefile	/^ACLOCAL = ${SHELL} \/home\/bret\/workspace\/training\/ea_test\/missing aclocal-1.15$/;"	m
+ACLOCAL	ea_test/src/Makefile	/^ACLOCAL = ${SHELL} \/home\/bret\/workspace\/training\/ea_test\/missing aclocal-1.15$/;"	m
+ACLOCAL	primer/examples/Makefile	/^ACLOCAL = ${SHELL} \/home\/bret\/workspace\/training\/primer\/examples\/missing aclocal-1.15$/;"	m
+ACLOCAL	primer/examples/src/Makefile	/^ACLOCAL = ${SHELL} \/home\/bret\/workspace\/training\/primer\/examples\/missing aclocal-1.15$/;"	m
+ACLOCAL_M4	autotools/hello_example/Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ACLOCAL_M4	autotools/hello_example/src/Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ACLOCAL_M4	codewars/kata/Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ACLOCAL_M4	codewars/kata/src/Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ACLOCAL_M4	ea_test/Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ACLOCAL_M4	ea_test/src/Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ACLOCAL_M4	primer/examples/Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ACLOCAL_M4	primer/examples/src/Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ADVERSARY	codingame/ghost_in_the_cell/ghost1.py	/^ADVERSARY = -1$/;"	v
+ADVERSARY	codingame/ghost_in_the_cell/ghost2.py	/^ADVERSARY = -1$/;"	v
+ALGORITHM	codingame/puzzles/rectangle_partition/rectangle_partition.cpp	12;"	d	file:
+AMTAR	autotools/hello_example/Makefile	/^AMTAR = $${TAR-tar}$/;"	m
+AMTAR	autotools/hello_example/src/Makefile	/^AMTAR = $${TAR-tar}$/;"	m
+AMTAR	codewars/kata/Makefile	/^AMTAR = $${TAR-tar}$/;"	m
+AMTAR	codewars/kata/src/Makefile	/^AMTAR = $${TAR-tar}$/;"	m
+AMTAR	ea_test/Makefile	/^AMTAR = $${TAR-tar}$/;"	m
+AMTAR	ea_test/src/Makefile	/^AMTAR = $${TAR-tar}$/;"	m
+AMTAR	primer/examples/Makefile	/^AMTAR = $${TAR-tar}$/;"	m
+AMTAR	primer/examples/src/Makefile	/^AMTAR = $${TAR-tar}$/;"	m
+AM_DEFAULT_VERBOSITY	autotools/hello_example/Makefile	/^AM_DEFAULT_VERBOSITY = 1$/;"	m
+AM_DEFAULT_VERBOSITY	autotools/hello_example/src/Makefile	/^AM_DEFAULT_VERBOSITY = 1$/;"	m
+AM_DEFAULT_VERBOSITY	codewars/kata/Makefile	/^AM_DEFAULT_VERBOSITY = 1$/;"	m
+AM_DEFAULT_VERBOSITY	codewars/kata/src/Makefile	/^AM_DEFAULT_VERBOSITY = 1$/;"	m
+AM_DEFAULT_VERBOSITY	ea_test/Makefile	/^AM_DEFAULT_VERBOSITY = 1$/;"	m
+AM_DEFAULT_VERBOSITY	ea_test/src/Makefile	/^AM_DEFAULT_VERBOSITY = 1$/;"	m
+AM_DEFAULT_VERBOSITY	primer/examples/Makefile	/^AM_DEFAULT_VERBOSITY = 1$/;"	m
+AM_DEFAULT_VERBOSITY	primer/examples/src/Makefile	/^AM_DEFAULT_VERBOSITY = 1$/;"	m
+AM_RECURSIVE_TARGETS	autotools/hello_example/Makefile	/^AM_RECURSIVE_TARGETS = $(am__recursive_targets:-recursive=) TAGS CTAGS \\$/;"	m
+AM_RECURSIVE_TARGETS	codewars/kata/Makefile	/^AM_RECURSIVE_TARGETS = $(am__recursive_targets:-recursive=) TAGS CTAGS \\$/;"	m
+AM_RECURSIVE_TARGETS	ea_test/Makefile	/^AM_RECURSIVE_TARGETS = $(am__recursive_targets:-recursive=) TAGS CTAGS \\$/;"	m
+AM_RECURSIVE_TARGETS	primer/examples/Makefile	/^AM_RECURSIVE_TARGETS = $(am__recursive_targets:-recursive=) TAGS CTAGS \\$/;"	m
+AM_V_CC	autotools/hello_example/src/Makefile	/^AM_V_CC = $(am__v_CC_$(V))$/;"	m
+AM_V_CC	codewars/kata/src/Makefile	/^AM_V_CC = $(am__v_CC_$(V))$/;"	m
+AM_V_CCLD	autotools/hello_example/src/Makefile	/^AM_V_CCLD = $(am__v_CCLD_$(V))$/;"	m
+AM_V_CCLD	codewars/kata/src/Makefile	/^AM_V_CCLD = $(am__v_CCLD_$(V))$/;"	m
+AM_V_CXX	codewars/kata/src/Makefile	/^AM_V_CXX = $(am__v_CXX_$(V))$/;"	m
+AM_V_CXX	primer/examples/src/Makefile	/^AM_V_CXX = $(am__v_CXX_$(V))$/;"	m
+AM_V_CXXLD	codewars/kata/src/Makefile	/^AM_V_CXXLD = $(am__v_CXXLD_$(V))$/;"	m
+AM_V_CXXLD	primer/examples/src/Makefile	/^AM_V_CXXLD = $(am__v_CXXLD_$(V))$/;"	m
+AM_V_GEN	autotools/hello_example/Makefile	/^AM_V_GEN = $(am__v_GEN_$(V))$/;"	m
+AM_V_GEN	autotools/hello_example/src/Makefile	/^AM_V_GEN = $(am__v_GEN_$(V))$/;"	m
+AM_V_GEN	codewars/kata/Makefile	/^AM_V_GEN = $(am__v_GEN_$(V))$/;"	m
+AM_V_GEN	codewars/kata/src/Makefile	/^AM_V_GEN = $(am__v_GEN_$(V))$/;"	m
+AM_V_GEN	ea_test/Makefile	/^AM_V_GEN = $(am__v_GEN_$(V))$/;"	m
+AM_V_GEN	ea_test/src/Makefile	/^AM_V_GEN = $(am__v_GEN_$(V))$/;"	m
+AM_V_GEN	primer/examples/Makefile	/^AM_V_GEN = $(am__v_GEN_$(V))$/;"	m
+AM_V_GEN	primer/examples/src/Makefile	/^AM_V_GEN = $(am__v_GEN_$(V))$/;"	m
+AM_V_P	autotools/hello_example/Makefile	/^AM_V_P = $(am__v_P_$(V))$/;"	m
+AM_V_P	autotools/hello_example/src/Makefile	/^AM_V_P = $(am__v_P_$(V))$/;"	m
+AM_V_P	codewars/kata/Makefile	/^AM_V_P = $(am__v_P_$(V))$/;"	m
+AM_V_P	codewars/kata/src/Makefile	/^AM_V_P = $(am__v_P_$(V))$/;"	m
+AM_V_P	ea_test/Makefile	/^AM_V_P = $(am__v_P_$(V))$/;"	m
+AM_V_P	ea_test/src/Makefile	/^AM_V_P = $(am__v_P_$(V))$/;"	m
+AM_V_P	primer/examples/Makefile	/^AM_V_P = $(am__v_P_$(V))$/;"	m
+AM_V_P	primer/examples/src/Makefile	/^AM_V_P = $(am__v_P_$(V))$/;"	m
+AM_V_at	autotools/hello_example/Makefile	/^AM_V_at = $(am__v_at_$(V))$/;"	m
+AM_V_at	autotools/hello_example/src/Makefile	/^AM_V_at = $(am__v_at_$(V))$/;"	m
+AM_V_at	codewars/kata/Makefile	/^AM_V_at = $(am__v_at_$(V))$/;"	m
+AM_V_at	codewars/kata/src/Makefile	/^AM_V_at = $(am__v_at_$(V))$/;"	m
+AM_V_at	ea_test/Makefile	/^AM_V_at = $(am__v_at_$(V))$/;"	m
+AM_V_at	ea_test/src/Makefile	/^AM_V_at = $(am__v_at_$(V))$/;"	m
+AM_V_at	primer/examples/Makefile	/^AM_V_at = $(am__v_at_$(V))$/;"	m
+AM_V_at	primer/examples/src/Makefile	/^AM_V_at = $(am__v_at_$(V))$/;"	m
+ANGLE_LIMIT	codingame/puzzles/mars_lander_2.c	21;"	d	file:
+APPROACH	codingame/puzzles/code_vs_zombies.py	/^APPROACH = 3$/;"	v
+ASH_RANGE	codingame/puzzles/code_vs_zombies.py	/^ASH_RANGE = 2000$/;"	v
+ASH_SPEED	codingame/puzzles/code_vs_zombies.py	/^ASH_SPEED = 1000$/;"	v
+AUTOCONF	autotools/hello_example/Makefile	/^AUTOCONF = ${SHELL} \/home\/bret\/workspace\/training\/autotools\/hello_example\/missing autoconf$/;"	m
+AUTOCONF	autotools/hello_example/src/Makefile	/^AUTOCONF = ${SHELL} \/home\/bret\/workspace\/training\/autotools\/hello_example\/missing autoconf$/;"	m
+AUTOCONF	codewars/kata/Makefile	/^AUTOCONF = ${SHELL} \/home\/bret\/workspace\/training\/codewars\/kata\/missing autoconf$/;"	m
+AUTOCONF	codewars/kata/src/Makefile	/^AUTOCONF = ${SHELL} \/home\/bret\/workspace\/training\/codewars\/kata\/missing autoconf$/;"	m
+AUTOCONF	ea_test/Makefile	/^AUTOCONF = ${SHELL} \/home\/bret\/workspace\/training\/ea_test\/missing autoconf$/;"	m
+AUTOCONF	ea_test/src/Makefile	/^AUTOCONF = ${SHELL} \/home\/bret\/workspace\/training\/ea_test\/missing autoconf$/;"	m
+AUTOCONF	primer/examples/Makefile	/^AUTOCONF = ${SHELL} \/home\/bret\/workspace\/training\/primer\/examples\/missing autoconf$/;"	m
+AUTOCONF	primer/examples/src/Makefile	/^AUTOCONF = ${SHELL} \/home\/bret\/workspace\/training\/primer\/examples\/missing autoconf$/;"	m
+AUTOHEADER	autotools/hello_example/Makefile	/^AUTOHEADER = ${SHELL} \/home\/bret\/workspace\/training\/autotools\/hello_example\/missing autoheader$/;"	m
+AUTOHEADER	autotools/hello_example/src/Makefile	/^AUTOHEADER = ${SHELL} \/home\/bret\/workspace\/training\/autotools\/hello_example\/missing autoheader$/;"	m
+AUTOHEADER	codewars/kata/Makefile	/^AUTOHEADER = ${SHELL} \/home\/bret\/workspace\/training\/codewars\/kata\/missing autoheader$/;"	m
+AUTOHEADER	codewars/kata/src/Makefile	/^AUTOHEADER = ${SHELL} \/home\/bret\/workspace\/training\/codewars\/kata\/missing autoheader$/;"	m
+AUTOHEADER	ea_test/Makefile	/^AUTOHEADER = ${SHELL} \/home\/bret\/workspace\/training\/ea_test\/missing autoheader$/;"	m
+AUTOHEADER	ea_test/src/Makefile	/^AUTOHEADER = ${SHELL} \/home\/bret\/workspace\/training\/ea_test\/missing autoheader$/;"	m
+AUTOHEADER	primer/examples/Makefile	/^AUTOHEADER = ${SHELL} \/home\/bret\/workspace\/training\/primer\/examples\/missing autoheader$/;"	m
+AUTOHEADER	primer/examples/src/Makefile	/^AUTOHEADER = ${SHELL} \/home\/bret\/workspace\/training\/primer\/examples\/missing autoheader$/;"	m
+AUTOMAKE	autotools/hello_example/Makefile	/^AUTOMAKE = ${SHELL} \/home\/bret\/workspace\/training\/autotools\/hello_example\/missing automake-1.15$/;"	m
+AUTOMAKE	autotools/hello_example/src/Makefile	/^AUTOMAKE = ${SHELL} \/home\/bret\/workspace\/training\/autotools\/hello_example\/missing automake-1.15$/;"	m
+AUTOMAKE	codewars/kata/Makefile	/^AUTOMAKE = ${SHELL} \/home\/bret\/workspace\/training\/codewars\/kata\/missing automake-1.15$/;"	m
+AUTOMAKE	codewars/kata/src/Makefile	/^AUTOMAKE = ${SHELL} \/home\/bret\/workspace\/training\/codewars\/kata\/missing automake-1.15$/;"	m
+AUTOMAKE	ea_test/Makefile	/^AUTOMAKE = ${SHELL} \/home\/bret\/workspace\/training\/ea_test\/missing automake-1.15$/;"	m
+AUTOMAKE	ea_test/src/Makefile	/^AUTOMAKE = ${SHELL} \/home\/bret\/workspace\/training\/ea_test\/missing automake-1.15$/;"	m
+AUTOMAKE	primer/examples/Makefile	/^AUTOMAKE = ${SHELL} \/home\/bret\/workspace\/training\/primer\/examples\/missing automake-1.15$/;"	m
+AUTOMAKE	primer/examples/src/Makefile	/^AUTOMAKE = ${SHELL} \/home\/bret\/workspace\/training\/primer\/examples\/missing automake-1.15$/;"	m
+AWK	autotools/hello_example/Makefile	/^AWK = gawk$/;"	m
+AWK	autotools/hello_example/src/Makefile	/^AWK = gawk$/;"	m
+AWK	codewars/kata/Makefile	/^AWK = gawk$/;"	m
+AWK	codewars/kata/src/Makefile	/^AWK = gawk$/;"	m
+AWK	ea_test/Makefile	/^AWK = gawk$/;"	m
+AWK	ea_test/src/Makefile	/^AWK = gawk$/;"	m
+AWK	primer/examples/Makefile	/^AWK = gawk$/;"	m
+AWK	primer/examples/src/Makefile	/^AWK = gawk$/;"	m
+Actors	codingame/puzzles/code_vs_zombies.py	/^class Actors:$/;"	c
+Ash	codingame/puzzles/code_vs_zombies.py	/^class Ash:$/;"	c
+BootstrapTest	primer/examples/src/hello.cpp	/^	BootstrapTest() {$/;"	f	class:BootstrapTest
+BootstrapTest	primer/examples/src/hello.cpp	/^class BootstrapTest {$/;"	c	file:
+C	primer/examples/src/threads2.cpp	/^	C() : std::atomic<int>(0) {}$/;"	f	struct:C
+C	primer/examples/src/threads2.cpp	/^struct C : std::atomic<int> {$/;"	s	file:
+CC	autotools/hello_example/Makefile	/^CC = gcc$/;"	m
+CC	autotools/hello_example/src/Makefile	/^CC = gcc$/;"	m
+CC	codewars/kata/Makefile	/^CC = gcc$/;"	m
+CC	codewars/kata/src/Makefile	/^CC = gcc$/;"	m
+CC	ea_test/Makefile	/^CC = gcc$/;"	m
+CC	ea_test/src/Makefile	/^CC = gcc$/;"	m
+CC	primer/examples/Makefile	/^CC = gcc$/;"	m
+CC	primer/examples/src/Makefile	/^CC = gcc$/;"	m
+CCDEPMODE	autotools/hello_example/Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCDEPMODE	autotools/hello_example/src/Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCDEPMODE	codewars/kata/Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCDEPMODE	codewars/kata/src/Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCDEPMODE	ea_test/Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCDEPMODE	ea_test/src/Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCDEPMODE	primer/examples/Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCDEPMODE	primer/examples/src/Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCLD	autotools/hello_example/src/Makefile	/^CCLD = $(CC)$/;"	m
+CCLD	codewars/kata/src/Makefile	/^CCLD = $(CC)$/;"	m
+CFLAGS	autotools/hello_example/Makefile	/^CFLAGS = -g -O2$/;"	m
+CFLAGS	autotools/hello_example/src/Makefile	/^CFLAGS = -g -O2$/;"	m
+CFLAGS	codewars/kata/Makefile	/^CFLAGS = -g -O2$/;"	m
+CFLAGS	codewars/kata/src/Makefile	/^CFLAGS = -g -O2$/;"	m
+CFLAGS	ea_test/Makefile	/^CFLAGS = -g -O2$/;"	m
+CFLAGS	ea_test/src/Makefile	/^CFLAGS = -g -O2$/;"	m
+CFLAGS	primer/examples/Makefile	/^CFLAGS = -g -O2$/;"	m
+CFLAGS	primer/examples/src/Makefile	/^CFLAGS = -g -O2$/;"	m
+CLEAN_CHAR	codewars/kata/src/valid_braces.cpp	7;"	d	file:
+COMPILE	autotools/hello_example/src/Makefile	/^COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \\$/;"	m
+COMPILE	codewars/kata/src/Makefile	/^COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \\$/;"	m
+CONFIG_CLEAN_FILES	autotools/hello_example/Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_FILES	autotools/hello_example/src/Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_FILES	codewars/kata/Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_FILES	codewars/kata/src/Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_FILES	ea_test/Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_FILES	ea_test/src/Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_FILES	primer/examples/Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_FILES	primer/examples/src/Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	autotools/hello_example/Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	autotools/hello_example/src/Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	codewars/kata/Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	codewars/kata/src/Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	ea_test/Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	ea_test/src/Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	primer/examples/Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	primer/examples/src/Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_HEADER	autotools/hello_example/Makefile	/^CONFIG_HEADER = config.h$/;"	m
+CONFIG_HEADER	autotools/hello_example/src/Makefile	/^CONFIG_HEADER = $(top_builddir)\/config.h$/;"	m
+CONFIG_HEADER	codewars/kata/Makefile	/^CONFIG_HEADER = config.h$/;"	m
+CONFIG_HEADER	codewars/kata/src/Makefile	/^CONFIG_HEADER = $(top_builddir)\/config.h$/;"	m
+CONFIG_HEADER	ea_test/Makefile	/^CONFIG_HEADER = config.h$/;"	m
+CONFIG_HEADER	ea_test/src/Makefile	/^CONFIG_HEADER = $(top_builddir)\/config.h$/;"	m
+CONFIG_HEADER	primer/examples/Makefile	/^CONFIG_HEADER = config.h$/;"	m
+CONFIG_HEADER	primer/examples/src/Makefile	/^CONFIG_HEADER = $(top_builddir)\/config.h$/;"	m
+CPPFLAGS	autotools/hello_example/Makefile	/^CPPFLAGS = $/;"	m
+CPPFLAGS	autotools/hello_example/src/Makefile	/^CPPFLAGS = $/;"	m
+CPPFLAGS	codewars/kata/Makefile	/^CPPFLAGS = $/;"	m
+CPPFLAGS	codewars/kata/src/Makefile	/^CPPFLAGS = $/;"	m
+CPPFLAGS	ea_test/Makefile	/^CPPFLAGS = $/;"	m
+CPPFLAGS	ea_test/src/Makefile	/^CPPFLAGS = $/;"	m
+CPPFLAGS	primer/examples/Makefile	/^CPPFLAGS = $/;"	m
+CPPFLAGS	primer/examples/src/Makefile	/^CPPFLAGS = $/;"	m
+CSCOPE	autotools/hello_example/Makefile	/^CSCOPE = cscope$/;"	m
+CSCOPE	codewars/kata/Makefile	/^CSCOPE = cscope$/;"	m
+CSCOPE	ea_test/Makefile	/^CSCOPE = cscope$/;"	m
+CSCOPE	primer/examples/Makefile	/^CSCOPE = cscope$/;"	m
+CTAGS	autotools/hello_example/Makefile	/^CTAGS = ctags$/;"	m
+CTAGS	autotools/hello_example/src/Makefile	/^CTAGS = ctags$/;"	m
+CTAGS	codewars/kata/Makefile	/^CTAGS = ctags$/;"	m
+CTAGS	codewars/kata/src/Makefile	/^CTAGS = ctags$/;"	m
+CTAGS	ea_test/Makefile	/^CTAGS = ctags$/;"	m
+CTAGS	primer/examples/Makefile	/^CTAGS = ctags$/;"	m
+CTAGS	primer/examples/src/Makefile	/^CTAGS = ctags$/;"	m
+CXX	codewars/kata/Makefile	/^CXX = g++$/;"	m
+CXX	codewars/kata/src/Makefile	/^CXX = g++$/;"	m
+CXX	ea_test/Makefile	/^CXX = g++$/;"	m
+CXX	ea_test/src/Makefile	/^CXX = g++$/;"	m
+CXX	primer/examples/Makefile	/^CXX = g++$/;"	m
+CXX	primer/examples/src/Makefile	/^CXX = g++$/;"	m
+CXXCOMPILE	codewars/kata/src/Makefile	/^CXXCOMPILE = $(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) \\$/;"	m
+CXXCOMPILE	primer/examples/src/Makefile	/^CXXCOMPILE = $(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) \\$/;"	m
+CXXDEPMODE	codewars/kata/Makefile	/^CXXDEPMODE = depmode=gcc3$/;"	m
+CXXDEPMODE	codewars/kata/src/Makefile	/^CXXDEPMODE = depmode=gcc3$/;"	m
+CXXDEPMODE	ea_test/Makefile	/^CXXDEPMODE = depmode=gcc3$/;"	m
+CXXDEPMODE	ea_test/src/Makefile	/^CXXDEPMODE = depmode=gcc3$/;"	m
+CXXDEPMODE	primer/examples/Makefile	/^CXXDEPMODE = depmode=gcc3$/;"	m
+CXXDEPMODE	primer/examples/src/Makefile	/^CXXDEPMODE = depmode=gcc3$/;"	m
+CXXFLAGS	codewars/kata/Makefile	/^CXXFLAGS = -g -O2$/;"	m
+CXXFLAGS	codewars/kata/src/Makefile	/^CXXFLAGS = -g -O2$/;"	m
+CXXFLAGS	ea_test/Makefile	/^CXXFLAGS = -g -O2$/;"	m
+CXXFLAGS	ea_test/src/Makefile	/^CXXFLAGS = -g -O2$/;"	m
+CXXFLAGS	primer/examples/Makefile	/^CXXFLAGS = -g -O2$/;"	m
+CXXFLAGS	primer/examples/src/Makefile	/^CXXFLAGS = -g -O2$/;"	m
+CXXLD	codewars/kata/src/Makefile	/^CXXLD = $(CXX)$/;"	m
+CXXLD	primer/examples/src/Makefile	/^CXXLD = $(CXX)$/;"	m
+CXXLINK	codewars/kata/src/Makefile	/^CXXLINK = $(CXXLD) $(AM_CXXFLAGS) $(CXXFLAGS) $(AM_LDFLAGS) $(LDFLAGS) \\$/;"	m
+CXXLINK	primer/examples/src/Makefile	/^CXXLINK = $(CXXLD) $(AM_CXXFLAGS) $(CXXFLAGS) $(AM_LDFLAGS) $(LDFLAGS) \\$/;"	m
+CYGPATH_W	autotools/hello_example/Makefile	/^CYGPATH_W = echo$/;"	m
+CYGPATH_W	autotools/hello_example/src/Makefile	/^CYGPATH_W = echo$/;"	m
+CYGPATH_W	codewars/kata/Makefile	/^CYGPATH_W = echo$/;"	m
+CYGPATH_W	codewars/kata/src/Makefile	/^CYGPATH_W = echo$/;"	m
+CYGPATH_W	ea_test/Makefile	/^CYGPATH_W = echo$/;"	m
+CYGPATH_W	ea_test/src/Makefile	/^CYGPATH_W = echo$/;"	m
+CYGPATH_W	primer/examples/Makefile	/^CYGPATH_W = echo$/;"	m
+CYGPATH_W	primer/examples/src/Makefile	/^CYGPATH_W = echo$/;"	m
+DATA	autotools/hello_example/Makefile	/^DATA = $(dist_doc_DATA)$/;"	m
+DATA	codewars/kata/Makefile	/^DATA = $(dist_doc_DATA)$/;"	m
+DATA	ea_test/Makefile	/^DATA = $(dist_doc_DATA)$/;"	m
+DATA	primer/examples/Makefile	/^DATA = $(dist_doc_DATA)$/;"	m
+DEBUG	codingame/coders_strike_back/pod.c	12;"	d	file:
+DEBUG	codingame/ghost_in_the_cell/ghost3.cpp	10;"	d	file:
+DEBUG_CONFIG	codingame/ghost_in_the_cell/ghost3.cpp	11;"	d	file:
+DEFAULT_INCLUDES	autotools/hello_example/src/Makefile	/^DEFAULT_INCLUDES = -I. -I$(top_builddir)$/;"	m
+DEFAULT_INCLUDES	codewars/kata/src/Makefile	/^DEFAULT_INCLUDES = -I. -I$(top_builddir)$/;"	m
+DEFAULT_INCLUDES	primer/examples/src/Makefile	/^DEFAULT_INCLUDES = -I. -I$(top_builddir)$/;"	m
+DEFS	autotools/hello_example/Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEFS	autotools/hello_example/src/Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEFS	codewars/kata/Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEFS	codewars/kata/src/Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEFS	ea_test/Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEFS	ea_test/src/Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEFS	primer/examples/Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEFS	primer/examples/src/Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEPDIR	autotools/hello_example/Makefile	/^DEPDIR = .deps$/;"	m
+DEPDIR	autotools/hello_example/src/Makefile	/^DEPDIR = .deps$/;"	m
+DEPDIR	codewars/kata/Makefile	/^DEPDIR = .deps$/;"	m
+DEPDIR	codewars/kata/src/Makefile	/^DEPDIR = .deps$/;"	m
+DEPDIR	ea_test/Makefile	/^DEPDIR = .deps$/;"	m
+DEPDIR	ea_test/src/Makefile	/^DEPDIR = .deps$/;"	m
+DEPDIR	primer/examples/Makefile	/^DEPDIR = .deps$/;"	m
+DEPDIR	primer/examples/src/Makefile	/^DEPDIR = .deps$/;"	m
+DISTFILES	autotools/hello_example/Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DISTFILES	autotools/hello_example/src/Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DISTFILES	codewars/kata/Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DISTFILES	codewars/kata/src/Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DISTFILES	ea_test/Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DISTFILES	ea_test/src/Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DISTFILES	primer/examples/Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DISTFILES	primer/examples/src/Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DIST_ARCHIVES	autotools/hello_example/Makefile	/^DIST_ARCHIVES = $(distdir).tar.gz$/;"	m
+DIST_ARCHIVES	codewars/kata/Makefile	/^DIST_ARCHIVES = $(distdir).tar.gz$/;"	m
+DIST_ARCHIVES	ea_test/Makefile	/^DIST_ARCHIVES = $(distdir).tar.gz$/;"	m
+DIST_ARCHIVES	primer/examples/Makefile	/^DIST_ARCHIVES = $(distdir).tar.gz$/;"	m
+DIST_COMMON	autotools/hello_example/Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.am $(top_srcdir)\/configure \\$/;"	m
+DIST_COMMON	autotools/hello_example/src/Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.am $(am__DIST_COMMON)$/;"	m
+DIST_COMMON	codewars/kata/Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.am $(top_srcdir)\/configure \\$/;"	m
+DIST_COMMON	codewars/kata/src/Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.am $(am__DIST_COMMON)$/;"	m
+DIST_COMMON	ea_test/Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.am $(top_srcdir)\/configure \\$/;"	m
+DIST_COMMON	ea_test/src/Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.am $(am__DIST_COMMON)$/;"	m
+DIST_COMMON	primer/examples/Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.am $(top_srcdir)\/configure \\$/;"	m
+DIST_COMMON	primer/examples/src/Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.am $(am__DIST_COMMON)$/;"	m
+DIST_SOURCES	autotools/hello_example/Makefile	/^DIST_SOURCES =$/;"	m
+DIST_SOURCES	autotools/hello_example/src/Makefile	/^DIST_SOURCES = $(hello_SOURCES)$/;"	m
+DIST_SOURCES	codewars/kata/Makefile	/^DIST_SOURCES =$/;"	m
+DIST_SOURCES	codewars/kata/src/Makefile	/^DIST_SOURCES = $(bit_counting_SOURCES) $(decomp_SOURCES) \\$/;"	m
+DIST_SOURCES	ea_test/Makefile	/^DIST_SOURCES =$/;"	m
+DIST_SOURCES	ea_test/src/Makefile	/^DIST_SOURCES =$/;"	m
+DIST_SOURCES	primer/examples/Makefile	/^DIST_SOURCES =$/;"	m
+DIST_SOURCES	primer/examples/src/Makefile	/^DIST_SOURCES = $(ea_SOURCES) $(hello_SOURCES) $(lambda_SOURCES) \\$/;"	m
+DIST_SUBDIRS	autotools/hello_example/Makefile	/^DIST_SUBDIRS = $(SUBDIRS)$/;"	m
+DIST_SUBDIRS	codewars/kata/Makefile	/^DIST_SUBDIRS = $(SUBDIRS)$/;"	m
+DIST_SUBDIRS	ea_test/Makefile	/^DIST_SUBDIRS = $(SUBDIRS)$/;"	m
+DIST_SUBDIRS	primer/examples/Makefile	/^DIST_SUBDIRS = $(SUBDIRS)$/;"	m
+DIST_TARGETS	autotools/hello_example/Makefile	/^DIST_TARGETS = dist-gzip$/;"	m
+DIST_TARGETS	codewars/kata/Makefile	/^DIST_TARGETS = dist-gzip$/;"	m
+DIST_TARGETS	ea_test/Makefile	/^DIST_TARGETS = dist-gzip$/;"	m
+DIST_TARGETS	primer/examples/Makefile	/^DIST_TARGETS = dist-gzip$/;"	m
+Decomp	codewars/kata/src/decomp.cpp	/^class Decomp$/;"	c	file:
+Desfibrilator	codingame/puzzles/defibrillators.py	/^class Desfibrilator:$/;"	c
+ECHO_C	autotools/hello_example/Makefile	/^ECHO_C = $/;"	m
+ECHO_C	autotools/hello_example/src/Makefile	/^ECHO_C = $/;"	m
+ECHO_C	codewars/kata/Makefile	/^ECHO_C = $/;"	m
+ECHO_C	codewars/kata/src/Makefile	/^ECHO_C = $/;"	m
+ECHO_C	ea_test/Makefile	/^ECHO_C = $/;"	m
+ECHO_C	ea_test/src/Makefile	/^ECHO_C = $/;"	m
+ECHO_C	primer/examples/Makefile	/^ECHO_C = $/;"	m
+ECHO_C	primer/examples/src/Makefile	/^ECHO_C = $/;"	m
+ECHO_N	autotools/hello_example/Makefile	/^ECHO_N = -n$/;"	m
+ECHO_N	autotools/hello_example/src/Makefile	/^ECHO_N = -n$/;"	m
+ECHO_N	codewars/kata/Makefile	/^ECHO_N = -n$/;"	m
+ECHO_N	codewars/kata/src/Makefile	/^ECHO_N = -n$/;"	m
+ECHO_N	ea_test/Makefile	/^ECHO_N = -n$/;"	m
+ECHO_N	ea_test/src/Makefile	/^ECHO_N = -n$/;"	m
+ECHO_N	primer/examples/Makefile	/^ECHO_N = -n$/;"	m
+ECHO_N	primer/examples/src/Makefile	/^ECHO_N = -n$/;"	m
+ECHO_T	autotools/hello_example/Makefile	/^ECHO_T = $/;"	m
+ECHO_T	autotools/hello_example/src/Makefile	/^ECHO_T = $/;"	m
+ECHO_T	codewars/kata/Makefile	/^ECHO_T = $/;"	m
+ECHO_T	codewars/kata/src/Makefile	/^ECHO_T = $/;"	m
+ECHO_T	ea_test/Makefile	/^ECHO_T = $/;"	m
+ECHO_T	ea_test/src/Makefile	/^ECHO_T = $/;"	m
+ECHO_T	primer/examples/Makefile	/^ECHO_T = $/;"	m
+ECHO_T	primer/examples/src/Makefile	/^ECHO_T = $/;"	m
+ETAGS	autotools/hello_example/Makefile	/^ETAGS = etags$/;"	m
+ETAGS	autotools/hello_example/src/Makefile	/^ETAGS = etags$/;"	m
+ETAGS	codewars/kata/Makefile	/^ETAGS = etags$/;"	m
+ETAGS	codewars/kata/src/Makefile	/^ETAGS = etags$/;"	m
+ETAGS	ea_test/Makefile	/^ETAGS = etags$/;"	m
+ETAGS	primer/examples/Makefile	/^ETAGS = etags$/;"	m
+ETAGS	primer/examples/src/Makefile	/^ETAGS = etags$/;"	m
+EXEEXT	autotools/hello_example/Makefile	/^EXEEXT = $/;"	m
+EXEEXT	autotools/hello_example/src/Makefile	/^EXEEXT = $/;"	m
+EXEEXT	codewars/kata/Makefile	/^EXEEXT = $/;"	m
+EXEEXT	codewars/kata/src/Makefile	/^EXEEXT = $/;"	m
+EXEEXT	ea_test/Makefile	/^EXEEXT = $/;"	m
+EXEEXT	ea_test/src/Makefile	/^EXEEXT = $/;"	m
+EXEEXT	primer/examples/Makefile	/^EXEEXT = $/;"	m
+EXEEXT	primer/examples/src/Makefile	/^EXEEXT = $/;"	m
+EXT_MIME_FMT	codingame/puzzles/mime_types.c	24;"	d	file:
+EXT_MIME_PRM	codingame/puzzles/mime_types.c	25;"	d	file:
+Factory	codingame/ghost_in_the_cell/ghost1.py	/^class Factory:$/;"	c
+Factory	codingame/ghost_in_the_cell/ghost2.py	/^class Factory:$/;"	c
+Factory	codingame/ghost_in_the_cell/ghost3.cpp	/^	Factory() {$/;"	f	class:Factory
+Factory	codingame/ghost_in_the_cell/ghost3.cpp	/^class Factory {$/;"	c	file:
+GZIP_ENV	autotools/hello_example/Makefile	/^GZIP_ENV = --best$/;"	m
+GZIP_ENV	codewars/kata/Makefile	/^GZIP_ENV = --best$/;"	m
+GZIP_ENV	ea_test/Makefile	/^GZIP_ENV = --best$/;"	m
+GZIP_ENV	primer/examples/Makefile	/^GZIP_ENV = --best$/;"	m
+Human	codingame/puzzles/code_vs_zombies.py	/^class Human:$/;"	c
+INSTALL	autotools/hello_example/Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL	autotools/hello_example/src/Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL	codewars/kata/Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL	codewars/kata/src/Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL	ea_test/Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL	ea_test/src/Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL	primer/examples/Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL	primer/examples/src/Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL_DATA	autotools/hello_example/Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_DATA	autotools/hello_example/src/Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_DATA	codewars/kata/Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_DATA	codewars/kata/src/Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_DATA	ea_test/Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_DATA	ea_test/src/Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_DATA	primer/examples/Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_DATA	primer/examples/src/Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_HEADER	autotools/hello_example/Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_HEADER	autotools/hello_example/src/Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_HEADER	codewars/kata/Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_HEADER	codewars/kata/src/Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_HEADER	ea_test/Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_HEADER	ea_test/src/Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_HEADER	primer/examples/Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_HEADER	primer/examples/src/Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_PROGRAM	autotools/hello_example/Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_PROGRAM	autotools/hello_example/src/Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_PROGRAM	codewars/kata/Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_PROGRAM	codewars/kata/src/Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_PROGRAM	ea_test/Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_PROGRAM	ea_test/src/Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_PROGRAM	primer/examples/Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_PROGRAM	primer/examples/src/Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	autotools/hello_example/Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	autotools/hello_example/src/Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	codewars/kata/Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	codewars/kata/src/Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	ea_test/Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	ea_test/src/Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	primer/examples/Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	primer/examples/src/Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_STRIP_PROGRAM	autotools/hello_example/Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+INSTALL_STRIP_PROGRAM	autotools/hello_example/src/Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+INSTALL_STRIP_PROGRAM	codewars/kata/Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+INSTALL_STRIP_PROGRAM	codewars/kata/src/Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+INSTALL_STRIP_PROGRAM	ea_test/Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+INSTALL_STRIP_PROGRAM	ea_test/src/Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+INSTALL_STRIP_PROGRAM	primer/examples/Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+INSTALL_STRIP_PROGRAM	primer/examples/src/Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+INT_INF	codingame/puzzles/code_vs_zombies.py	/^INT_INF = 10000$/;"	v
+KD	codingame/coders_strike_back/pod.c	15;"	d	file:
+KI	codingame/coders_strike_back/pod.c	14;"	d	file:
+LDFLAGS	autotools/hello_example/Makefile	/^LDFLAGS = $/;"	m
+LDFLAGS	autotools/hello_example/src/Makefile	/^LDFLAGS = $/;"	m
+LDFLAGS	codewars/kata/Makefile	/^LDFLAGS = $/;"	m
+LDFLAGS	codewars/kata/src/Makefile	/^LDFLAGS = $/;"	m
+LDFLAGS	ea_test/Makefile	/^LDFLAGS = $/;"	m
+LDFLAGS	ea_test/src/Makefile	/^LDFLAGS = $/;"	m
+LDFLAGS	primer/examples/Makefile	/^LDFLAGS = $/;"	m
+LDFLAGS	primer/examples/src/Makefile	/^LDFLAGS = $/;"	m
+LIBOBJS	autotools/hello_example/Makefile	/^LIBOBJS = $/;"	m
+LIBOBJS	autotools/hello_example/src/Makefile	/^LIBOBJS = $/;"	m
+LIBOBJS	codewars/kata/Makefile	/^LIBOBJS = $/;"	m
+LIBOBJS	codewars/kata/src/Makefile	/^LIBOBJS = $/;"	m
+LIBOBJS	ea_test/Makefile	/^LIBOBJS = $/;"	m
+LIBOBJS	ea_test/src/Makefile	/^LIBOBJS = $/;"	m
+LIBOBJS	primer/examples/Makefile	/^LIBOBJS = $/;"	m
+LIBOBJS	primer/examples/src/Makefile	/^LIBOBJS = $/;"	m
+LIBS	autotools/hello_example/Makefile	/^LIBS = $/;"	m
+LIBS	autotools/hello_example/src/Makefile	/^LIBS = $/;"	m
+LIBS	codewars/kata/Makefile	/^LIBS = $/;"	m
+LIBS	codewars/kata/src/Makefile	/^LIBS = $/;"	m
+LIBS	ea_test/Makefile	/^LIBS = $/;"	m
+LIBS	ea_test/src/Makefile	/^LIBS = $/;"	m
+LIBS	primer/examples/Makefile	/^LIBS = $/;"	m
+LIBS	primer/examples/src/Makefile	/^LIBS = $/;"	m
+LINK	autotools/hello_example/src/Makefile	/^LINK = $(CCLD) $(AM_CFLAGS) $(CFLAGS) $(AM_LDFLAGS) $(LDFLAGS) -o $@$/;"	m
+LINK	codewars/kata/src/Makefile	/^LINK = $(CCLD) $(AM_CFLAGS) $(CFLAGS) $(AM_LDFLAGS) $(LDFLAGS) -o $@$/;"	m
+LTLIBOBJS	autotools/hello_example/Makefile	/^LTLIBOBJS = $/;"	m
+LTLIBOBJS	autotools/hello_example/src/Makefile	/^LTLIBOBJS = $/;"	m
+LTLIBOBJS	codewars/kata/Makefile	/^LTLIBOBJS = $/;"	m
+LTLIBOBJS	codewars/kata/src/Makefile	/^LTLIBOBJS = $/;"	m
+LTLIBOBJS	ea_test/Makefile	/^LTLIBOBJS = $/;"	m
+LTLIBOBJS	ea_test/src/Makefile	/^LTLIBOBJS = $/;"	m
+LTLIBOBJS	primer/examples/Makefile	/^LTLIBOBJS = $/;"	m
+LTLIBOBJS	primer/examples/src/Makefile	/^LTLIBOBJS = $/;"	m
+Link	codingame/ghost_in_the_cell/ghost3.cpp	/^	Link() {$/;"	f	class:Link
+Link	codingame/ghost_in_the_cell/ghost3.cpp	/^	Link(uint a, uint b, uint c) {$/;"	f	class:Link
+Link	codingame/ghost_in_the_cell/ghost3.cpp	/^class Link {$/;"	c	file:
+MAKEINFO	autotools/hello_example/Makefile	/^MAKEINFO = ${SHELL} \/home\/bret\/workspace\/training\/autotools\/hello_example\/missing makeinfo$/;"	m
+MAKEINFO	autotools/hello_example/src/Makefile	/^MAKEINFO = ${SHELL} \/home\/bret\/workspace\/training\/autotools\/hello_example\/missing makeinfo$/;"	m
+MAKEINFO	codewars/kata/Makefile	/^MAKEINFO = ${SHELL} \/home\/bret\/workspace\/training\/codewars\/kata\/missing makeinfo$/;"	m
+MAKEINFO	codewars/kata/src/Makefile	/^MAKEINFO = ${SHELL} \/home\/bret\/workspace\/training\/codewars\/kata\/missing makeinfo$/;"	m
+MAKEINFO	ea_test/Makefile	/^MAKEINFO = ${SHELL} \/home\/bret\/workspace\/training\/ea_test\/missing makeinfo$/;"	m
+MAKEINFO	ea_test/src/Makefile	/^MAKEINFO = ${SHELL} \/home\/bret\/workspace\/training\/ea_test\/missing makeinfo$/;"	m
+MAKEINFO	primer/examples/Makefile	/^MAKEINFO = ${SHELL} \/home\/bret\/workspace\/training\/primer\/examples\/missing makeinfo$/;"	m
+MAKEINFO	primer/examples/src/Makefile	/^MAKEINFO = ${SHELL} \/home\/bret\/workspace\/training\/primer\/examples\/missing makeinfo$/;"	m
+MASS	codingame/puzzles/mars_lander_2.c	22;"	d	file:
+MAX_COUNT	codingame/puzzles/mime_types.c	28;"	d	file:
+MAX_N	codingame/puzzles/horses_racing_duals.c	11;"	d	file:
+MAX_PI	codingame/puzzles/horses_racing_duals.c	12;"	d	file:
+MAX_THREADS	primer/examples/src/threads1.cpp	4;"	d	file:
+MIN_POINTS	codingame/ghost_in_the_cell/ghost1.py	/^MIN_POINTS = 5$/;"	v
+MIN_POINTS	codingame/ghost_in_the_cell/ghost2.py	/^MIN_POINTS = 5$/;"	v
+MKDIR_P	autotools/hello_example/Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+MKDIR_P	autotools/hello_example/src/Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+MKDIR_P	codewars/kata/Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+MKDIR_P	codewars/kata/src/Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+MKDIR_P	ea_test/Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+MKDIR_P	ea_test/src/Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+MKDIR_P	primer/examples/Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+MKDIR_P	primer/examples/src/Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+Map	codingame/ghost_in_the_cell/ghost1.py	/^class Map:$/;"	c
+Map	codingame/ghost_in_the_cell/ghost2.py	/^class Map:$/;"	c
+Map	codingame/ghost_in_the_cell/ghost3.cpp	/^	Map(uint s, Factory *factos, uint l, Link *lks) {$/;"	f	class:Map
+Map	codingame/ghost_in_the_cell/ghost3.cpp	/^class Map {$/;"	c	file:
+Mime	codingame/puzzles/mime_types.py	/^class Mime:$/;"	c
+MimeBSTnode	codingame/puzzles/mime_types.py	/^class MimeBSTnode:$/;"	c
+MimeList	codingame/puzzles/mime_types.py	/^class MimeList:$/;"	c
+Move	codingame/ghost_in_the_cell/ghost1.py	/^	class Move:$/;"	c	class:Map
+Move	codingame/ghost_in_the_cell/ghost2.py	/^	class Move:$/;"	c	class:Map
+NEUTRAL	codingame/ghost_in_the_cell/ghost1.py	/^NEUTRAL = 0$/;"	v
+NEUTRAL	codingame/ghost_in_the_cell/ghost2.py	/^NEUTRAL = 0$/;"	v
+NORMAL_INSTALL	autotools/hello_example/Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_INSTALL	autotools/hello_example/src/Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_INSTALL	codewars/kata/Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_INSTALL	codewars/kata/src/Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_INSTALL	ea_test/Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_INSTALL	ea_test/src/Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_INSTALL	primer/examples/Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_INSTALL	primer/examples/src/Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_UNINSTALL	autotools/hello_example/Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NORMAL_UNINSTALL	autotools/hello_example/src/Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NORMAL_UNINSTALL	codewars/kata/Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NORMAL_UNINSTALL	codewars/kata/src/Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NORMAL_UNINSTALL	ea_test/Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NORMAL_UNINSTALL	ea_test/src/Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NORMAL_UNINSTALL	primer/examples/Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NORMAL_UNINSTALL	primer/examples/src/Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+OBJECTIVE_FMT	codingame/puzzles/mars_lander_2.c	18;"	d	file:
+OBJECTIVE_PRM	codingame/puzzles/mars_lander_2.c	19;"	d	file:
+OBJEXT	autotools/hello_example/Makefile	/^OBJEXT = o$/;"	m
+OBJEXT	autotools/hello_example/src/Makefile	/^OBJEXT = o$/;"	m
+OBJEXT	codewars/kata/Makefile	/^OBJEXT = o$/;"	m
+OBJEXT	codewars/kata/src/Makefile	/^OBJEXT = o$/;"	m
+OBJEXT	ea_test/Makefile	/^OBJEXT = o$/;"	m
+OBJEXT	ea_test/src/Makefile	/^OBJEXT = o$/;"	m
+OBJEXT	primer/examples/Makefile	/^OBJEXT = o$/;"	m
+OBJEXT	primer/examples/src/Makefile	/^OBJEXT = o$/;"	m
+PACKAGE	autotools/hello_example/Makefile	/^PACKAGE = amhello$/;"	m
+PACKAGE	autotools/hello_example/config.h	5;"	d
+PACKAGE	autotools/hello_example/src/Makefile	/^PACKAGE = amhello$/;"	m
+PACKAGE	codewars/kata/Makefile	/^PACKAGE = kata$/;"	m
+PACKAGE	codewars/kata/config.h	5;"	d
+PACKAGE	codewars/kata/src/Makefile	/^PACKAGE = kata$/;"	m
+PACKAGE	ea_test/Makefile	/^PACKAGE = primer$/;"	m
+PACKAGE	ea_test/config.h	5;"	d
+PACKAGE	ea_test/src/Makefile	/^PACKAGE = primer$/;"	m
+PACKAGE	primer/examples/Makefile	/^PACKAGE = primer$/;"	m
+PACKAGE	primer/examples/config.h	5;"	d
+PACKAGE	primer/examples/src/Makefile	/^PACKAGE = primer$/;"	m
+PACKAGE_BUGREPORT	autotools/hello_example/Makefile	/^PACKAGE_BUGREPORT = bug-automake@gnu.org$/;"	m
+PACKAGE_BUGREPORT	autotools/hello_example/config.h	8;"	d
+PACKAGE_BUGREPORT	autotools/hello_example/src/Makefile	/^PACKAGE_BUGREPORT = bug-automake@gnu.org$/;"	m
+PACKAGE_BUGREPORT	codewars/kata/Makefile	/^PACKAGE_BUGREPORT = d.breton.suarez@gmail.com$/;"	m
+PACKAGE_BUGREPORT	codewars/kata/config.h	8;"	d
+PACKAGE_BUGREPORT	codewars/kata/src/Makefile	/^PACKAGE_BUGREPORT = d.breton.suarez@gmail.com$/;"	m
+PACKAGE_BUGREPORT	ea_test/Makefile	/^PACKAGE_BUGREPORT = d.breton.suarez@gmail.com$/;"	m
+PACKAGE_BUGREPORT	ea_test/config.h	8;"	d
+PACKAGE_BUGREPORT	ea_test/src/Makefile	/^PACKAGE_BUGREPORT = d.breton.suarez@gmail.com$/;"	m
+PACKAGE_BUGREPORT	primer/examples/Makefile	/^PACKAGE_BUGREPORT = d.breton.suarez@gmail.com$/;"	m
+PACKAGE_BUGREPORT	primer/examples/config.h	8;"	d
+PACKAGE_BUGREPORT	primer/examples/src/Makefile	/^PACKAGE_BUGREPORT = d.breton.suarez@gmail.com$/;"	m
+PACKAGE_NAME	autotools/hello_example/Makefile	/^PACKAGE_NAME = amhello$/;"	m
+PACKAGE_NAME	autotools/hello_example/config.h	11;"	d
+PACKAGE_NAME	autotools/hello_example/src/Makefile	/^PACKAGE_NAME = amhello$/;"	m
+PACKAGE_NAME	codewars/kata/Makefile	/^PACKAGE_NAME = kata$/;"	m
+PACKAGE_NAME	codewars/kata/config.h	11;"	d
+PACKAGE_NAME	codewars/kata/src/Makefile	/^PACKAGE_NAME = kata$/;"	m
+PACKAGE_NAME	ea_test/Makefile	/^PACKAGE_NAME = primer$/;"	m
+PACKAGE_NAME	ea_test/config.h	11;"	d
+PACKAGE_NAME	ea_test/src/Makefile	/^PACKAGE_NAME = primer$/;"	m
+PACKAGE_NAME	primer/examples/Makefile	/^PACKAGE_NAME = primer$/;"	m
+PACKAGE_NAME	primer/examples/config.h	11;"	d
+PACKAGE_NAME	primer/examples/src/Makefile	/^PACKAGE_NAME = primer$/;"	m
+PACKAGE_STRING	autotools/hello_example/Makefile	/^PACKAGE_STRING = amhello 1.0$/;"	m
+PACKAGE_STRING	autotools/hello_example/config.h	14;"	d
+PACKAGE_STRING	autotools/hello_example/src/Makefile	/^PACKAGE_STRING = amhello 1.0$/;"	m
+PACKAGE_STRING	codewars/kata/Makefile	/^PACKAGE_STRING = kata 1.0$/;"	m
+PACKAGE_STRING	codewars/kata/config.h	14;"	d
+PACKAGE_STRING	codewars/kata/src/Makefile	/^PACKAGE_STRING = kata 1.0$/;"	m
+PACKAGE_STRING	ea_test/Makefile	/^PACKAGE_STRING = primer 1.0$/;"	m
+PACKAGE_STRING	ea_test/config.h	14;"	d
+PACKAGE_STRING	ea_test/src/Makefile	/^PACKAGE_STRING = primer 1.0$/;"	m
+PACKAGE_STRING	primer/examples/Makefile	/^PACKAGE_STRING = primer 1.0$/;"	m
+PACKAGE_STRING	primer/examples/config.h	14;"	d
+PACKAGE_STRING	primer/examples/src/Makefile	/^PACKAGE_STRING = primer 1.0$/;"	m
+PACKAGE_TARNAME	autotools/hello_example/Makefile	/^PACKAGE_TARNAME = amhello$/;"	m
+PACKAGE_TARNAME	autotools/hello_example/config.h	17;"	d
+PACKAGE_TARNAME	autotools/hello_example/src/Makefile	/^PACKAGE_TARNAME = amhello$/;"	m
+PACKAGE_TARNAME	codewars/kata/Makefile	/^PACKAGE_TARNAME = kata$/;"	m
+PACKAGE_TARNAME	codewars/kata/config.h	17;"	d
+PACKAGE_TARNAME	codewars/kata/src/Makefile	/^PACKAGE_TARNAME = kata$/;"	m
+PACKAGE_TARNAME	ea_test/Makefile	/^PACKAGE_TARNAME = primer$/;"	m
+PACKAGE_TARNAME	ea_test/config.h	17;"	d
+PACKAGE_TARNAME	ea_test/src/Makefile	/^PACKAGE_TARNAME = primer$/;"	m
+PACKAGE_TARNAME	primer/examples/Makefile	/^PACKAGE_TARNAME = primer$/;"	m
+PACKAGE_TARNAME	primer/examples/config.h	17;"	d
+PACKAGE_TARNAME	primer/examples/src/Makefile	/^PACKAGE_TARNAME = primer$/;"	m
+PACKAGE_URL	autotools/hello_example/Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_URL	autotools/hello_example/config.h	20;"	d
+PACKAGE_URL	autotools/hello_example/src/Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_URL	codewars/kata/Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_URL	codewars/kata/config.h	20;"	d
+PACKAGE_URL	codewars/kata/src/Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_URL	ea_test/Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_URL	ea_test/config.h	20;"	d
+PACKAGE_URL	ea_test/src/Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_URL	primer/examples/Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_URL	primer/examples/config.h	20;"	d
+PACKAGE_URL	primer/examples/src/Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_VERSION	autotools/hello_example/Makefile	/^PACKAGE_VERSION = 1.0$/;"	m
+PACKAGE_VERSION	autotools/hello_example/config.h	23;"	d
+PACKAGE_VERSION	autotools/hello_example/src/Makefile	/^PACKAGE_VERSION = 1.0$/;"	m
+PACKAGE_VERSION	codewars/kata/Makefile	/^PACKAGE_VERSION = 1.0$/;"	m
+PACKAGE_VERSION	codewars/kata/config.h	23;"	d
+PACKAGE_VERSION	codewars/kata/src/Makefile	/^PACKAGE_VERSION = 1.0$/;"	m
+PACKAGE_VERSION	ea_test/Makefile	/^PACKAGE_VERSION = 1.0$/;"	m
+PACKAGE_VERSION	ea_test/config.h	23;"	d
+PACKAGE_VERSION	ea_test/src/Makefile	/^PACKAGE_VERSION = 1.0$/;"	m
+PACKAGE_VERSION	primer/examples/Makefile	/^PACKAGE_VERSION = 1.0$/;"	m
+PACKAGE_VERSION	primer/examples/config.h	23;"	d
+PACKAGE_VERSION	primer/examples/src/Makefile	/^PACKAGE_VERSION = 1.0$/;"	m
+PATH_SEPARATOR	autotools/hello_example/Makefile	/^PATH_SEPARATOR = :$/;"	m
+PATH_SEPARATOR	autotools/hello_example/src/Makefile	/^PATH_SEPARATOR = :$/;"	m
+PATH_SEPARATOR	codewars/kata/Makefile	/^PATH_SEPARATOR = :$/;"	m
+PATH_SEPARATOR	codewars/kata/src/Makefile	/^PATH_SEPARATOR = :$/;"	m
+PATH_SEPARATOR	ea_test/Makefile	/^PATH_SEPARATOR = :$/;"	m
+PATH_SEPARATOR	ea_test/src/Makefile	/^PATH_SEPARATOR = :$/;"	m
+PATH_SEPARATOR	primer/examples/Makefile	/^PATH_SEPARATOR = :$/;"	m
+PATH_SEPARATOR	primer/examples/src/Makefile	/^PATH_SEPARATOR = :$/;"	m
+PLAYER	codingame/ghost_in_the_cell/ghost1.py	/^PLAYER = 1$/;"	v
+PLAYER	codingame/ghost_in_the_cell/ghost2.py	/^PLAYER = 1$/;"	v
+POST_INSTALL	autotools/hello_example/Makefile	/^POST_INSTALL = :$/;"	m
+POST_INSTALL	autotools/hello_example/src/Makefile	/^POST_INSTALL = :$/;"	m
+POST_INSTALL	codewars/kata/Makefile	/^POST_INSTALL = :$/;"	m
+POST_INSTALL	codewars/kata/src/Makefile	/^POST_INSTALL = :$/;"	m
+POST_INSTALL	ea_test/Makefile	/^POST_INSTALL = :$/;"	m
+POST_INSTALL	ea_test/src/Makefile	/^POST_INSTALL = :$/;"	m
+POST_INSTALL	primer/examples/Makefile	/^POST_INSTALL = :$/;"	m
+POST_INSTALL	primer/examples/src/Makefile	/^POST_INSTALL = :$/;"	m
+POST_UNINSTALL	autotools/hello_example/Makefile	/^POST_UNINSTALL = :$/;"	m
+POST_UNINSTALL	autotools/hello_example/src/Makefile	/^POST_UNINSTALL = :$/;"	m
+POST_UNINSTALL	codewars/kata/Makefile	/^POST_UNINSTALL = :$/;"	m
+POST_UNINSTALL	codewars/kata/src/Makefile	/^POST_UNINSTALL = :$/;"	m
+POST_UNINSTALL	ea_test/Makefile	/^POST_UNINSTALL = :$/;"	m
+POST_UNINSTALL	ea_test/src/Makefile	/^POST_UNINSTALL = :$/;"	m
+POST_UNINSTALL	primer/examples/Makefile	/^POST_UNINSTALL = :$/;"	m
+POST_UNINSTALL	primer/examples/src/Makefile	/^POST_UNINSTALL = :$/;"	m
+PRE_INSTALL	autotools/hello_example/Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_INSTALL	autotools/hello_example/src/Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_INSTALL	codewars/kata/Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_INSTALL	codewars/kata/src/Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_INSTALL	ea_test/Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_INSTALL	ea_test/src/Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_INSTALL	primer/examples/Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_INSTALL	primer/examples/src/Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_UNINSTALL	autotools/hello_example/Makefile	/^PRE_UNINSTALL = :$/;"	m
+PRE_UNINSTALL	autotools/hello_example/src/Makefile	/^PRE_UNINSTALL = :$/;"	m
+PRE_UNINSTALL	codewars/kata/Makefile	/^PRE_UNINSTALL = :$/;"	m
+PRE_UNINSTALL	codewars/kata/src/Makefile	/^PRE_UNINSTALL = :$/;"	m
+PRE_UNINSTALL	ea_test/Makefile	/^PRE_UNINSTALL = :$/;"	m
+PRE_UNINSTALL	ea_test/src/Makefile	/^PRE_UNINSTALL = :$/;"	m
+PRE_UNINSTALL	primer/examples/Makefile	/^PRE_UNINSTALL = :$/;"	m
+PRE_UNINSTALL	primer/examples/src/Makefile	/^PRE_UNINSTALL = :$/;"	m
+PRINT	primer/examples/src/swapping.cpp	85;"	d	file:
+PROGRAMS	autotools/hello_example/src/Makefile	/^PROGRAMS = $(bin_PROGRAMS)$/;"	m
+PROGRAMS	codewars/kata/src/Makefile	/^PROGRAMS = $(bin_PROGRAMS)$/;"	m
+PROGRAMS	ea_test/src/Makefile	/^PROGRAMS = $(bin_PROGRAMS)$/;"	m
+PROGRAMS	primer/examples/src/Makefile	/^PROGRAMS = $(bin_PROGRAMS)$/;"	m
+PrimeDecomp	codewars/kata/src/prime_decomp.cpp	/^class PrimeDecomp$/;"	c	file:
+RECURSIVE_CLEAN_TARGETS	autotools/hello_example/Makefile	/^RECURSIVE_CLEAN_TARGETS = mostlyclean-recursive clean-recursive	\\$/;"	m
+RECURSIVE_CLEAN_TARGETS	codewars/kata/Makefile	/^RECURSIVE_CLEAN_TARGETS = mostlyclean-recursive clean-recursive	\\$/;"	m
+RECURSIVE_CLEAN_TARGETS	ea_test/Makefile	/^RECURSIVE_CLEAN_TARGETS = mostlyclean-recursive clean-recursive	\\$/;"	m
+RECURSIVE_CLEAN_TARGETS	primer/examples/Makefile	/^RECURSIVE_CLEAN_TARGETS = mostlyclean-recursive clean-recursive	\\$/;"	m
+RECURSIVE_TARGETS	autotools/hello_example/Makefile	/^RECURSIVE_TARGETS = all-recursive check-recursive cscopelist-recursive \\$/;"	m
+RECURSIVE_TARGETS	codewars/kata/Makefile	/^RECURSIVE_TARGETS = all-recursive check-recursive cscopelist-recursive \\$/;"	m
+RECURSIVE_TARGETS	ea_test/Makefile	/^RECURSIVE_TARGETS = all-recursive check-recursive cscopelist-recursive \\$/;"	m
+RECURSIVE_TARGETS	primer/examples/Makefile	/^RECURSIVE_TARGETS = all-recursive check-recursive cscopelist-recursive \\$/;"	m
+Runner	codingame/puzzles/ghost_legs.py	/^class Runner:$/;"	c
+SET_MAKE	autotools/hello_example/Makefile	/^SET_MAKE = $/;"	m
+SET_MAKE	autotools/hello_example/src/Makefile	/^SET_MAKE = $/;"	m
+SET_MAKE	codewars/kata/Makefile	/^SET_MAKE = $/;"	m
+SET_MAKE	codewars/kata/src/Makefile	/^SET_MAKE = $/;"	m
+SET_MAKE	ea_test/Makefile	/^SET_MAKE = $/;"	m
+SET_MAKE	ea_test/src/Makefile	/^SET_MAKE = $/;"	m
+SET_MAKE	primer/examples/Makefile	/^SET_MAKE = $/;"	m
+SET_MAKE	primer/examples/src/Makefile	/^SET_MAKE = $/;"	m
+SHELL	autotools/hello_example/Makefile	/^SHELL = \/bin\/bash$/;"	m
+SHELL	autotools/hello_example/src/Makefile	/^SHELL = \/bin\/bash$/;"	m
+SHELL	codewars/kata/Makefile	/^SHELL = \/bin\/bash$/;"	m
+SHELL	codewars/kata/src/Makefile	/^SHELL = \/bin\/bash$/;"	m
+SHELL	ea_test/Makefile	/^SHELL = \/bin\/bash$/;"	m
+SHELL	ea_test/src/Makefile	/^SHELL = \/bin\/bash$/;"	m
+SHELL	primer/examples/Makefile	/^SHELL = \/bin\/bash$/;"	m
+SHELL	primer/examples/src/Makefile	/^SHELL = \/bin\/bash$/;"	m
+SIZE	primer/examples/src/smart_pointers.cpp	/^	static const int SIZE = 7;$/;"	m	class:Test	file:
+SOURCES	autotools/hello_example/Makefile	/^SOURCES =$/;"	m
+SOURCES	autotools/hello_example/src/Makefile	/^SOURCES = $(hello_SOURCES)$/;"	m
+SOURCES	codewars/kata/Makefile	/^SOURCES =$/;"	m
+SOURCES	codewars/kata/src/Makefile	/^SOURCES = $(bit_counting_SOURCES) $(decomp_SOURCES) \\$/;"	m
+SOURCES	ea_test/Makefile	/^SOURCES =$/;"	m
+SOURCES	ea_test/src/Makefile	/^SOURCES =$/;"	m
+SOURCES	primer/examples/Makefile	/^SOURCES =$/;"	m
+SOURCES	primer/examples/src/Makefile	/^SOURCES = $(ea_SOURCES) $(hello_SOURCES) $(lambda_SOURCES) \\$/;"	m
+STRIP	autotools/hello_example/Makefile	/^STRIP = $/;"	m
+STRIP	autotools/hello_example/src/Makefile	/^STRIP = $/;"	m
+STRIP	codewars/kata/Makefile	/^STRIP = $/;"	m
+STRIP	codewars/kata/src/Makefile	/^STRIP = $/;"	m
+STRIP	ea_test/Makefile	/^STRIP = $/;"	m
+STRIP	ea_test/src/Makefile	/^STRIP = $/;"	m
+STRIP	primer/examples/Makefile	/^STRIP = $/;"	m
+STRIP	primer/examples/src/Makefile	/^STRIP = $/;"	m
+SUBDIRS	autotools/hello_example/Makefile	/^SUBDIRS = src$/;"	m
+SUBDIRS	codewars/kata/Makefile	/^SUBDIRS = src$/;"	m
+SUBDIRS	ea_test/Makefile	/^SUBDIRS = src$/;"	m
+SUBDIRS	primer/examples/Makefile	/^SUBDIRS = src$/;"	m
+Symbol	codingame/puzzles/huffman_code.py	/^class Symbol:$/;"	c
+SymbolTree	codingame/puzzles/huffman_code.py	/^class SymbolTree:$/;"	c
+TEST_LEN	codewars/kata/src/is_square.cpp	12;"	d	file:
+TEST_LEN	codewars/kata/src/middle_char.cpp	14;"	d	file:
+TEST_LEN	codewars/kata/src/mult_table.cpp	19;"	d	file:
+TEST_VECTOR_ROUNDS	codingame/ghost_in_the_cell/ghost3.cpp	14;"	d	file:
+TO_UPPER	codingame/puzzles/mime_types.c	14;"	d	file:
+TROOP_MIN	codingame/ghost_in_the_cell/ghost1.py	/^TROOP_MIN = 10$/;"	v
+TROOP_MIN	codingame/ghost_in_the_cell/ghost2.py	/^TROOP_MIN = 0$/;"	v
+TROOP_STAY	codingame/ghost_in_the_cell/ghost1.py	/^TROOP_STAY = 5$/;"	v
+TROOP_STAY	codingame/ghost_in_the_cell/ghost2.py	/^TROOP_STAY = 0$/;"	v
+Test	primer/examples/src/smart_pointers.cpp	/^	Test()$/;"	f	class:Test
+Test	primer/examples/src/smart_pointers.cpp	/^class Test$/;"	c	file:
+VERSION	autotools/hello_example/Makefile	/^VERSION = 1.0$/;"	m
+VERSION	autotools/hello_example/config.h	26;"	d
+VERSION	autotools/hello_example/src/Makefile	/^VERSION = 1.0$/;"	m
+VERSION	codewars/kata/Makefile	/^VERSION = 1.0$/;"	m
+VERSION	codewars/kata/config.h	26;"	d
+VERSION	codewars/kata/src/Makefile	/^VERSION = 1.0$/;"	m
+VERSION	ea_test/Makefile	/^VERSION = 1.0$/;"	m
+VERSION	ea_test/config.h	26;"	d
+VERSION	ea_test/src/Makefile	/^VERSION = 1.0$/;"	m
+VERSION	primer/examples/Makefile	/^VERSION = 1.0$/;"	m
+VERSION	primer/examples/config.h	26;"	d
+VERSION	primer/examples/src/Makefile	/^VERSION = 1.0$/;"	m
+XO	codewars/kata/src/exes_and_ohs.cpp	/^bool XO(const std::string& str)$/;"	f
+ZOMBIE_SPEED	codingame/puzzles/code_vs_zombies.py	/^ZOMBIE_SPEED = 400$/;"	v
+Zombie	codingame/puzzles/code_vs_zombies.py	/^class Zombie:$/;"	c
+__init__	codingame/ghost_in_the_cell/ghost1.py	/^		def __init__(self, f1, f2, d):$/;"	m	class:Map.Move
+__init__	codingame/ghost_in_the_cell/ghost1.py	/^	def __init__(self, id):$/;"	m	class:Factory
+__init__	codingame/ghost_in_the_cell/ghost1.py	/^	def __init__(self, size):$/;"	m	class:Map
+__init__	codingame/ghost_in_the_cell/ghost2.py	/^		def __init__(self, f1, f2, d):$/;"	m	class:Map.Move
+__init__	codingame/ghost_in_the_cell/ghost2.py	/^	def __init__(self, id):$/;"	m	class:Factory
+__init__	codingame/ghost_in_the_cell/ghost2.py	/^	def __init__(self, size):$/;"	m	class:Map
+__init__	codingame/puzzles/code_vs_zombies.py	/^	def __init__(self):$/;"	m	class:Actors
+__init__	codingame/puzzles/code_vs_zombies.py	/^	def __init__(self, id, x, y):$/;"	m	class:Human
+__init__	codingame/puzzles/code_vs_zombies.py	/^	def __init__(self, id, x, y, nx, ny):$/;"	m	class:Zombie
+__init__	codingame/puzzles/code_vs_zombies.py	/^	def __init__(self, x, y):$/;"	m	class:Ash
+__init__	codingame/puzzles/defibrillators.py	/^	def __init__(self):$/;"	m	class:Desfibrilator
+__init__	codingame/puzzles/ghost_legs.py	/^	def __init__(self, name, p):$/;"	m	class:Runner
+__init__	codingame/puzzles/huffman_code.py	/^	def __init__(self, f, leaf, l, r):$/;"	m	class:Symbol
+__init__	codingame/puzzles/huffman_code.py	/^	def __init__(self, freqs):$/;"	m	class:SymbolTree
+__init__	codingame/puzzles/mime_types.py	/^	def __init__(self):$/;"	m	class:Mime
+__init__	codingame/puzzles/mime_types.py	/^	def __init__(self):$/;"	m	class:MimeList
+__init__	codingame/puzzles/mime_types.py	/^	def __init__(self, m):$/;"	m	class:MimeBSTnode
+__init__	codingame/puzzles/mime_types.py	/^	def __init__(self,e,m):$/;"	m	class:Mime
+ability_cooldown	codingame/Spring_Challenge_2020/pac.py	/^		ability_cooldown = int(ability_cooldown)$/;"	v
+abs_builddir	autotools/hello_example/Makefile	/^abs_builddir = \/home\/bret\/workspace\/training\/autotools\/hello_example$/;"	m
+abs_builddir	autotools/hello_example/src/Makefile	/^abs_builddir = \/home\/bret\/workspace\/training\/autotools\/hello_example\/src$/;"	m
+abs_builddir	codewars/kata/Makefile	/^abs_builddir = \/home\/bret\/workspace\/training\/codewars\/kata$/;"	m
+abs_builddir	codewars/kata/src/Makefile	/^abs_builddir = \/home\/bret\/workspace\/training\/codewars\/kata\/src$/;"	m
+abs_builddir	ea_test/Makefile	/^abs_builddir = \/home\/bret\/workspace\/training\/ea_test$/;"	m
+abs_builddir	ea_test/src/Makefile	/^abs_builddir = \/home\/bret\/workspace\/training\/ea_test\/src$/;"	m
+abs_builddir	primer/examples/Makefile	/^abs_builddir = \/home\/bret\/workspace\/training\/primer\/examples$/;"	m
+abs_builddir	primer/examples/src/Makefile	/^abs_builddir = \/home\/bret\/workspace\/training\/primer\/examples\/src$/;"	m
+abs_srcdir	autotools/hello_example/Makefile	/^abs_srcdir = \/home\/bret\/workspace\/training\/autotools\/hello_example$/;"	m
+abs_srcdir	autotools/hello_example/src/Makefile	/^abs_srcdir = \/home\/bret\/workspace\/training\/autotools\/hello_example\/src$/;"	m
+abs_srcdir	codewars/kata/Makefile	/^abs_srcdir = \/home\/bret\/workspace\/training\/codewars\/kata$/;"	m
+abs_srcdir	codewars/kata/src/Makefile	/^abs_srcdir = \/home\/bret\/workspace\/training\/codewars\/kata\/src$/;"	m
+abs_srcdir	ea_test/Makefile	/^abs_srcdir = \/home\/bret\/workspace\/training\/ea_test$/;"	m
+abs_srcdir	ea_test/src/Makefile	/^abs_srcdir = \/home\/bret\/workspace\/training\/ea_test\/src$/;"	m
+abs_srcdir	primer/examples/Makefile	/^abs_srcdir = \/home\/bret\/workspace\/training\/primer\/examples$/;"	m
+abs_srcdir	primer/examples/src/Makefile	/^abs_srcdir = \/home\/bret\/workspace\/training\/primer\/examples\/src$/;"	m
+abs_top_builddir	autotools/hello_example/Makefile	/^abs_top_builddir = \/home\/bret\/workspace\/training\/autotools\/hello_example$/;"	m
+abs_top_builddir	autotools/hello_example/src/Makefile	/^abs_top_builddir = \/home\/bret\/workspace\/training\/autotools\/hello_example$/;"	m
+abs_top_builddir	codewars/kata/Makefile	/^abs_top_builddir = \/home\/bret\/workspace\/training\/codewars\/kata$/;"	m
+abs_top_builddir	codewars/kata/src/Makefile	/^abs_top_builddir = \/home\/bret\/workspace\/training\/codewars\/kata$/;"	m
+abs_top_builddir	ea_test/Makefile	/^abs_top_builddir = \/home\/bret\/workspace\/training\/ea_test$/;"	m
+abs_top_builddir	ea_test/src/Makefile	/^abs_top_builddir = \/home\/bret\/workspace\/training\/ea_test$/;"	m
+abs_top_builddir	primer/examples/Makefile	/^abs_top_builddir = \/home\/bret\/workspace\/training\/primer\/examples$/;"	m
+abs_top_builddir	primer/examples/src/Makefile	/^abs_top_builddir = \/home\/bret\/workspace\/training\/primer\/examples$/;"	m
+abs_top_srcdir	autotools/hello_example/Makefile	/^abs_top_srcdir = \/home\/bret\/workspace\/training\/autotools\/hello_example$/;"	m
+abs_top_srcdir	autotools/hello_example/src/Makefile	/^abs_top_srcdir = \/home\/bret\/workspace\/training\/autotools\/hello_example$/;"	m
+abs_top_srcdir	codewars/kata/Makefile	/^abs_top_srcdir = \/home\/bret\/workspace\/training\/codewars\/kata$/;"	m
+abs_top_srcdir	codewars/kata/src/Makefile	/^abs_top_srcdir = \/home\/bret\/workspace\/training\/codewars\/kata$/;"	m
+abs_top_srcdir	ea_test/Makefile	/^abs_top_srcdir = \/home\/bret\/workspace\/training\/ea_test$/;"	m
+abs_top_srcdir	ea_test/src/Makefile	/^abs_top_srcdir = \/home\/bret\/workspace\/training\/ea_test$/;"	m
+abs_top_srcdir	primer/examples/Makefile	/^abs_top_srcdir = \/home\/bret\/workspace\/training\/primer\/examples$/;"	m
+abs_top_srcdir	primer/examples/src/Makefile	/^abs_top_srcdir = \/home\/bret\/workspace\/training\/primer\/examples$/;"	m
+ac_ct_CC	autotools/hello_example/Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CC	autotools/hello_example/src/Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CC	codewars/kata/Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CC	codewars/kata/src/Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CC	ea_test/Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CC	ea_test/src/Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CC	primer/examples/Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CC	primer/examples/src/Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CXX	codewars/kata/Makefile	/^ac_ct_CXX = g++$/;"	m
+ac_ct_CXX	codewars/kata/src/Makefile	/^ac_ct_CXX = g++$/;"	m
+ac_ct_CXX	ea_test/Makefile	/^ac_ct_CXX = g++$/;"	m
+ac_ct_CXX	ea_test/src/Makefile	/^ac_ct_CXX = g++$/;"	m
+ac_ct_CXX	primer/examples/Makefile	/^ac_ct_CXX = g++$/;"	m
+ac_ct_CXX	primer/examples/src/Makefile	/^ac_ct_CXX = g++$/;"	m
+ac_fn_c_try_compile	autotools/hello_example/configure	/^ac_fn_c_try_compile ()$/;"	f
+ac_fn_c_try_compile	codewars/kata/configure	/^ac_fn_c_try_compile ()$/;"	f
+ac_fn_c_try_compile	ea_test/configure	/^ac_fn_c_try_compile ()$/;"	f
+ac_fn_c_try_compile	primer/examples/configure	/^ac_fn_c_try_compile ()$/;"	f
+ac_fn_cxx_try_compile	codewars/kata/configure	/^ac_fn_cxx_try_compile ()$/;"	f
+ac_fn_cxx_try_compile	ea_test/configure	/^ac_fn_cxx_try_compile ()$/;"	f
+ac_fn_cxx_try_compile	primer/examples/configure	/^ac_fn_cxx_try_compile ()$/;"	f
+act	codingame/ghost_in_the_cell/ghost1.py	/^	def act(self):$/;"	m	class:Map
+act	codingame/ghost_in_the_cell/ghost2.py	/^	def act(self):$/;"	m	class:Map
+actors	codingame/puzzles/code_vs_zombies.py	/^actors = Actors()$/;"	v
+add_human	codingame/puzzles/code_vs_zombies.py	/^	def add_human(self, h):$/;"	m	class:Actors
+add_one	codingame/puzzles/huffman_code.py	/^	def add_one(self):$/;"	m	class:Symbol
+add_zero	codingame/puzzles/huffman_code.py	/^	def add_zero(self):$/;"	m	class:Symbol
+add_zombie	codingame/puzzles/code_vs_zombies.py	/^	def add_zombie(self, z):$/;"	m	class:Actors
+aix_post_process_depfile	autotools/hello_example/depcomp	/^aix_post_process_depfile ()$/;"	f
+aix_post_process_depfile	codewars/kata/depcomp	/^aix_post_process_depfile ()$/;"	f
+aix_post_process_depfile	ea_test/depcomp	/^aix_post_process_depfile ()$/;"	f
+aix_post_process_depfile	primer/examples/depcomp	/^aix_post_process_depfile ()$/;"	f
+alphabet	codingame/puzzles/huffman_code.py	/^alphabet = SymbolTree(wi)$/;"	v
+am__CONFIG_DISTCLEAN_FILES	autotools/hello_example/Makefile	/^am__CONFIG_DISTCLEAN_FILES = config.status config.cache config.log \\$/;"	m
+am__CONFIG_DISTCLEAN_FILES	codewars/kata/Makefile	/^am__CONFIG_DISTCLEAN_FILES = config.status config.cache config.log \\$/;"	m
+am__CONFIG_DISTCLEAN_FILES	ea_test/Makefile	/^am__CONFIG_DISTCLEAN_FILES = config.status config.cache config.log \\$/;"	m
+am__CONFIG_DISTCLEAN_FILES	primer/examples/Makefile	/^am__CONFIG_DISTCLEAN_FILES = config.status config.cache config.log \\$/;"	m
+am__DIST_COMMON	autotools/hello_example/Makefile	/^am__DIST_COMMON = $(srcdir)\/Makefile.in $(srcdir)\/config.h.in README \\$/;"	m
+am__DIST_COMMON	autotools/hello_example/src/Makefile	/^am__DIST_COMMON = $(srcdir)\/Makefile.in $(top_srcdir)\/depcomp$/;"	m
+am__DIST_COMMON	codewars/kata/Makefile	/^am__DIST_COMMON = $(srcdir)\/Makefile.in $(srcdir)\/config.h.in README \\$/;"	m
+am__DIST_COMMON	codewars/kata/src/Makefile	/^am__DIST_COMMON = $(srcdir)\/Makefile.in $(top_srcdir)\/depcomp$/;"	m
+am__DIST_COMMON	ea_test/Makefile	/^am__DIST_COMMON = $(srcdir)\/Makefile.in $(srcdir)\/config.h.in README \\$/;"	m
+am__DIST_COMMON	ea_test/src/Makefile	/^am__DIST_COMMON = $(srcdir)\/Makefile.in$/;"	m
+am__DIST_COMMON	primer/examples/Makefile	/^am__DIST_COMMON = $(srcdir)\/Makefile.in $(srcdir)\/config.h.in README \\$/;"	m
+am__DIST_COMMON	primer/examples/src/Makefile	/^am__DIST_COMMON = $(srcdir)\/Makefile.in $(top_srcdir)\/depcomp$/;"	m
+am__aclocal_m4_deps	autotools/hello_example/Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/configure.ac$/;"	m
+am__aclocal_m4_deps	autotools/hello_example/src/Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/configure.ac$/;"	m
+am__aclocal_m4_deps	codewars/kata/Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/configure.ac$/;"	m
+am__aclocal_m4_deps	codewars/kata/src/Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/configure.ac$/;"	m
+am__aclocal_m4_deps	ea_test/Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/configure.ac$/;"	m
+am__aclocal_m4_deps	ea_test/src/Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/configure.ac$/;"	m
+am__aclocal_m4_deps	primer/examples/Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/configure.ac$/;"	m
+am__aclocal_m4_deps	primer/examples/src/Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/configure.ac$/;"	m
+am__base_list	autotools/hello_example/Makefile	/^am__base_list = \\$/;"	m
+am__base_list	codewars/kata/Makefile	/^am__base_list = \\$/;"	m
+am__base_list	ea_test/Makefile	/^am__base_list = \\$/;"	m
+am__base_list	primer/examples/Makefile	/^am__base_list = \\$/;"	m
+am__can_run_installinfo	autotools/hello_example/Makefile	/^am__can_run_installinfo = \\$/;"	m
+am__can_run_installinfo	autotools/hello_example/src/Makefile	/^am__can_run_installinfo = \\$/;"	m
+am__can_run_installinfo	codewars/kata/Makefile	/^am__can_run_installinfo = \\$/;"	m
+am__can_run_installinfo	codewars/kata/src/Makefile	/^am__can_run_installinfo = \\$/;"	m
+am__can_run_installinfo	ea_test/Makefile	/^am__can_run_installinfo = \\$/;"	m
+am__can_run_installinfo	ea_test/src/Makefile	/^am__can_run_installinfo = \\$/;"	m
+am__can_run_installinfo	primer/examples/Makefile	/^am__can_run_installinfo = \\$/;"	m
+am__can_run_installinfo	primer/examples/src/Makefile	/^am__can_run_installinfo = \\$/;"	m
+am__cd	autotools/hello_example/Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__cd	autotools/hello_example/src/Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__cd	codewars/kata/Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__cd	codewars/kata/src/Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__cd	ea_test/Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__cd	ea_test/src/Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__cd	primer/examples/Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__cd	primer/examples/src/Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__configure_deps	autotools/hello_example/Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__configure_deps	autotools/hello_example/src/Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__configure_deps	codewars/kata/Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__configure_deps	codewars/kata/src/Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__configure_deps	ea_test/Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__configure_deps	ea_test/src/Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__configure_deps	primer/examples/Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__configure_deps	primer/examples/src/Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__define_uniq_tagged_files	autotools/hello_example/Makefile	/^am__define_uniq_tagged_files = \\$/;"	m
+am__define_uniq_tagged_files	autotools/hello_example/src/Makefile	/^am__define_uniq_tagged_files = \\$/;"	m
+am__define_uniq_tagged_files	codewars/kata/Makefile	/^am__define_uniq_tagged_files = \\$/;"	m
+am__define_uniq_tagged_files	codewars/kata/src/Makefile	/^am__define_uniq_tagged_files = \\$/;"	m
+am__define_uniq_tagged_files	ea_test/Makefile	/^am__define_uniq_tagged_files = \\$/;"	m
+am__define_uniq_tagged_files	primer/examples/Makefile	/^am__define_uniq_tagged_files = \\$/;"	m
+am__define_uniq_tagged_files	primer/examples/src/Makefile	/^am__define_uniq_tagged_files = \\$/;"	m
+am__depfiles_maybe	autotools/hello_example/src/Makefile	/^am__depfiles_maybe = depfiles$/;"	m
+am__depfiles_maybe	codewars/kata/src/Makefile	/^am__depfiles_maybe = depfiles$/;"	m
+am__depfiles_maybe	primer/examples/src/Makefile	/^am__depfiles_maybe = depfiles$/;"	m
+am__distuninstallcheck_listfiles	autotools/hello_example/Makefile	/^am__distuninstallcheck_listfiles = $(distuninstallcheck_listfiles) \\$/;"	m
+am__distuninstallcheck_listfiles	codewars/kata/Makefile	/^am__distuninstallcheck_listfiles = $(distuninstallcheck_listfiles) \\$/;"	m
+am__distuninstallcheck_listfiles	ea_test/Makefile	/^am__distuninstallcheck_listfiles = $(distuninstallcheck_listfiles) \\$/;"	m
+am__distuninstallcheck_listfiles	primer/examples/Makefile	/^am__distuninstallcheck_listfiles = $(distuninstallcheck_listfiles) \\$/;"	m
+am__include	autotools/hello_example/Makefile	/^am__include = include$/;"	m
+am__include	autotools/hello_example/src/Makefile	/^am__include = include$/;"	m
+am__include	codewars/kata/Makefile	/^am__include = include$/;"	m
+am__include	codewars/kata/src/Makefile	/^am__include = include$/;"	m
+am__include	ea_test/Makefile	/^am__include = include$/;"	m
+am__include	ea_test/src/Makefile	/^am__include = include$/;"	m
+am__include	primer/examples/Makefile	/^am__include = include$/;"	m
+am__include	primer/examples/src/Makefile	/^am__include = include$/;"	m
+am__install_max	autotools/hello_example/Makefile	/^am__install_max = 40$/;"	m
+am__install_max	codewars/kata/Makefile	/^am__install_max = 40$/;"	m
+am__install_max	ea_test/Makefile	/^am__install_max = 40$/;"	m
+am__install_max	primer/examples/Makefile	/^am__install_max = 40$/;"	m
+am__installdirs	autotools/hello_example/Makefile	/^am__installdirs = "$(DESTDIR)$(docdir)"$/;"	m
+am__installdirs	autotools/hello_example/src/Makefile	/^am__installdirs = "$(DESTDIR)$(bindir)"$/;"	m
+am__installdirs	codewars/kata/Makefile	/^am__installdirs = "$(DESTDIR)$(docdir)"$/;"	m
+am__installdirs	codewars/kata/src/Makefile	/^am__installdirs = "$(DESTDIR)$(bindir)"$/;"	m
+am__installdirs	ea_test/Makefile	/^am__installdirs = "$(DESTDIR)$(docdir)"$/;"	m
+am__installdirs	ea_test/src/Makefile	/^am__installdirs = "$(DESTDIR)$(bindir)"$/;"	m
+am__installdirs	primer/examples/Makefile	/^am__installdirs = "$(DESTDIR)$(docdir)"$/;"	m
+am__installdirs	primer/examples/src/Makefile	/^am__installdirs = "$(DESTDIR)$(bindir)"$/;"	m
+am__is_gnu_make	autotools/hello_example/Makefile	/^am__is_gnu_make = { \\$/;"	m
+am__is_gnu_make	autotools/hello_example/src/Makefile	/^am__is_gnu_make = { \\$/;"	m
+am__is_gnu_make	codewars/kata/Makefile	/^am__is_gnu_make = { \\$/;"	m
+am__is_gnu_make	codewars/kata/src/Makefile	/^am__is_gnu_make = { \\$/;"	m
+am__is_gnu_make	ea_test/Makefile	/^am__is_gnu_make = { \\$/;"	m
+am__is_gnu_make	ea_test/src/Makefile	/^am__is_gnu_make = { \\$/;"	m
+am__is_gnu_make	primer/examples/Makefile	/^am__is_gnu_make = { \\$/;"	m
+am__is_gnu_make	primer/examples/src/Makefile	/^am__is_gnu_make = { \\$/;"	m
+am__leading_dot	autotools/hello_example/Makefile	/^am__leading_dot = .$/;"	m
+am__leading_dot	autotools/hello_example/src/Makefile	/^am__leading_dot = .$/;"	m
+am__leading_dot	codewars/kata/Makefile	/^am__leading_dot = .$/;"	m
+am__leading_dot	codewars/kata/src/Makefile	/^am__leading_dot = .$/;"	m
+am__leading_dot	ea_test/Makefile	/^am__leading_dot = .$/;"	m
+am__leading_dot	ea_test/src/Makefile	/^am__leading_dot = .$/;"	m
+am__leading_dot	primer/examples/Makefile	/^am__leading_dot = .$/;"	m
+am__leading_dot	primer/examples/src/Makefile	/^am__leading_dot = .$/;"	m
+am__make_dryrun	autotools/hello_example/Makefile	/^am__make_dryrun = (target_option=n; $(am__make_running_with_option))$/;"	m
+am__make_dryrun	autotools/hello_example/src/Makefile	/^am__make_dryrun = (target_option=n; $(am__make_running_with_option))$/;"	m
+am__make_dryrun	codewars/kata/Makefile	/^am__make_dryrun = (target_option=n; $(am__make_running_with_option))$/;"	m
+am__make_dryrun	codewars/kata/src/Makefile	/^am__make_dryrun = (target_option=n; $(am__make_running_with_option))$/;"	m
+am__make_dryrun	ea_test/Makefile	/^am__make_dryrun = (target_option=n; $(am__make_running_with_option))$/;"	m
+am__make_dryrun	ea_test/src/Makefile	/^am__make_dryrun = (target_option=n; $(am__make_running_with_option))$/;"	m
+am__make_dryrun	primer/examples/Makefile	/^am__make_dryrun = (target_option=n; $(am__make_running_with_option))$/;"	m
+am__make_dryrun	primer/examples/src/Makefile	/^am__make_dryrun = (target_option=n; $(am__make_running_with_option))$/;"	m
+am__make_keepgoing	autotools/hello_example/Makefile	/^am__make_keepgoing = (target_option=k; $(am__make_running_with_option))$/;"	m
+am__make_keepgoing	autotools/hello_example/src/Makefile	/^am__make_keepgoing = (target_option=k; $(am__make_running_with_option))$/;"	m
+am__make_keepgoing	codewars/kata/Makefile	/^am__make_keepgoing = (target_option=k; $(am__make_running_with_option))$/;"	m
+am__make_keepgoing	codewars/kata/src/Makefile	/^am__make_keepgoing = (target_option=k; $(am__make_running_with_option))$/;"	m
+am__make_keepgoing	ea_test/Makefile	/^am__make_keepgoing = (target_option=k; $(am__make_running_with_option))$/;"	m
+am__make_keepgoing	ea_test/src/Makefile	/^am__make_keepgoing = (target_option=k; $(am__make_running_with_option))$/;"	m
+am__make_keepgoing	primer/examples/Makefile	/^am__make_keepgoing = (target_option=k; $(am__make_running_with_option))$/;"	m
+am__make_keepgoing	primer/examples/src/Makefile	/^am__make_keepgoing = (target_option=k; $(am__make_running_with_option))$/;"	m
+am__make_running_with_option	autotools/hello_example/Makefile	/^am__make_running_with_option = \\$/;"	m
+am__make_running_with_option	autotools/hello_example/src/Makefile	/^am__make_running_with_option = \\$/;"	m
+am__make_running_with_option	codewars/kata/Makefile	/^am__make_running_with_option = \\$/;"	m
+am__make_running_with_option	codewars/kata/src/Makefile	/^am__make_running_with_option = \\$/;"	m
+am__make_running_with_option	ea_test/Makefile	/^am__make_running_with_option = \\$/;"	m
+am__make_running_with_option	ea_test/src/Makefile	/^am__make_running_with_option = \\$/;"	m
+am__make_running_with_option	primer/examples/Makefile	/^am__make_running_with_option = \\$/;"	m
+am__make_running_with_option	primer/examples/src/Makefile	/^am__make_running_with_option = \\$/;"	m
+am__mv	autotools/hello_example/src/Makefile	/^am__mv = mv -f$/;"	m
+am__mv	codewars/kata/src/Makefile	/^am__mv = mv -f$/;"	m
+am__mv	primer/examples/src/Makefile	/^am__mv = mv -f$/;"	m
+am__nobase_list	autotools/hello_example/Makefile	/^am__nobase_list = $(am__nobase_strip_setup); \\$/;"	m
+am__nobase_list	codewars/kata/Makefile	/^am__nobase_list = $(am__nobase_strip_setup); \\$/;"	m
+am__nobase_list	ea_test/Makefile	/^am__nobase_list = $(am__nobase_strip_setup); \\$/;"	m
+am__nobase_list	primer/examples/Makefile	/^am__nobase_list = $(am__nobase_strip_setup); \\$/;"	m
+am__nobase_strip	autotools/hello_example/Makefile	/^am__nobase_strip = \\$/;"	m
+am__nobase_strip	codewars/kata/Makefile	/^am__nobase_strip = \\$/;"	m
+am__nobase_strip	ea_test/Makefile	/^am__nobase_strip = \\$/;"	m
+am__nobase_strip	primer/examples/Makefile	/^am__nobase_strip = \\$/;"	m
+am__nobase_strip_setup	autotools/hello_example/Makefile	/^am__nobase_strip_setup = \\$/;"	m
+am__nobase_strip_setup	codewars/kata/Makefile	/^am__nobase_strip_setup = \\$/;"	m
+am__nobase_strip_setup	ea_test/Makefile	/^am__nobase_strip_setup = \\$/;"	m
+am__nobase_strip_setup	primer/examples/Makefile	/^am__nobase_strip_setup = \\$/;"	m
+am__post_remove_distdir	autotools/hello_example/Makefile	/^am__post_remove_distdir = $(am__remove_distdir)$/;"	m
+am__post_remove_distdir	codewars/kata/Makefile	/^am__post_remove_distdir = $(am__remove_distdir)$/;"	m
+am__post_remove_distdir	ea_test/Makefile	/^am__post_remove_distdir = $(am__remove_distdir)$/;"	m
+am__post_remove_distdir	primer/examples/Makefile	/^am__post_remove_distdir = $(am__remove_distdir)$/;"	m
+am__quote	autotools/hello_example/Makefile	/^am__quote = $/;"	m
+am__quote	autotools/hello_example/src/Makefile	/^am__quote = $/;"	m
+am__quote	codewars/kata/Makefile	/^am__quote = $/;"	m
+am__quote	codewars/kata/src/Makefile	/^am__quote = $/;"	m
+am__quote	ea_test/Makefile	/^am__quote = $/;"	m
+am__quote	ea_test/src/Makefile	/^am__quote = $/;"	m
+am__quote	primer/examples/Makefile	/^am__quote = $/;"	m
+am__quote	primer/examples/src/Makefile	/^am__quote = $/;"	m
+am__recursive_targets	autotools/hello_example/Makefile	/^am__recursive_targets = \\$/;"	m
+am__recursive_targets	codewars/kata/Makefile	/^am__recursive_targets = \\$/;"	m
+am__recursive_targets	ea_test/Makefile	/^am__recursive_targets = \\$/;"	m
+am__recursive_targets	primer/examples/Makefile	/^am__recursive_targets = \\$/;"	m
+am__relativize	autotools/hello_example/Makefile	/^am__relativize = \\$/;"	m
+am__relativize	codewars/kata/Makefile	/^am__relativize = \\$/;"	m
+am__relativize	ea_test/Makefile	/^am__relativize = \\$/;"	m
+am__relativize	primer/examples/Makefile	/^am__relativize = \\$/;"	m
+am__remove_distdir	autotools/hello_example/Makefile	/^am__remove_distdir = \\$/;"	m
+am__remove_distdir	codewars/kata/Makefile	/^am__remove_distdir = \\$/;"	m
+am__remove_distdir	ea_test/Makefile	/^am__remove_distdir = \\$/;"	m
+am__remove_distdir	primer/examples/Makefile	/^am__remove_distdir = \\$/;"	m
+am__strip_dir	autotools/hello_example/Makefile	/^am__strip_dir = f=`echo $$p | sed -e 's|^.*\/||'`;$/;"	m
+am__strip_dir	codewars/kata/Makefile	/^am__strip_dir = f=`echo $$p | sed -e 's|^.*\/||'`;$/;"	m
+am__strip_dir	ea_test/Makefile	/^am__strip_dir = f=`echo $$p | sed -e 's|^.*\/||'`;$/;"	m
+am__strip_dir	primer/examples/Makefile	/^am__strip_dir = f=`echo $$p | sed -e 's|^.*\/||'`;$/;"	m
+am__tagged_files	autotools/hello_example/Makefile	/^am__tagged_files = $(HEADERS) $(SOURCES) $(TAGS_FILES) \\$/;"	m
+am__tagged_files	autotools/hello_example/src/Makefile	/^am__tagged_files = $(HEADERS) $(SOURCES) $(TAGS_FILES) $(LISP)$/;"	m
+am__tagged_files	codewars/kata/Makefile	/^am__tagged_files = $(HEADERS) $(SOURCES) $(TAGS_FILES) \\$/;"	m
+am__tagged_files	codewars/kata/src/Makefile	/^am__tagged_files = $(HEADERS) $(SOURCES) $(TAGS_FILES) $(LISP)$/;"	m
+am__tagged_files	ea_test/Makefile	/^am__tagged_files = $(HEADERS) $(SOURCES) $(TAGS_FILES) \\$/;"	m
+am__tagged_files	ea_test/src/Makefile	/^am__tagged_files = $(HEADERS) $(SOURCES) $(TAGS_FILES) $(LISP)$/;"	m
+am__tagged_files	primer/examples/Makefile	/^am__tagged_files = $(HEADERS) $(SOURCES) $(TAGS_FILES) \\$/;"	m
+am__tagged_files	primer/examples/src/Makefile	/^am__tagged_files = $(HEADERS) $(SOURCES) $(TAGS_FILES) $(LISP)$/;"	m
+am__tar	autotools/hello_example/Makefile	/^am__tar = $${TAR-tar} chof - "$$tardir"$/;"	m
+am__tar	autotools/hello_example/src/Makefile	/^am__tar = $${TAR-tar} chof - "$$tardir"$/;"	m
+am__tar	codewars/kata/Makefile	/^am__tar = $${TAR-tar} chof - "$$tardir"$/;"	m
+am__tar	codewars/kata/src/Makefile	/^am__tar = $${TAR-tar} chof - "$$tardir"$/;"	m
+am__tar	ea_test/Makefile	/^am__tar = $${TAR-tar} chof - "$$tardir"$/;"	m
+am__tar	ea_test/src/Makefile	/^am__tar = $${TAR-tar} chof - "$$tardir"$/;"	m
+am__tar	primer/examples/Makefile	/^am__tar = $${TAR-tar} chof - "$$tardir"$/;"	m
+am__tar	primer/examples/src/Makefile	/^am__tar = $${TAR-tar} chof - "$$tardir"$/;"	m
+am__uninstall_files_from_dir	autotools/hello_example/Makefile	/^am__uninstall_files_from_dir = { \\$/;"	m
+am__uninstall_files_from_dir	codewars/kata/Makefile	/^am__uninstall_files_from_dir = { \\$/;"	m
+am__uninstall_files_from_dir	ea_test/Makefile	/^am__uninstall_files_from_dir = { \\$/;"	m
+am__uninstall_files_from_dir	primer/examples/Makefile	/^am__uninstall_files_from_dir = { \\$/;"	m
+am__uniquify_input	autotools/hello_example/Makefile	/^am__uniquify_input = $(AWK) '\\$/;"	m
+am__uniquify_input	autotools/hello_example/src/Makefile	/^am__uniquify_input = $(AWK) '\\$/;"	m
+am__uniquify_input	codewars/kata/Makefile	/^am__uniquify_input = $(AWK) '\\$/;"	m
+am__uniquify_input	codewars/kata/src/Makefile	/^am__uniquify_input = $(AWK) '\\$/;"	m
+am__uniquify_input	ea_test/Makefile	/^am__uniquify_input = $(AWK) '\\$/;"	m
+am__uniquify_input	primer/examples/Makefile	/^am__uniquify_input = $(AWK) '\\$/;"	m
+am__uniquify_input	primer/examples/src/Makefile	/^am__uniquify_input = $(AWK) '\\$/;"	m
+am__untar	autotools/hello_example/Makefile	/^am__untar = $${TAR-tar} xf -$/;"	m
+am__untar	autotools/hello_example/src/Makefile	/^am__untar = $${TAR-tar} xf -$/;"	m
+am__untar	codewars/kata/Makefile	/^am__untar = $${TAR-tar} xf -$/;"	m
+am__untar	codewars/kata/src/Makefile	/^am__untar = $${TAR-tar} xf -$/;"	m
+am__untar	ea_test/Makefile	/^am__untar = $${TAR-tar} xf -$/;"	m
+am__untar	ea_test/src/Makefile	/^am__untar = $${TAR-tar} xf -$/;"	m
+am__untar	primer/examples/Makefile	/^am__untar = $${TAR-tar} xf -$/;"	m
+am__untar	primer/examples/src/Makefile	/^am__untar = $${TAR-tar} xf -$/;"	m
+am__v_CCLD_	autotools/hello_example/src/Makefile	/^am__v_CCLD_ = $(am__v_CCLD_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CCLD_	codewars/kata/src/Makefile	/^am__v_CCLD_ = $(am__v_CCLD_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CCLD_0	autotools/hello_example/src/Makefile	/^am__v_CCLD_0 = @echo "  CCLD    " $@;$/;"	m
+am__v_CCLD_0	codewars/kata/src/Makefile	/^am__v_CCLD_0 = @echo "  CCLD    " $@;$/;"	m
+am__v_CCLD_1	autotools/hello_example/src/Makefile	/^am__v_CCLD_1 = $/;"	m
+am__v_CCLD_1	codewars/kata/src/Makefile	/^am__v_CCLD_1 = $/;"	m
+am__v_CC_	autotools/hello_example/src/Makefile	/^am__v_CC_ = $(am__v_CC_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CC_	codewars/kata/src/Makefile	/^am__v_CC_ = $(am__v_CC_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CC_0	autotools/hello_example/src/Makefile	/^am__v_CC_0 = @echo "  CC      " $@;$/;"	m
+am__v_CC_0	codewars/kata/src/Makefile	/^am__v_CC_0 = @echo "  CC      " $@;$/;"	m
+am__v_CC_1	autotools/hello_example/src/Makefile	/^am__v_CC_1 = $/;"	m
+am__v_CC_1	codewars/kata/src/Makefile	/^am__v_CC_1 = $/;"	m
+am__v_CXXLD_	codewars/kata/src/Makefile	/^am__v_CXXLD_ = $(am__v_CXXLD_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CXXLD_	primer/examples/src/Makefile	/^am__v_CXXLD_ = $(am__v_CXXLD_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CXXLD_0	codewars/kata/src/Makefile	/^am__v_CXXLD_0 = @echo "  CXXLD   " $@;$/;"	m
+am__v_CXXLD_0	primer/examples/src/Makefile	/^am__v_CXXLD_0 = @echo "  CXXLD   " $@;$/;"	m
+am__v_CXXLD_1	codewars/kata/src/Makefile	/^am__v_CXXLD_1 = $/;"	m
+am__v_CXXLD_1	primer/examples/src/Makefile	/^am__v_CXXLD_1 = $/;"	m
+am__v_CXX_	codewars/kata/src/Makefile	/^am__v_CXX_ = $(am__v_CXX_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CXX_	primer/examples/src/Makefile	/^am__v_CXX_ = $(am__v_CXX_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CXX_0	codewars/kata/src/Makefile	/^am__v_CXX_0 = @echo "  CXX     " $@;$/;"	m
+am__v_CXX_0	primer/examples/src/Makefile	/^am__v_CXX_0 = @echo "  CXX     " $@;$/;"	m
+am__v_CXX_1	codewars/kata/src/Makefile	/^am__v_CXX_1 = $/;"	m
+am__v_CXX_1	primer/examples/src/Makefile	/^am__v_CXX_1 = $/;"	m
+am__v_GEN_	autotools/hello_example/Makefile	/^am__v_GEN_ = $(am__v_GEN_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_GEN_	autotools/hello_example/src/Makefile	/^am__v_GEN_ = $(am__v_GEN_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_GEN_	codewars/kata/Makefile	/^am__v_GEN_ = $(am__v_GEN_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_GEN_	codewars/kata/src/Makefile	/^am__v_GEN_ = $(am__v_GEN_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_GEN_	ea_test/Makefile	/^am__v_GEN_ = $(am__v_GEN_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_GEN_	ea_test/src/Makefile	/^am__v_GEN_ = $(am__v_GEN_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_GEN_	primer/examples/Makefile	/^am__v_GEN_ = $(am__v_GEN_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_GEN_	primer/examples/src/Makefile	/^am__v_GEN_ = $(am__v_GEN_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_GEN_0	autotools/hello_example/Makefile	/^am__v_GEN_0 = @echo "  GEN     " $@;$/;"	m
+am__v_GEN_0	autotools/hello_example/src/Makefile	/^am__v_GEN_0 = @echo "  GEN     " $@;$/;"	m
+am__v_GEN_0	codewars/kata/Makefile	/^am__v_GEN_0 = @echo "  GEN     " $@;$/;"	m
+am__v_GEN_0	codewars/kata/src/Makefile	/^am__v_GEN_0 = @echo "  GEN     " $@;$/;"	m
+am__v_GEN_0	ea_test/Makefile	/^am__v_GEN_0 = @echo "  GEN     " $@;$/;"	m
+am__v_GEN_0	ea_test/src/Makefile	/^am__v_GEN_0 = @echo "  GEN     " $@;$/;"	m
+am__v_GEN_0	primer/examples/Makefile	/^am__v_GEN_0 = @echo "  GEN     " $@;$/;"	m
+am__v_GEN_0	primer/examples/src/Makefile	/^am__v_GEN_0 = @echo "  GEN     " $@;$/;"	m
+am__v_GEN_1	autotools/hello_example/Makefile	/^am__v_GEN_1 = $/;"	m
+am__v_GEN_1	autotools/hello_example/src/Makefile	/^am__v_GEN_1 = $/;"	m
+am__v_GEN_1	codewars/kata/Makefile	/^am__v_GEN_1 = $/;"	m
+am__v_GEN_1	codewars/kata/src/Makefile	/^am__v_GEN_1 = $/;"	m
+am__v_GEN_1	ea_test/Makefile	/^am__v_GEN_1 = $/;"	m
+am__v_GEN_1	ea_test/src/Makefile	/^am__v_GEN_1 = $/;"	m
+am__v_GEN_1	primer/examples/Makefile	/^am__v_GEN_1 = $/;"	m
+am__v_GEN_1	primer/examples/src/Makefile	/^am__v_GEN_1 = $/;"	m
+am__v_P_	autotools/hello_example/Makefile	/^am__v_P_ = $(am__v_P_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_P_	autotools/hello_example/src/Makefile	/^am__v_P_ = $(am__v_P_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_P_	codewars/kata/Makefile	/^am__v_P_ = $(am__v_P_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_P_	codewars/kata/src/Makefile	/^am__v_P_ = $(am__v_P_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_P_	ea_test/Makefile	/^am__v_P_ = $(am__v_P_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_P_	ea_test/src/Makefile	/^am__v_P_ = $(am__v_P_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_P_	primer/examples/Makefile	/^am__v_P_ = $(am__v_P_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_P_	primer/examples/src/Makefile	/^am__v_P_ = $(am__v_P_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_P_0	autotools/hello_example/Makefile	/^am__v_P_0 = false$/;"	m
+am__v_P_0	autotools/hello_example/src/Makefile	/^am__v_P_0 = false$/;"	m
+am__v_P_0	codewars/kata/Makefile	/^am__v_P_0 = false$/;"	m
+am__v_P_0	codewars/kata/src/Makefile	/^am__v_P_0 = false$/;"	m
+am__v_P_0	ea_test/Makefile	/^am__v_P_0 = false$/;"	m
+am__v_P_0	ea_test/src/Makefile	/^am__v_P_0 = false$/;"	m
+am__v_P_0	primer/examples/Makefile	/^am__v_P_0 = false$/;"	m
+am__v_P_0	primer/examples/src/Makefile	/^am__v_P_0 = false$/;"	m
+am__v_P_1	autotools/hello_example/Makefile	/^am__v_P_1 = :$/;"	m
+am__v_P_1	autotools/hello_example/src/Makefile	/^am__v_P_1 = :$/;"	m
+am__v_P_1	codewars/kata/Makefile	/^am__v_P_1 = :$/;"	m
+am__v_P_1	codewars/kata/src/Makefile	/^am__v_P_1 = :$/;"	m
+am__v_P_1	ea_test/Makefile	/^am__v_P_1 = :$/;"	m
+am__v_P_1	ea_test/src/Makefile	/^am__v_P_1 = :$/;"	m
+am__v_P_1	primer/examples/Makefile	/^am__v_P_1 = :$/;"	m
+am__v_P_1	primer/examples/src/Makefile	/^am__v_P_1 = :$/;"	m
+am__v_at_	autotools/hello_example/Makefile	/^am__v_at_ = $(am__v_at_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_at_	autotools/hello_example/src/Makefile	/^am__v_at_ = $(am__v_at_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_at_	codewars/kata/Makefile	/^am__v_at_ = $(am__v_at_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_at_	codewars/kata/src/Makefile	/^am__v_at_ = $(am__v_at_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_at_	ea_test/Makefile	/^am__v_at_ = $(am__v_at_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_at_	ea_test/src/Makefile	/^am__v_at_ = $(am__v_at_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_at_	primer/examples/Makefile	/^am__v_at_ = $(am__v_at_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_at_	primer/examples/src/Makefile	/^am__v_at_ = $(am__v_at_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_at_0	autotools/hello_example/Makefile	/^am__v_at_0 = @$/;"	m
+am__v_at_0	autotools/hello_example/src/Makefile	/^am__v_at_0 = @$/;"	m
+am__v_at_0	codewars/kata/Makefile	/^am__v_at_0 = @$/;"	m
+am__v_at_0	codewars/kata/src/Makefile	/^am__v_at_0 = @$/;"	m
+am__v_at_0	ea_test/Makefile	/^am__v_at_0 = @$/;"	m
+am__v_at_0	ea_test/src/Makefile	/^am__v_at_0 = @$/;"	m
+am__v_at_0	primer/examples/Makefile	/^am__v_at_0 = @$/;"	m
+am__v_at_0	primer/examples/src/Makefile	/^am__v_at_0 = @$/;"	m
+am__v_at_1	autotools/hello_example/Makefile	/^am__v_at_1 = $/;"	m
+am__v_at_1	autotools/hello_example/src/Makefile	/^am__v_at_1 = $/;"	m
+am__v_at_1	codewars/kata/Makefile	/^am__v_at_1 = $/;"	m
+am__v_at_1	codewars/kata/src/Makefile	/^am__v_at_1 = $/;"	m
+am__v_at_1	ea_test/Makefile	/^am__v_at_1 = $/;"	m
+am__v_at_1	ea_test/src/Makefile	/^am__v_at_1 = $/;"	m
+am__v_at_1	primer/examples/Makefile	/^am__v_at_1 = $/;"	m
+am__v_at_1	primer/examples/src/Makefile	/^am__v_at_1 = $/;"	m
+am__vpath_adj	autotools/hello_example/Makefile	/^am__vpath_adj = case $$p in \\$/;"	m
+am__vpath_adj	codewars/kata/Makefile	/^am__vpath_adj = case $$p in \\$/;"	m
+am__vpath_adj	ea_test/Makefile	/^am__vpath_adj = case $$p in \\$/;"	m
+am__vpath_adj	primer/examples/Makefile	/^am__vpath_adj = case $$p in \\$/;"	m
+am__vpath_adj_setup	autotools/hello_example/Makefile	/^am__vpath_adj_setup = srcdirstrip=`echo "$(srcdir)" | sed 's|.|.|g'`;$/;"	m
+am__vpath_adj_setup	codewars/kata/Makefile	/^am__vpath_adj_setup = srcdirstrip=`echo "$(srcdir)" | sed 's|.|.|g'`;$/;"	m
+am__vpath_adj_setup	ea_test/Makefile	/^am__vpath_adj_setup = srcdirstrip=`echo "$(srcdir)" | sed 's|.|.|g'`;$/;"	m
+am__vpath_adj_setup	primer/examples/Makefile	/^am__vpath_adj_setup = srcdirstrip=`echo "$(srcdir)" | sed 's|.|.|g'`;$/;"	m
+am_bit_counting_OBJECTS	codewars/kata/src/Makefile	/^am_bit_counting_OBJECTS = bit_counting.$(OBJEXT)$/;"	m
+am_decomp_OBJECTS	codewars/kata/src/Makefile	/^am_decomp_OBJECTS = decomp.$(OBJEXT)$/;"	m
+am_duplicate_encoder_OBJECTS	codewars/kata/src/Makefile	/^am_duplicate_encoder_OBJECTS = duplicate_encoder.$(OBJEXT)$/;"	m
+am_ea_OBJECTS	primer/examples/src/Makefile	/^am_ea_OBJECTS = ea.$(OBJEXT)$/;"	m
+am_enoughisenough_OBJECTS	codewars/kata/src/Makefile	/^am_enoughisenough_OBJECTS = enoughisenough.$(OBJEXT)$/;"	m
+am_exes_and_ohs_OBJECTS	codewars/kata/src/Makefile	/^am_exes_and_ohs_OBJECTS = exes_and_ohs.$(OBJEXT)$/;"	m
+am_fibonacci_OBJECTS	codewars/kata/src/Makefile	/^am_fibonacci_OBJECTS = fibonacci.$(OBJEXT)$/;"	m
+am_findOdd_OBJECTS	codewars/kata/src/Makefile	/^am_findOdd_OBJECTS = findOdd.$(OBJEXT)$/;"	m
+am_findnextsquare_OBJECTS	codewars/kata/src/Makefile	/^am_findnextsquare_OBJECTS = findnextsquare.$(OBJEXT)$/;"	m
+am_greed_is_good_OBJECTS	codewars/kata/src/Makefile	/^am_greed_is_good_OBJECTS = greed_is_good.$(OBJEXT)$/;"	m
+am_hello_OBJECTS	autotools/hello_example/src/Makefile	/^am_hello_OBJECTS = main.$(OBJEXT)$/;"	m
+am_hello_OBJECTS	primer/examples/src/Makefile	/^am_hello_OBJECTS = hello.$(OBJEXT)$/;"	m
+am_is_square_OBJECTS	codewars/kata/src/Makefile	/^am_is_square_OBJECTS = is_square.$(OBJEXT)$/;"	m
+am_lambda_OBJECTS	primer/examples/src/Makefile	/^am_lambda_OBJECTS = lambda.$(OBJEXT)$/;"	m
+am_likes_OBJECTS	codewars/kata/src/Makefile	/^am_likes_OBJECTS = likes.$(OBJEXT)$/;"	m
+am_middle_char_OBJECTS	codewars/kata/src/Makefile	/^am_middle_char_OBJECTS = middle_char.$(OBJEXT)$/;"	m
+am_mult_table_OBJECTS	codewars/kata/src/Makefile	/^am_mult_table_OBJECTS = mult_table.$(OBJEXT)$/;"	m
+am_multiplication_table_OBJECTS	codewars/kata/src/Makefile	/^am_multiplication_table_OBJECTS = multiplication_table.$(OBJEXT)$/;"	m
+am_prime_decomp_OBJECTS	codewars/kata/src/Makefile	/^am_prime_decomp_OBJECTS = prime_decomp.$(OBJEXT)$/;"	m
+am_proper_fractions_OBJECTS	codewars/kata/src/Makefile	/^am_proper_fractions_OBJECTS = proper_fractions.$(OBJEXT)$/;"	m
+am_same_arrays_OBJECTS	codewars/kata/src/Makefile	/^am_same_arrays_OBJECTS = same_arrays.$(OBJEXT)$/;"	m
+am_smart_pointers_OBJECTS	primer/examples/src/Makefile	/^am_smart_pointers_OBJECTS = smart_pointers.$(OBJEXT)$/;"	m
+am_sum_of_digits_digital_root_OBJECTS	codewars/kata/src/Makefile	/^am_sum_of_digits_digital_root_OBJECTS =  \\$/;"	m
+am_sum_of_fractions_OBJECTS	codewars/kata/src/Makefile	/^am_sum_of_fractions_OBJECTS = sum_of_fractions.$(OBJEXT)$/;"	m
+am_sum_of_numbers_OBJECTS	codewars/kata/src/Makefile	/^am_sum_of_numbers_OBJECTS = sum_of_numbers.$(OBJEXT)$/;"	m
+am_swapping_OBJECTS	primer/examples/src/Makefile	/^am_swapping_OBJECTS = swapping.$(OBJEXT)$/;"	m
+am_tail_recursion_OBJECTS	primer/examples/src/Makefile	/^am_tail_recursion_OBJECTS = tail_recursion.$(OBJEXT)$/;"	m
+am_ten_minute_walk_OBJECTS	codewars/kata/src/Makefile	/^am_ten_minute_walk_OBJECTS = ten_minute_walk.$(OBJEXT)$/;"	m
+am_threads1_OBJECTS	primer/examples/src/Makefile	/^am_threads1_OBJECTS = threads1.$(OBJEXT)$/;"	m
+am_tickets_OBJECTS	codewars/kata/src/Makefile	/^am_tickets_OBJECTS = tickets.$(OBJEXT)$/;"	m
+am_tribonacci_OBJECTS	codewars/kata/src/Makefile	/^am_tribonacci_OBJECTS = tribonacci.$(OBJEXT)$/;"	m
+am_two_sum_OBJECTS	codewars/kata/src/Makefile	/^am_two_sum_OBJECTS = two_sum.$(OBJEXT)$/;"	m
+am_valid_braces_OBJECTS	codewars/kata/src/Makefile	/^am_valid_braces_OBJECTS = valid_braces.$(OBJEXT)$/;"	m
+am_valid_parentheses_OBJECTS	codewars/kata/src/Makefile	/^am_valid_parentheses_OBJECTS = valid_parentheses.$(OBJEXT)$/;"	m
+am_waitting_OBJECTS	primer/examples/src/Makefile	/^am_waitting_OBJECTS = waitting.$(OBJEXT)$/;"	m
+am_which_are_in_OBJECTS	codewars/kata/src/Makefile	/^am_which_are_in_OBJECTS = which_are_in.$(OBJEXT)$/;"	m
+append	codingame/puzzles/huffman_code.py	/^	def append(self, char):$/;"	m	class:Symbol
+array	codingame/puzzles/mime_types.py	/^array = MimeList()$/;"	v
+as_fn_append	autotools/hello_example/config.status	/^  as_fn_append ()$/;"	f
+as_fn_append	autotools/hello_example/configure	/^  as_fn_append ()$/;"	f
+as_fn_append	codewars/kata/config.status	/^  as_fn_append ()$/;"	f
+as_fn_append	codewars/kata/configure	/^  as_fn_append ()$/;"	f
+as_fn_append	ea_test/config.status	/^  as_fn_append ()$/;"	f
+as_fn_append	ea_test/configure	/^  as_fn_append ()$/;"	f
+as_fn_append	primer/examples/config.status	/^  as_fn_append ()$/;"	f
+as_fn_append	primer/examples/configure	/^  as_fn_append ()$/;"	f
+as_fn_arith	autotools/hello_example/config.status	/^  as_fn_arith ()$/;"	f
+as_fn_arith	autotools/hello_example/configure	/^  as_fn_arith ()$/;"	f
+as_fn_arith	codewars/kata/config.status	/^  as_fn_arith ()$/;"	f
+as_fn_arith	codewars/kata/configure	/^  as_fn_arith ()$/;"	f
+as_fn_arith	ea_test/config.status	/^  as_fn_arith ()$/;"	f
+as_fn_arith	ea_test/configure	/^  as_fn_arith ()$/;"	f
+as_fn_arith	primer/examples/config.status	/^  as_fn_arith ()$/;"	f
+as_fn_arith	primer/examples/configure	/^  as_fn_arith ()$/;"	f
+as_fn_error	autotools/hello_example/config.status	/^as_fn_error ()$/;"	f
+as_fn_error	autotools/hello_example/configure	/^as_fn_error ()$/;"	f
+as_fn_error	codewars/kata/config.status	/^as_fn_error ()$/;"	f
+as_fn_error	codewars/kata/configure	/^as_fn_error ()$/;"	f
+as_fn_error	ea_test/config.status	/^as_fn_error ()$/;"	f
+as_fn_error	ea_test/configure	/^as_fn_error ()$/;"	f
+as_fn_error	primer/examples/config.status	/^as_fn_error ()$/;"	f
+as_fn_error	primer/examples/configure	/^as_fn_error ()$/;"	f
+as_fn_executable_p	autotools/hello_example/config.status	/^as_fn_executable_p ()$/;"	f
+as_fn_executable_p	autotools/hello_example/configure	/^as_fn_executable_p ()$/;"	f
+as_fn_executable_p	codewars/kata/config.status	/^as_fn_executable_p ()$/;"	f
+as_fn_executable_p	codewars/kata/configure	/^as_fn_executable_p ()$/;"	f
+as_fn_executable_p	ea_test/config.status	/^as_fn_executable_p ()$/;"	f
+as_fn_executable_p	ea_test/configure	/^as_fn_executable_p ()$/;"	f
+as_fn_executable_p	primer/examples/config.status	/^as_fn_executable_p ()$/;"	f
+as_fn_executable_p	primer/examples/configure	/^as_fn_executable_p ()$/;"	f
+as_fn_exit	autotools/hello_example/config.status	/^as_fn_exit ()$/;"	f
+as_fn_exit	autotools/hello_example/configure	/^as_fn_exit ()$/;"	f
+as_fn_exit	codewars/kata/config.status	/^as_fn_exit ()$/;"	f
+as_fn_exit	codewars/kata/configure	/^as_fn_exit ()$/;"	f
+as_fn_exit	ea_test/config.status	/^as_fn_exit ()$/;"	f
+as_fn_exit	ea_test/configure	/^as_fn_exit ()$/;"	f
+as_fn_exit	primer/examples/config.status	/^as_fn_exit ()$/;"	f
+as_fn_exit	primer/examples/configure	/^as_fn_exit ()$/;"	f
+as_fn_failure	autotools/hello_example/configure	/^as_fn_failure () { as_fn_return 1; }$/;"	f
+as_fn_failure	codewars/kata/configure	/^as_fn_failure () { as_fn_return 1; }$/;"	f
+as_fn_failure	ea_test/configure	/^as_fn_failure () { as_fn_return 1; }$/;"	f
+as_fn_failure	primer/examples/configure	/^as_fn_failure () { as_fn_return 1; }$/;"	f
+as_fn_mkdir_p	autotools/hello_example/config.status	/^as_fn_mkdir_p ()$/;"	f
+as_fn_mkdir_p	autotools/hello_example/configure	/^as_fn_mkdir_p ()$/;"	f
+as_fn_mkdir_p	codewars/kata/config.status	/^as_fn_mkdir_p ()$/;"	f
+as_fn_mkdir_p	codewars/kata/configure	/^as_fn_mkdir_p ()$/;"	f
+as_fn_mkdir_p	ea_test/config.status	/^as_fn_mkdir_p ()$/;"	f
+as_fn_mkdir_p	ea_test/configure	/^as_fn_mkdir_p ()$/;"	f
+as_fn_mkdir_p	primer/examples/config.status	/^as_fn_mkdir_p ()$/;"	f
+as_fn_mkdir_p	primer/examples/configure	/^as_fn_mkdir_p ()$/;"	f
+as_fn_ret_failure	autotools/hello_example/configure	/^as_fn_ret_failure () { return 1; }$/;"	f
+as_fn_ret_failure	codewars/kata/configure	/^as_fn_ret_failure () { return 1; }$/;"	f
+as_fn_ret_failure	ea_test/configure	/^as_fn_ret_failure () { return 1; }$/;"	f
+as_fn_ret_failure	primer/examples/configure	/^as_fn_ret_failure () { return 1; }$/;"	f
+as_fn_ret_success	autotools/hello_example/configure	/^as_fn_ret_success () { return 0; }$/;"	f
+as_fn_ret_success	codewars/kata/configure	/^as_fn_ret_success () { return 0; }$/;"	f
+as_fn_ret_success	ea_test/configure	/^as_fn_ret_success () { return 0; }$/;"	f
+as_fn_ret_success	primer/examples/configure	/^as_fn_ret_success () { return 0; }$/;"	f
+as_fn_set_status	autotools/hello_example/config.status	/^as_fn_set_status ()$/;"	f
+as_fn_set_status	autotools/hello_example/configure	/^as_fn_set_status ()$/;"	f
+as_fn_set_status	codewars/kata/config.status	/^as_fn_set_status ()$/;"	f
+as_fn_set_status	codewars/kata/configure	/^as_fn_set_status ()$/;"	f
+as_fn_set_status	ea_test/config.status	/^as_fn_set_status ()$/;"	f
+as_fn_set_status	ea_test/configure	/^as_fn_set_status ()$/;"	f
+as_fn_set_status	primer/examples/config.status	/^as_fn_set_status ()$/;"	f
+as_fn_set_status	primer/examples/configure	/^as_fn_set_status ()$/;"	f
+as_fn_success	autotools/hello_example/configure	/^as_fn_success () { as_fn_return 0; }$/;"	f
+as_fn_success	codewars/kata/configure	/^as_fn_success () { as_fn_return 0; }$/;"	f
+as_fn_success	ea_test/configure	/^as_fn_success () { as_fn_return 0; }$/;"	f
+as_fn_success	primer/examples/configure	/^as_fn_success () { as_fn_return 0; }$/;"	f
+as_fn_unset	autotools/hello_example/config.status	/^as_fn_unset ()$/;"	f
+as_fn_unset	autotools/hello_example/configure	/^as_fn_unset ()$/;"	f
+as_fn_unset	codewars/kata/config.status	/^as_fn_unset ()$/;"	f
+as_fn_unset	codewars/kata/configure	/^as_fn_unset ()$/;"	f
+as_fn_unset	ea_test/config.status	/^as_fn_unset ()$/;"	f
+as_fn_unset	ea_test/configure	/^as_fn_unset ()$/;"	f
+as_fn_unset	primer/examples/config.status	/^as_fn_unset ()$/;"	f
+as_fn_unset	primer/examples/configure	/^as_fn_unset ()$/;"	f
+b	codingame/Spring_Challenge_2020/pac.py	/^			b = best_list[j]$/;"	v
+b1	primer/examples/src/hello.cpp	/^BootstrapTest b1;$/;"	v
+b2	primer/examples/src/hello.cpp	/^BootstrapTest b2;$/;"	v
+best_list	codingame/Spring_Challenge_2020/pac.py	/^	best_list = [0]*len(x_list)$/;"	v
+bin_PROGRAMS	autotools/hello_example/src/Makefile	/^bin_PROGRAMS = hello$(EXEEXT)$/;"	m
+bin_PROGRAMS	codewars/kata/src/Makefile	/^bin_PROGRAMS = same_arrays$(EXEEXT) tickets$(EXEEXT) \\$/;"	m
+bin_PROGRAMS	ea_test/src/Makefile	/^bin_PROGRAMS =$/;"	m
+bin_PROGRAMS	primer/examples/src/Makefile	/^bin_PROGRAMS = tail_recursion$(EXEEXT) threads1$(EXEEXT) \\$/;"	m
+binarySearch	codingame/puzzles/horses_racing_duals.c	/^int binarySearch(int a[], int item, int low, int high)$/;"	f
+binarySearch	codingame/puzzles/mime_types.c	/^int binarySearch(ext_mime_t a[], ext_mime_t item, int low, int high)$/;"	f
+bindir	autotools/hello_example/Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+bindir	autotools/hello_example/src/Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+bindir	codewars/kata/Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+bindir	codewars/kata/src/Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+bindir	ea_test/Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+bindir	ea_test/src/Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+bindir	primer/examples/Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+bindir	primer/examples/src/Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+bit_counting_LDADD	codewars/kata/src/Makefile	/^bit_counting_LDADD = $(LDADD)$/;"	m
+bit_counting_OBJECTS	codewars/kata/src/Makefile	/^bit_counting_OBJECTS = $(am_bit_counting_OBJECTS)$/;"	m
+bit_counting_SOURCES	codewars/kata/src/Makefile	/^bit_counting_SOURCES = bit_counting.cpp$/;"	m
+build_alias	autotools/hello_example/Makefile	/^build_alias = $/;"	m
+build_alias	autotools/hello_example/src/Makefile	/^build_alias = $/;"	m
+build_alias	codewars/kata/Makefile	/^build_alias = $/;"	m
+build_alias	codewars/kata/src/Makefile	/^build_alias = $/;"	m
+build_alias	ea_test/Makefile	/^build_alias = $/;"	m
+build_alias	ea_test/src/Makefile	/^build_alias = $/;"	m
+build_alias	primer/examples/Makefile	/^build_alias = $/;"	m
+build_alias	primer/examples/src/Makefile	/^build_alias = $/;"	m
+builddir	autotools/hello_example/Makefile	/^builddir = .$/;"	m
+builddir	autotools/hello_example/src/Makefile	/^builddir = .$/;"	m
+builddir	codewars/kata/Makefile	/^builddir = .$/;"	m
+builddir	codewars/kata/src/Makefile	/^builddir = .$/;"	m
+builddir	ea_test/Makefile	/^builddir = .$/;"	m
+builddir	ea_test/src/Makefile	/^builddir = .$/;"	m
+builddir	primer/examples/Makefile	/^builddir = .$/;"	m
+builddir	primer/examples/src/Makefile	/^builddir = .$/;"	m
+calc_dist	codingame/puzzles/code_vs_zombies.py	/^def calc_dist(x1, y1, x2, y2):$/;"	f
+calc_err_acu	codingame/coders_strike_back/pod.c	/^static int calc_err_acu(int old_err, int nca, int spd, int ncd)$/;"	f	file:
+calc_value	codingame/Spring_Challenge_2020/pac.py	/^def calc_value(x1, y1, x2, y2, val):$/;"	f
+calc_vel	codingame/coders_strike_back/pod.c	/^static inline int calc_vel(int x, int y, int lx, int ly)$/;"	f	file:
+calculate_squares	codingame/puzzles/rectangle_partition/rectangle_partition.cpp	/^int calculate_squares(int *x, int *y, int lenx, int leny)$/;"	f	file:
+charcmp	codewars/kata/src/duplicate_encoder.cpp	/^bool charcmp(char a, char b) {$/;"	f
+check_distances	codingame/ghost_in_the_cell/ghost1.py	/^	def check_distances(self):$/;"	m	class:Map
+check_distances	codingame/ghost_in_the_cell/ghost2.py	/^	def check_distances(self):$/;"	m	class:Map
+clean_local	tools/git/clean.sh	/^clean_local() {$/;"	f
+clean_local	tools/git/synch.sh	/^clean_local() {$/;"	f
+clockwise	codingame/Spring_Challenge_2020/pac.py	/^		clockwise = [0]*len(x_list)$/;"	v
+closest	codingame/ghost_in_the_cell/ghost3.cpp	/^	int closest; \/*< Id of the closest factory owned by a player *\/$/;"	m	class:Factory	file:
+cmp_abs	codewars/kata/src/same_arrays.cpp	/^static bool cmp_abs(int a, int b)$/;"	f	file:
+command_list	codingame/Spring_Challenge_2020/pac.py	/^	command_list = ["MOVE"]*len(x_list)$/;"	v
+comp	codewars/kata/src/same_arrays.cpp	/^static bool comp(std::vector<int>&a, std::vector<int>&b)$/;"	f	file:
+cool_down	codingame/Spring_Challenge_2020/pac.py	/^		cool_down = [0]*len(x_list)$/;"	v
+copy	codingame/ghost_in_the_cell/ghost3.cpp	/^	void copy(Factory *src) {$/;"	f	class:Factory
+copy	codingame/ghost_in_the_cell/ghost3.cpp	/^	void copy(Link *src) {$/;"	f	class:Link
+copy	codingame/puzzles/defibrillators.py	/^	def copy(self, other):$/;"	m	class:Desfibrilator
+copy	primer/examples/src/swapping.cpp	/^void copy(int &a, const int &b)$/;"	f
+countBits	codewars/kata/src/bit_counting.cpp	/^unsigned int countBits(unsigned long long n){$/;"	f
+counter	codingame/puzzles/rectangle_partition/rectangle_partition.cpp	/^static int counter = 0;$/;"	v	file:
+counter	primer/examples/src/hello.cpp	/^	static int counter;$/;"	m	class:BootstrapTest	file:
+counter	primer/examples/src/hello.cpp	/^int BootstrapTest::counter = 0; \/* Allocation and initialization for shared counter *\/$/;"	m	class:BootstrapTest	file:
+createTest	primer/examples/src/hello.cpp	/^void createTest(void) {$/;"	f
+d	codingame/ghost_in_the_cell/ghost3.cpp	/^	uint id1, id2, d;$/;"	m	class:Link	file:
+d	codingame/puzzles/defibrillators.py	/^		d = dtmp$/;"	v
+d	codingame/puzzles/defibrillators.py	/^d = float("inf")$/;"	v
+datadir	autotools/hello_example/Makefile	/^datadir = ${datarootdir}$/;"	m
+datadir	autotools/hello_example/src/Makefile	/^datadir = ${datarootdir}$/;"	m
+datadir	codewars/kata/Makefile	/^datadir = ${datarootdir}$/;"	m
+datadir	codewars/kata/src/Makefile	/^datadir = ${datarootdir}$/;"	m
+datadir	ea_test/Makefile	/^datadir = ${datarootdir}$/;"	m
+datadir	ea_test/src/Makefile	/^datadir = ${datarootdir}$/;"	m
+datadir	primer/examples/Makefile	/^datadir = ${datarootdir}$/;"	m
+datadir	primer/examples/src/Makefile	/^datadir = ${datarootdir}$/;"	m
+datarootdir	autotools/hello_example/Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+datarootdir	autotools/hello_example/src/Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+datarootdir	codewars/kata/Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+datarootdir	codewars/kata/src/Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+datarootdir	ea_test/Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+datarootdir	ea_test/src/Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+datarootdir	primer/examples/Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+datarootdir	primer/examples/src/Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+debug	codingame/ghost_in_the_cell/ghost1.py	/^		def debug(self):$/;"	m	class:Map.Move
+debug	codingame/ghost_in_the_cell/ghost1.py	/^	def debug(self):$/;"	m	class:Factory
+debug	codingame/ghost_in_the_cell/ghost1.py	/^	def debug(self):$/;"	m	class:Map
+debug	codingame/ghost_in_the_cell/ghost1.py	/^def debug(msg):$/;"	f
+debug	codingame/ghost_in_the_cell/ghost2.py	/^		def debug(self):$/;"	m	class:Map.Move
+debug	codingame/ghost_in_the_cell/ghost2.py	/^	def debug(self):$/;"	m	class:Factory
+debug	codingame/ghost_in_the_cell/ghost2.py	/^	def debug(self):$/;"	m	class:Map
+debug	codingame/ghost_in_the_cell/ghost2.py	/^def debug(msg):$/;"	f
+debug	codingame/ghost_in_the_cell/ghost3.cpp	/^	void debug() {$/;"	f	class:Factory
+debug	codingame/ghost_in_the_cell/ghost3.cpp	/^	void debug() {$/;"	f	class:Link
+debug	codingame/puzzles/code_vs_zombies.py	/^	def debug(self):$/;"	m	class:Human
+debug	codingame/puzzles/code_vs_zombies.py	/^	def debug(self):$/;"	m	class:Zombie
+debug	codingame/puzzles/huffman_code.py	/^	def debug(self):$/;"	m	class:Symbol
+debug	codingame/puzzles/huffman_code.py	/^	def debug(self):$/;"	m	class:SymbolTree
+debug	codingame/puzzles/mime_types.py	/^	def debug(self):$/;"	m	class:Mime
+debug	codingame/puzzles/mime_types.py	/^	def debug(self):$/;"	m	class:MimeBSTnode
+debug	codingame/puzzles/mime_types.py	/^	def debug(self):$/;"	m	class:MimeList
+debug_factories	codingame/ghost_in_the_cell/ghost3.cpp	/^	void debug_factories() {$/;"	f	class:Map
+debug_links	codingame/ghost_in_the_cell/ghost3.cpp	/^	void debug_links() {$/;"	f	class:Map
+debug_squares	codingame/puzzles/rectangle_partition/rectangle_partition.cpp	/^void debug_squares(int *x, int *y, int lenx, int leny)$/;"	f
+dec2	codewars/kata/src/decomp.cpp	/^static std::vector<long long> dec2(long long n, long long left)$/;"	f	file:
+decomp_LDADD	codewars/kata/src/Makefile	/^decomp_LDADD = $(LDADD)$/;"	m
+decomp_OBJECTS	codewars/kata/src/Makefile	/^decomp_OBJECTS = $(am_decomp_OBJECTS)$/;"	m
+decomp_SOURCES	codewars/kata/src/Makefile	/^decomp_SOURCES = decomp.cpp$/;"	m
+decompose	codewars/kata/src/decomp.cpp	/^static std::vector<long long> decompose(long long n)$/;"	f	file:
+defib	codingame/puzzles/defibrillators.py	/^	defib = input()$/;"	v
+deleteNth	codewars/kata/src/enoughisenough.cpp	/^std::vector<int> deleteNth(std::vector<int> arr, int n)$/;"	f
+depcomp	autotools/hello_example/src/Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/depcomp$/;"	m
+depcomp	codewars/kata/src/Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/depcomp$/;"	m
+depcomp	primer/examples/src/Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/depcomp$/;"	m
+digital_root	codewars/kata/src/sum_of_digits_digital_root.cpp	/^int digital_root(int n)$/;"	f
+dist_doc_DATA	autotools/hello_example/Makefile	/^dist_doc_DATA = README$/;"	m
+dist_doc_DATA	codewars/kata/Makefile	/^dist_doc_DATA = README$/;"	m
+dist_doc_DATA	ea_test/Makefile	/^dist_doc_DATA = README$/;"	m
+dist_doc_DATA	primer/examples/Makefile	/^dist_doc_DATA = README$/;"	m
+distance	codingame/puzzles/defibrillators.py	/^def distance(lonA,lonB,latA,latB):$/;"	f
+distcleancheck_listfiles	autotools/hello_example/Makefile	/^distcleancheck_listfiles = find . -type f -print$/;"	m
+distcleancheck_listfiles	codewars/kata/Makefile	/^distcleancheck_listfiles = find . -type f -print$/;"	m
+distcleancheck_listfiles	ea_test/Makefile	/^distcleancheck_listfiles = find . -type f -print$/;"	m
+distcleancheck_listfiles	primer/examples/Makefile	/^distcleancheck_listfiles = find . -type f -print$/;"	m
+distdir	autotools/hello_example/Makefile	/^distdir = $(PACKAGE)-$(VERSION)$/;"	m
+distdir	codewars/kata/Makefile	/^distdir = $(PACKAGE)-$(VERSION)$/;"	m
+distdir	ea_test/Makefile	/^distdir = $(PACKAGE)-$(VERSION)$/;"	m
+distdir	primer/examples/Makefile	/^distdir = $(PACKAGE)-$(VERSION)$/;"	m
+distuninstallcheck_listfiles	autotools/hello_example/Makefile	/^distuninstallcheck_listfiles = find . -type f -print$/;"	m
+distuninstallcheck_listfiles	codewars/kata/Makefile	/^distuninstallcheck_listfiles = find . -type f -print$/;"	m
+distuninstallcheck_listfiles	ea_test/Makefile	/^distuninstallcheck_listfiles = find . -type f -print$/;"	m
+distuninstallcheck_listfiles	primer/examples/Makefile	/^distuninstallcheck_listfiles = find . -type f -print$/;"	m
+division	primer/examples/src/swapping.cpp	/^T division(T a, T b)$/;"	f
+division	primer/examples/src/swapping.cpp	/^bool division(bool a, bool b)$/;"	f
+division	primer/examples/src/swapping.cpp	/^template <> char division<char>(char a, char b)$/;"	f
+dobj	codingame/puzzles/defibrillators.py	/^dobj = Desfibrilator()$/;"	v
+docdir	autotools/hello_example/Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+docdir	autotools/hello_example/src/Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+docdir	codewars/kata/Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+docdir	codewars/kata/src/Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+docdir	ea_test/Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+docdir	ea_test/src/Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+docdir	primer/examples/Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+docdir	primer/examples/src/Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+dtmp	codingame/puzzles/defibrillators.py	/^	dtmp = distance(float(lon), dobj.lon, float(lat), dobj.lat)$/;"	v
+duplicate_encoder	codewars/kata/src/duplicate_encoder.cpp	/^string duplicate_encoder(const string& word) {$/;"	f
+duplicate_encoder_LDADD	codewars/kata/src/Makefile	/^duplicate_encoder_LDADD = $(LDADD)$/;"	m
+duplicate_encoder_OBJECTS	codewars/kata/src/Makefile	/^duplicate_encoder_OBJECTS = $(am_duplicate_encoder_OBJECTS)$/;"	m
+duplicate_encoder_SOURCES	codewars/kata/src/Makefile	/^duplicate_encoder_SOURCES = duplicate_encoder.cpp$/;"	m
+dvidir	autotools/hello_example/Makefile	/^dvidir = ${docdir}$/;"	m
+dvidir	autotools/hello_example/src/Makefile	/^dvidir = ${docdir}$/;"	m
+dvidir	codewars/kata/Makefile	/^dvidir = ${docdir}$/;"	m
+dvidir	codewars/kata/src/Makefile	/^dvidir = ${docdir}$/;"	m
+dvidir	ea_test/Makefile	/^dvidir = ${docdir}$/;"	m
+dvidir	ea_test/src/Makefile	/^dvidir = ${docdir}$/;"	m
+dvidir	primer/examples/Makefile	/^dvidir = ${docdir}$/;"	m
+dvidir	primer/examples/src/Makefile	/^dvidir = ${docdir}$/;"	m
+dwinner	codingame/puzzles/defibrillators.py	/^dwinner = Desfibrilator()$/;"	v
+ea_LDADD	primer/examples/src/Makefile	/^ea_LDADD = $(LDADD)$/;"	m
+ea_OBJECTS	primer/examples/src/Makefile	/^ea_OBJECTS = $(am_ea_OBJECTS)$/;"	m
+ea_SOURCES	primer/examples/src/Makefile	/^ea_SOURCES = ea.cpp$/;"	m
+enoughisenough_LDADD	codewars/kata/src/Makefile	/^enoughisenough_LDADD = $(LDADD)$/;"	m
+enoughisenough_OBJECTS	codewars/kata/src/Makefile	/^enoughisenough_OBJECTS = $(am_enoughisenough_OBJECTS)$/;"	m
+enoughisenough_SOURCES	codewars/kata/src/Makefile	/^enoughisenough_SOURCES = enoughisenough.cpp$/;"	m
+entity_count	codingame/ghost_in_the_cell/ghost1.py	/^	entity_count = int(input())  # the number of entities (e.g. factories and troops)$/;"	v	class:Map
+entity_count	codingame/ghost_in_the_cell/ghost2.py	/^	entity_count = int(input())  # the number of entities (e.g. factories and troops)$/;"	v	class:Map
+error_calculate	codingame/puzzles/mars_lander_2.c	/^static void error_calculate(error_t *err, int obj, int pos, int spd)$/;"	f	file:
+error_t	codingame/puzzles/mars_lander_2.c	/^typedef int error_t;$/;"	t	file:
+escape	codingame/Spring_Challenge_2020/pac.py	/^			escape = 1$/;"	v
+escape_obj	codingame/Spring_Challenge_2020/pac.py	/^		escape_obj = [-1]*len(x_list)$/;"	v
+exec_prefix	autotools/hello_example/Makefile	/^exec_prefix = ${prefix}$/;"	m
+exec_prefix	autotools/hello_example/src/Makefile	/^exec_prefix = ${prefix}$/;"	m
+exec_prefix	codewars/kata/Makefile	/^exec_prefix = ${prefix}$/;"	m
+exec_prefix	codewars/kata/src/Makefile	/^exec_prefix = ${prefix}$/;"	m
+exec_prefix	ea_test/Makefile	/^exec_prefix = ${prefix}$/;"	m
+exec_prefix	ea_test/src/Makefile	/^exec_prefix = ${prefix}$/;"	m
+exec_prefix	primer/examples/Makefile	/^exec_prefix = ${prefix}$/;"	m
+exec_prefix	primer/examples/src/Makefile	/^exec_prefix = ${prefix}$/;"	m
+exes_and_ohs_LDADD	codewars/kata/src/Makefile	/^exes_and_ohs_LDADD = $(LDADD)$/;"	m
+exes_and_ohs_OBJECTS	codewars/kata/src/Makefile	/^exes_and_ohs_OBJECTS = $(am_exes_and_ohs_OBJECTS)$/;"	m
+exes_and_ohs_SOURCES	codewars/kata/src/Makefile	/^exes_and_ohs_SOURCES = exes_and_ohs.cpp$/;"	m
+expected	codewars/kata/src/tribonacci.cpp	/^	std::vector<int> expected;$/;"	m	struct:test_vector_t	file:
+ext	codingame/puzzles/mime_types.c	/^	char ext[12];$/;"	m	struct:ext_mime_t	file:
+ext_extractor	codingame/puzzles/mime_types.c	/^int ext_extractor(const char *in, char *out, unsigned long *w)$/;"	f
+ext_len	codingame/puzzles/mime_types.c	/^	int ext_len;$/;"	m	struct:ext_mime_t	file:
+ext_mime_cpy	codingame/puzzles/mime_types.c	/^void ext_mime_cpy(ext_mime_t *to, const ext_mime_t *from) {$/;"	f
+ext_mime_init	codingame/puzzles/mime_types.c	/^void ext_mime_init(ext_mime_t *em, char *ext, char *mt)$/;"	f
+ext_mime_t	codingame/puzzles/mime_types.c	/^typedef struct ext_mime_t {$/;"	s	file:
+ext_mime_t	codingame/puzzles/mime_types.c	/^} ext_mime_t;$/;"	t	typeref:struct:ext_mime_t	file:
+factories	codingame/ghost_in_the_cell/ghost3.cpp	/^	Factory *factories;$/;"	m	class:Map	file:
+factors	codewars/kata/src/prime_decomp.cpp	/^std::string PrimeDecomp::factors(int lst)$/;"	f	class:PrimeDecomp
+factory_count	codingame/ghost_in_the_cell/ghost1.py	/^factory_count = int(input())  # the number of factories$/;"	v
+factory_count	codingame/ghost_in_the_cell/ghost2.py	/^factory_count = int(input())  # the number of factories$/;"	v
+fibo_ite	primer/examples/src/tail_recursion.cpp	/^int fibo_ite(int n)$/;"	f
+fibo_rec	primer/examples/src/tail_recursion.cpp	/^int fibo_rec(int n, bool debug = false)$/;"	f
+fibo_tail	primer/examples/src/tail_recursion.cpp	/^int fibo_tail(int n, int a = 0, int b = 1, bool debug = false)$/;"	f
+fibonacci_LDADD	codewars/kata/src/Makefile	/^fibonacci_LDADD = $(LDADD)$/;"	m
+fibonacci_OBJECTS	codewars/kata/src/Makefile	/^fibonacci_OBJECTS = $(am_fibonacci_OBJECTS)$/;"	m
+fibonacci_SOURCES	codewars/kata/src/Makefile	/^fibonacci_SOURCES = fibonacci.cpp$/;"	m
+findClosest	codingame/puzzles/horses_racing_duals.c	/^int findClosest(int *pi, int N)$/;"	f
+findNextSquare	codewars/kata/src/findnextsquare.cpp	/^long int findNextSquare(long int sq) {$/;"	f
+findOdd	codewars/kata/src/findOdd.cpp	/^int findOdd(const std::vector<int>& numbers){$/;"	f
+findOdd_LDADD	codewars/kata/src/Makefile	/^findOdd_LDADD = $(LDADD)$/;"	m
+findOdd_OBJECTS	codewars/kata/src/Makefile	/^findOdd_OBJECTS = $(am_findOdd_OBJECTS)$/;"	m
+findOdd_SOURCES	codewars/kata/src/Makefile	/^findOdd_SOURCES = findOdd.cpp$/;"	m
+find_o_log	codingame/puzzles/rectangle_partition/rectangle_partition.cpp	/^int find_o_log(int c, int r, int *subc, int *subr, int lenc, int lenr)$/;"	f	file:
+find_o_square	codingame/puzzles/rectangle_partition/rectangle_partition.cpp	/^int find_o_square(int c, int r, int *subc, int *subr, int lenc, int lenr)$/;"	f	file:
+findnextsquare_LDADD	codewars/kata/src/Makefile	/^findnextsquare_LDADD = $(LDADD)$/;"	m
+findnextsquare_OBJECTS	codewars/kata/src/Makefile	/^findnextsquare_OBJECTS = $(am_findnextsquare_OBJECTS)$/;"	m
+findnextsquare_SOURCES	codewars/kata/src/Makefile	/^findnextsquare_SOURCES = findnextsquare.cpp$/;"	m
+first	codingame/Spring_Challenge_2020/pac.py	/^		first = 0$/;"	v
+first	codingame/Spring_Challenge_2020/pac.py	/^first = 1$/;"	v
+fname	codingame/puzzles/mime_types.py	/^	fname = input()  # One file name per line.$/;"	v
+func_cl_dashL	autotools/hello_example/compile	/^func_cl_dashL ()$/;"	f
+func_cl_dashL	codewars/kata/compile	/^func_cl_dashL ()$/;"	f
+func_cl_dashL	ea_test/compile	/^func_cl_dashL ()$/;"	f
+func_cl_dashL	primer/examples/compile	/^func_cl_dashL ()$/;"	f
+func_cl_dashl	autotools/hello_example/compile	/^func_cl_dashl ()$/;"	f
+func_cl_dashl	codewars/kata/compile	/^func_cl_dashl ()$/;"	f
+func_cl_dashl	ea_test/compile	/^func_cl_dashl ()$/;"	f
+func_cl_dashl	primer/examples/compile	/^func_cl_dashl ()$/;"	f
+func_cl_wrapper	autotools/hello_example/compile	/^func_cl_wrapper ()$/;"	f
+func_cl_wrapper	codewars/kata/compile	/^func_cl_wrapper ()$/;"	f
+func_cl_wrapper	ea_test/compile	/^func_cl_wrapper ()$/;"	f
+func_cl_wrapper	primer/examples/compile	/^func_cl_wrapper ()$/;"	f
+func_file_conv	autotools/hello_example/compile	/^func_file_conv ()$/;"	f
+func_file_conv	codewars/kata/compile	/^func_file_conv ()$/;"	f
+func_file_conv	ea_test/compile	/^func_file_conv ()$/;"	f
+func_file_conv	primer/examples/compile	/^func_file_conv ()$/;"	f
+get_closest_human	codingame/puzzles/code_vs_zombies.py	/^	def get_closest_human(self):$/;"	m	class:Actors
+get_cost	codingame/puzzles/huffman_code.py	/^	def get_cost(self):$/;"	m	class:Symbol
+get_middle	codewars/kata/src/middle_char.cpp	/^std::string get_middle(std::string input)$/;"	f
+get_most_prioritary	codingame/puzzles/code_vs_zombies.py	/^	def get_most_prioritary(self):$/;"	m	class:Actors
+get_owner	codingame/ghost_in_the_cell/ghost3.cpp	/^owner_t get_owner(int o) {$/;"	f
+get_sum	codewars/kata/src/sum_of_numbers.cpp	/^int get_sum(int a, int b)$/;"	f
+get_weigth	codingame/puzzles/huffman_code.py	/^	def get_weigth(self):$/;"	m	class:Symbol
+getcmd	codingame/ghost_in_the_cell/ghost2.py	/^		def getcmd(self):$/;"	m	class:Map.Move
+give_advice	autotools/hello_example/missing	/^give_advice ()$/;"	f
+give_advice	codewars/kata/missing	/^give_advice ()$/;"	f
+give_advice	ea_test/missing	/^give_advice ()$/;"	f
+give_advice	primer/examples/missing	/^give_advice ()$/;"	f
+greed_is_good_LDADD	codewars/kata/src/Makefile	/^greed_is_good_LDADD = $(LDADD)$/;"	m
+greed_is_good_OBJECTS	codewars/kata/src/Makefile	/^greed_is_good_OBJECTS = $(am_greed_is_good_OBJECTS)$/;"	m
+greed_is_good_SOURCES	codewars/kata/src/Makefile	/^greed_is_good_SOURCES = greed_is_good.cpp$/;"	m
+hello_LDADD	autotools/hello_example/src/Makefile	/^hello_LDADD = $(LDADD)$/;"	m
+hello_LDADD	primer/examples/src/Makefile	/^hello_LDADD = $(LDADD)$/;"	m
+hello_OBJECTS	autotools/hello_example/src/Makefile	/^hello_OBJECTS = $(am_hello_OBJECTS)$/;"	m
+hello_OBJECTS	primer/examples/src/Makefile	/^hello_OBJECTS = $(am_hello_OBJECTS)$/;"	m
+hello_SOURCES	autotools/hello_example/src/Makefile	/^hello_SOURCES = main.c$/;"	m
+hello_SOURCES	primer/examples/src/Makefile	/^hello_SOURCES = hello.cpp$/;"	m
+host_alias	autotools/hello_example/Makefile	/^host_alias = $/;"	m
+host_alias	autotools/hello_example/src/Makefile	/^host_alias = $/;"	m
+host_alias	codewars/kata/Makefile	/^host_alias = $/;"	m
+host_alias	codewars/kata/src/Makefile	/^host_alias = $/;"	m
+host_alias	ea_test/Makefile	/^host_alias = $/;"	m
+host_alias	ea_test/src/Makefile	/^host_alias = $/;"	m
+host_alias	primer/examples/Makefile	/^host_alias = $/;"	m
+host_alias	primer/examples/src/Makefile	/^host_alias = $/;"	m
+htmldir	autotools/hello_example/Makefile	/^htmldir = ${docdir}$/;"	m
+htmldir	autotools/hello_example/src/Makefile	/^htmldir = ${docdir}$/;"	m
+htmldir	codewars/kata/Makefile	/^htmldir = ${docdir}$/;"	m
+htmldir	codewars/kata/src/Makefile	/^htmldir = ${docdir}$/;"	m
+htmldir	ea_test/Makefile	/^htmldir = ${docdir}$/;"	m
+htmldir	ea_test/src/Makefile	/^htmldir = ${docdir}$/;"	m
+htmldir	primer/examples/Makefile	/^htmldir = ${docdir}$/;"	m
+htmldir	primer/examples/src/Makefile	/^htmldir = ${docdir}$/;"	m
+human_count	codingame/puzzles/code_vs_zombies.py	/^	human_count = int(input())$/;"	v	class:Actors
+id	codingame/ghost_in_the_cell/ghost3.cpp	/^	uint id;$/;"	m	class:Factory	file:
+id1	codingame/ghost_in_the_cell/ghost3.cpp	/^	uint id1, id2, d;$/;"	m	class:Link	file:
+id2	codingame/ghost_in_the_cell/ghost3.cpp	/^	uint id1, id2, d;$/;"	m	class:Link	file:
+in	codewars/kata/src/decomp.cpp	/^	int in;$/;"	m	struct:tect_vector_t	file:
+inArray	codewars/kata/src/which_are_in.cpp	/^static std::vector<std::string> inArray(std::vector<std::string> &array1,$/;"	f	file:
+includedir	autotools/hello_example/Makefile	/^includedir = ${prefix}\/include$/;"	m
+includedir	autotools/hello_example/src/Makefile	/^includedir = ${prefix}\/include$/;"	m
+includedir	codewars/kata/Makefile	/^includedir = ${prefix}\/include$/;"	m
+includedir	codewars/kata/src/Makefile	/^includedir = ${prefix}\/include$/;"	m
+includedir	ea_test/Makefile	/^includedir = ${prefix}\/include$/;"	m
+includedir	ea_test/src/Makefile	/^includedir = ${prefix}\/include$/;"	m
+includedir	primer/examples/Makefile	/^includedir = ${prefix}\/include$/;"	m
+includedir	primer/examples/src/Makefile	/^includedir = ${prefix}\/include$/;"	m
+increase_global	primer/examples/src/threads2.cpp	/^void increase_global (int n) { for (int i=0; i<n; ++i) ++global_counter; }$/;"	f
+increase_member	primer/examples/src/threads2.cpp	/^	void increase_member (int n) { for (int i=0; i<n; ++i) fetch_add(1); }$/;"	f	struct:C
+increase_reference	primer/examples/src/threads2.cpp	/^void increase_reference (std::atomic<int>& variable, int n) { for (int i=0; i<n; ++i) ++variable; }$/;"	f
+infodir	autotools/hello_example/Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+infodir	autotools/hello_example/src/Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+infodir	codewars/kata/Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+infodir	codewars/kata/src/Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+infodir	ea_test/Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+infodir	ea_test/src/Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+infodir	primer/examples/Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+infodir	primer/examples/src/Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+input	codingame/ghost_in_the_cell/ghost3.cpp	/^	void input(int entityId, string entityType, int arg1, int arg2, int arg3,$/;"	f	class:Map
+inputs	codingame/ghost_in_the_cell/ghost1.py	/^		inputs = input().split()$/;"	v	class:Map.Move
+inputs	codingame/ghost_in_the_cell/ghost2.py	/^		inputs = input().split()$/;"	v	class:Map.Move
+insert	codingame/puzzles/mime_types.py	/^	def insert(self, m):$/;"	m	class:MimeBSTnode
+insert	codingame/puzzles/mime_types.py	/^	def insert(self, m):$/;"	m	class:MimeList
+insertionSort	codingame/puzzles/horses_racing_duals.c	/^void insertionSort(int a[], int n)$/;"	f
+insertionSort	codingame/puzzles/mime_types.c	/^void insertionSort(ext_mime_t a[], int n)$/;"	f
+install_sh	autotools/hello_example/Makefile	/^install_sh = ${SHELL} \/home\/bret\/workspace\/training\/autotools\/hello_example\/install-sh$/;"	m
+install_sh	autotools/hello_example/src/Makefile	/^install_sh = ${SHELL} \/home\/bret\/workspace\/training\/autotools\/hello_example\/install-sh$/;"	m
+install_sh	codewars/kata/Makefile	/^install_sh = ${SHELL} \/home\/bret\/workspace\/training\/codewars\/kata\/install-sh$/;"	m
+install_sh	codewars/kata/src/Makefile	/^install_sh = ${SHELL} \/home\/bret\/workspace\/training\/codewars\/kata\/install-sh$/;"	m
+install_sh	ea_test/Makefile	/^install_sh = ${SHELL} \/home\/bret\/workspace\/training\/ea_test\/install-sh$/;"	m
+install_sh	ea_test/src/Makefile	/^install_sh = ${SHELL} \/home\/bret\/workspace\/training\/ea_test\/install-sh$/;"	m
+install_sh	primer/examples/Makefile	/^install_sh = ${SHELL} \/home\/bret\/workspace\/training\/primer\/examples\/install-sh$/;"	m
+install_sh	primer/examples/src/Makefile	/^install_sh = ${SHELL} \/home\/bret\/workspace\/training\/primer\/examples\/install-sh$/;"	m
+install_sh_DATA	autotools/hello_example/Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_DATA	autotools/hello_example/src/Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_DATA	codewars/kata/Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_DATA	codewars/kata/src/Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_DATA	ea_test/Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_DATA	ea_test/src/Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_DATA	primer/examples/Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_DATA	primer/examples/src/Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_PROGRAM	autotools/hello_example/Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_PROGRAM	autotools/hello_example/src/Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_PROGRAM	codewars/kata/Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_PROGRAM	codewars/kata/src/Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_PROGRAM	ea_test/Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_PROGRAM	ea_test/src/Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_PROGRAM	primer/examples/Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_PROGRAM	primer/examples/src/Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	autotools/hello_example/Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	autotools/hello_example/src/Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	codewars/kata/Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	codewars/kata/src/Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	ea_test/Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	ea_test/src/Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	primer/examples/Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	primer/examples/src/Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+isValidWalk	codewars/kata/src/ten_minute_walk.cpp	/^bool isValidWalk(std::vector<char> walk) {$/;"	f
+is_square	codewars/kata/src/is_square.cpp	/^bool is_square(int n)$/;"	f
+is_square_LDADD	codewars/kata/src/Makefile	/^is_square_LDADD = $(LDADD)$/;"	m
+is_square_OBJECTS	codewars/kata/src/Makefile	/^is_square_OBJECTS = $(am_is_square_OBJECTS)$/;"	m
+is_square_SOURCES	codewars/kata/src/Makefile	/^is_square_SOURCES = is_square.cpp$/;"	m
+lambda_LDADD	primer/examples/src/Makefile	/^lambda_LDADD = $(LDADD)$/;"	m
+lambda_OBJECTS	primer/examples/src/Makefile	/^lambda_OBJECTS = $(am_lambda_OBJECTS)$/;"	m
+lambda_SOURCES	primer/examples/src/Makefile	/^lambda_SOURCES = lambda.cpp$/;"	m
+lat	codingame/puzzles/defibrillators.py	/^lat = input().replace(',','.')$/;"	v
+libdir	autotools/hello_example/Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libdir	autotools/hello_example/src/Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libdir	codewars/kata/Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libdir	codewars/kata/src/Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libdir	ea_test/Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libdir	ea_test/src/Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libdir	primer/examples/Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libdir	primer/examples/src/Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libexecdir	autotools/hello_example/Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+libexecdir	autotools/hello_example/src/Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+libexecdir	codewars/kata/Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+libexecdir	codewars/kata/src/Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+libexecdir	ea_test/Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+libexecdir	ea_test/src/Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+libexecdir	primer/examples/Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+libexecdir	primer/examples/src/Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+likes	codewars/kata/src/likes.cpp	/^std::string likes(const std::vector<std::string> &names)$/;"	f
+likes_LDADD	codewars/kata/src/Makefile	/^likes_LDADD = $(LDADD)$/;"	m
+likes_OBJECTS	codewars/kata/src/Makefile	/^likes_OBJECTS = $(am_likes_OBJECTS)$/;"	m
+likes_SOURCES	codewars/kata/src/Makefile	/^likes_SOURCES = likes.cpp$/;"	m
+line	codingame/puzzles/ghost_legs.py	/^	line = input()$/;"	v
+link_count	codingame/ghost_in_the_cell/ghost1.py	/^link_count = int(input())  # the number of links between factories$/;"	v
+link_count	codingame/ghost_in_the_cell/ghost2.py	/^link_count = int(input())  # the number of links between factories$/;"	v
+links	codingame/ghost_in_the_cell/ghost3.cpp	/^	Link *links;$/;"	m	class:Map	file:
+lnum	codingame/ghost_in_the_cell/ghost3.cpp	/^	uint lnum;$/;"	m	class:Map	file:
+localedir	autotools/hello_example/Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localedir	autotools/hello_example/src/Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localedir	codewars/kata/Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localedir	codewars/kata/src/Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localedir	ea_test/Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localedir	ea_test/src/Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localedir	primer/examples/Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localedir	primer/examples/src/Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localstatedir	autotools/hello_example/Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+localstatedir	autotools/hello_example/src/Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+localstatedir	codewars/kata/Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+localstatedir	codewars/kata/src/Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+localstatedir	ea_test/Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+localstatedir	ea_test/src/Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+localstatedir	primer/examples/Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+localstatedir	primer/examples/src/Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+lon	codingame/puzzles/defibrillators.py	/^lon = input().replace(',','.')$/;"	v
+main	autotools/hello_example/src/main.c	/^int main (void)$/;"	f
+main	codewars/kata/src/bit_counting.cpp	/^int main()$/;"	f
+main	codewars/kata/src/decomp.cpp	/^int main()$/;"	f
+main	codewars/kata/src/duplicate_encoder.cpp	/^int main()$/;"	f
+main	codewars/kata/src/enoughisenough.cpp	/^int main()$/;"	f
+main	codewars/kata/src/exes_and_ohs.cpp	/^int main()$/;"	f
+main	codewars/kata/src/fibonacci.cpp	/^int main()$/;"	f
+main	codewars/kata/src/findOdd.cpp	/^int main()$/;"	f
+main	codewars/kata/src/findnextsquare.cpp	/^int main()$/;"	f
+main	codewars/kata/src/greed_is_good.cpp	/^int main()$/;"	f
+main	codewars/kata/src/is_square.cpp	/^int main()$/;"	f
+main	codewars/kata/src/likes.cpp	/^int main()$/;"	f
+main	codewars/kata/src/middle_char.cpp	/^int main()$/;"	f
+main	codewars/kata/src/mult_table.cpp	/^int main()$/;"	f
+main	codewars/kata/src/multiplication_table.cpp	/^int main()$/;"	f
+main	codewars/kata/src/prime_decomp.cpp	/^int main()$/;"	f
+main	codewars/kata/src/proper_fractions.cpp	/^int main()$/;"	f
+main	codewars/kata/src/same_arrays.cpp	/^int main(void)$/;"	f
+main	codewars/kata/src/sum_of_digits_digital_root.cpp	/^int main(void)$/;"	f
+main	codewars/kata/src/sum_of_fractions.cpp	/^int main()$/;"	f
+main	codewars/kata/src/sum_of_numbers.cpp	/^int main()$/;"	f
+main	codewars/kata/src/ten_minute_walk.cpp	/^int main(void)$/;"	f
+main	codewars/kata/src/tickets.cpp	/^int main()$/;"	f
+main	codewars/kata/src/tribonacci.cpp	/^int main(void)$/;"	f
+main	codewars/kata/src/two_sum.cpp	/^int main()$/;"	f
+main	codewars/kata/src/valid_braces.cpp	/^int main(void)$/;"	f
+main	codewars/kata/src/valid_parentheses.c	/^int main(void)$/;"	f
+main	codewars/kata/src/which_are_in.cpp	/^int main()$/;"	f
+main	codingame/Spring_Challenge_2020/1.c	/^int main()$/;"	f
+main	codingame/coders_strike_back/pod.c	/^int main()$/;"	f
+main	codingame/ghost_in_the_cell/ghost3.cpp	/^int main()$/;"	f
+main	codingame/puzzles/horses_racing_duals.c	/^int main()$/;"	f
+main	codingame/puzzles/mars_lander_2.c	/^int main()$/;"	f
+main	codingame/puzzles/mime_types.c	/^int main()$/;"	f
+main	codingame/puzzles/rectangle_partition/rectangle_partition.cpp	/^int main()$/;"	f
+main	codingame/puzzles/the_labyrinth/the_labyrinth.cpp	/^int main()$/;"	f
+main	ea_test/src/ea.cpp	/^int main() {$/;"	f
+main	primer/examples/src/ea.cpp	/^int main() {$/;"	f
+main	primer/examples/src/hello.cpp	/^int main()$/;"	f
+main	primer/examples/src/lambda.cpp	/^int main()$/;"	f
+main	primer/examples/src/smart_pointers.cpp	/^int main()$/;"	f
+main	primer/examples/src/swapping.cpp	/^int main() {$/;"	f
+main	primer/examples/src/tail_recursion.cpp	/^int main ()$/;"	f
+main	primer/examples/src/threads1.cpp	/^int main()$/;"	f
+main	primer/examples/src/threads2.cpp	/^int main ()$/;"	f
+main	primer/examples/src/waitting.cpp	/^int main() {$/;"	f
+make_dummy_depfile	autotools/hello_example/depcomp	/^make_dummy_depfile ()$/;"	f
+make_dummy_depfile	codewars/kata/depcomp	/^make_dummy_depfile ()$/;"	f
+make_dummy_depfile	ea_test/depcomp	/^make_dummy_depfile ()$/;"	f
+make_dummy_depfile	primer/examples/depcomp	/^make_dummy_depfile ()$/;"	f
+mandir	autotools/hello_example/Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mandir	autotools/hello_example/src/Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mandir	codewars/kata/Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mandir	codewars/kata/src/Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mandir	ea_test/Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mandir	ea_test/src/Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mandir	primer/examples/Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mandir	primer/examples/src/Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+map	codingame/ghost_in_the_cell/ghost1.py	/^map = Map(factory_count)$/;"	v
+map	codingame/ghost_in_the_cell/ghost2.py	/^map = Map(factory_count)$/;"	v
+max_on_table	codingame/puzzles/mime_types.c	/^int max_on_table(int N)$/;"	f
+middle_char_LDADD	codewars/kata/src/Makefile	/^middle_char_LDADD = $(LDADD)$/;"	m
+middle_char_OBJECTS	codewars/kata/src/Makefile	/^middle_char_OBJECTS = $(am_middle_char_OBJECTS)$/;"	m
+middle_char_SOURCES	codewars/kata/src/Makefile	/^middle_char_SOURCES = middle_char.cpp$/;"	m
+mkdir_p	autotools/hello_example/Makefile	/^mkdir_p = $(MKDIR_P)$/;"	m
+mkdir_p	autotools/hello_example/src/Makefile	/^mkdir_p = $(MKDIR_P)$/;"	m
+mkdir_p	codewars/kata/Makefile	/^mkdir_p = $(MKDIR_P)$/;"	m
+mkdir_p	codewars/kata/src/Makefile	/^mkdir_p = $(MKDIR_P)$/;"	m
+mkdir_p	ea_test/Makefile	/^mkdir_p = $(MKDIR_P)$/;"	m
+mkdir_p	ea_test/src/Makefile	/^mkdir_p = $(MKDIR_P)$/;"	m
+mkdir_p	primer/examples/Makefile	/^mkdir_p = $(MKDIR_P)$/;"	m
+mkdir_p	primer/examples/src/Makefile	/^mkdir_p = $(MKDIR_P)$/;"	m
+mkinstalldirs	autotools/hello_example/Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+mkinstalldirs	autotools/hello_example/src/Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+mkinstalldirs	codewars/kata/Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+mkinstalldirs	codewars/kata/src/Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+mkinstalldirs	ea_test/Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+mkinstalldirs	ea_test/src/Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+mkinstalldirs	primer/examples/Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+mkinstalldirs	primer/examples/src/Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+move	codingame/puzzles/code_vs_zombies.py	/^	def move(self, x, y):$/;"	m	class:Ash
+move2str	codingame/puzzles/the_labyrinth/the_labyrinth.cpp	/^string move2str(move_t m) {$/;"	f
+move_d	codingame/puzzles/the_labyrinth/the_labyrinth.cpp	/^	move_d,$/;"	e	enum:move_t	file:
+move_l	codingame/puzzles/the_labyrinth/the_labyrinth.cpp	/^	move_l,$/;"	e	enum:move_t	file:
+move_r	codingame/puzzles/the_labyrinth/the_labyrinth.cpp	/^	move_r,$/;"	e	enum:move_t	file:
+move_t	codingame/puzzles/the_labyrinth/the_labyrinth.cpp	/^typedef enum move_t {$/;"	g	file:
+move_t	codingame/puzzles/the_labyrinth/the_labyrinth.cpp	/^} move_t;$/;"	t	typeref:enum:move_t	file:
+move_u	codingame/puzzles/the_labyrinth/the_labyrinth.cpp	/^	move_u,$/;"	e	enum:move_t	file:
+mt	codingame/puzzles/mime_types.c	/^	char mt[51+1];$/;"	m	struct:ext_mime_t	file:
+mult_table_LDADD	codewars/kata/src/Makefile	/^mult_table_LDADD = $(LDADD)$/;"	m
+mult_table_OBJECTS	codewars/kata/src/Makefile	/^mult_table_OBJECTS = $(am_mult_table_OBJECTS)$/;"	m
+mult_table_SOURCES	codewars/kata/src/Makefile	/^mult_table_SOURCES = mult_table.cpp$/;"	m
+multi_table	codewars/kata/src/mult_table.cpp	/^std::string multi_table(int number)$/;"	f
+multiplication_table	codewars/kata/src/multiplication_table.cpp	/^vector<vector<int>> multiplication_table(int n){$/;"	f
+multiplication_table_LDADD	codewars/kata/src/Makefile	/^multiplication_table_LDADD = $(LDADD)$/;"	m
+multiplication_table_OBJECTS	codewars/kata/src/Makefile	/^multiplication_table_OBJECTS = $(am_multiplication_table_OBJECTS)$/;"	m
+multiplication_table_SOURCES	codewars/kata/src/Makefile	/^multiplication_table_SOURCES = multiplication_table.cpp$/;"	m
+n	codingame/puzzles/defibrillators.py	/^n = int(input())$/;"	v
+n	codingame/puzzles/huffman_code.py	/^n = int(input())$/;"	v
+n	codingame/puzzles/mime_types.py	/^n = int(input())  # Number of elements which make up the association table.$/;"	v
+n	primer/examples/src/smart_pointers.cpp	/^	int* n;$/;"	m	class:Test	file:
+new_round	codingame/puzzles/code_vs_zombies.py	/^	def new_round(self, ashx, ashy):$/;"	m	class:Actors
+nextPrime	codewars/kata/src/prime_decomp.cpp	/^std::vector<int>& PrimeDecomp::nextPrime(std::vector<int> &primes)$/;"	f	class:PrimeDecomp
+objective_t	codingame/puzzles/mars_lander_2.c	/^typedef struct objective_t {$/;"	s	file:
+objective_t	codingame/puzzles/mars_lander_2.c	/^} objective_t;$/;"	t	typeref:struct:objective_t	file:
+ok	codingame/puzzles/mars_lander_2.c	/^	bool ok;$/;"	m	struct:objective_t	file:
+oldincludedir	autotools/hello_example/Makefile	/^oldincludedir = \/usr\/include$/;"	m
+oldincludedir	autotools/hello_example/src/Makefile	/^oldincludedir = \/usr\/include$/;"	m
+oldincludedir	codewars/kata/Makefile	/^oldincludedir = \/usr\/include$/;"	m
+oldincludedir	codewars/kata/src/Makefile	/^oldincludedir = \/usr\/include$/;"	m
+oldincludedir	ea_test/Makefile	/^oldincludedir = \/usr\/include$/;"	m
+oldincludedir	ea_test/src/Makefile	/^oldincludedir = \/usr\/include$/;"	m
+oldincludedir	primer/examples/Makefile	/^oldincludedir = \/usr\/include$/;"	m
+oldincludedir	primer/examples/src/Makefile	/^oldincludedir = \/usr\/include$/;"	m
+operator <<	codewars/kata/src/prime_decomp.cpp	/^std::ostream& operator<<(std::ostream& os, std::vector<int> v)$/;"	f
+operator <<	primer/examples/src/hello.cpp	/^ostream& operator <<(ostream &os, const BootstrapTest &b)$/;"	f
+operator <<	primer/examples/src/smart_pointers.cpp	/^ostream& operator <<(ostream &os, const Test &t)$/;"	f
+operator <<	primer/examples/src/swapping.cpp	/^std::ostream& operator<<(std::ostream& os, std::vector<int> v)$/;"	f
+orderbyabs	primer/examples/src/lambda.cpp	/^bool orderbyabs(int a, int b)$/;"	f
+orderbymin	primer/examples/src/lambda.cpp	/^bool orderbymin(int a, int b)$/;"	f
+out	codewars/kata/src/decomp.cpp	/^	std::vector<long long> out;$/;"	m	struct:tect_vector_t	file:
+owner	codingame/ghost_in_the_cell/ghost3.cpp	/^	owner_t owner;$/;"	m	class:Factory	file:
+owner2str	codingame/ghost_in_the_cell/ghost1.py	/^def owner2str(own):$/;"	f
+owner2str	codingame/ghost_in_the_cell/ghost2.py	/^def owner2str(own):$/;"	f
+owner2str	codingame/ghost_in_the_cell/ghost3.cpp	/^string owner2str(owner_t o) {$/;"	f
+owner_adv	codingame/ghost_in_the_cell/ghost3.cpp	/^	owner_adv = -1, \/*< Adversary player *\/$/;"	e	enum:owner_t	file:
+owner_me	codingame/ghost_in_the_cell/ghost3.cpp	/^	owner_me = 1    \/*< Me player *\/$/;"	e	enum:owner_t	file:
+owner_neu	codingame/ghost_in_the_cell/ghost3.cpp	/^	owner_neu = 0,  \/*< Neutral, not a player *\/$/;"	e	enum:owner_t	file:
+owner_t	codingame/ghost_in_the_cell/ghost3.cpp	/^typedef enum owner_t {$/;"	g	file:
+owner_t	codingame/ghost_in_the_cell/ghost3.cpp	/^} owner_t;$/;"	t	typeref:enum:owner_t	file:
+pac_id	codingame/Spring_Challenge_2020/pac.py	/^		pac_id = int(pac_id)$/;"	v
+pac_list	codingame/Spring_Challenge_2020/pac.py	/^	pac_list = []$/;"	v
+parse	codingame/puzzles/defibrillators.py	/^	def parse(self, input):$/;"	m	class:Desfibrilator
+pdfdir	autotools/hello_example/Makefile	/^pdfdir = ${docdir}$/;"	m
+pdfdir	autotools/hello_example/src/Makefile	/^pdfdir = ${docdir}$/;"	m
+pdfdir	codewars/kata/Makefile	/^pdfdir = ${docdir}$/;"	m
+pdfdir	codewars/kata/src/Makefile	/^pdfdir = ${docdir}$/;"	m
+pdfdir	ea_test/Makefile	/^pdfdir = ${docdir}$/;"	m
+pdfdir	ea_test/src/Makefile	/^pdfdir = ${docdir}$/;"	m
+pdfdir	primer/examples/Makefile	/^pdfdir = ${docdir}$/;"	m
+pdfdir	primer/examples/src/Makefile	/^pdfdir = ${docdir}$/;"	m
+pkgdatadir	autotools/hello_example/Makefile	/^pkgdatadir = $(datadir)\/amhello$/;"	m
+pkgdatadir	autotools/hello_example/src/Makefile	/^pkgdatadir = $(datadir)\/amhello$/;"	m
+pkgdatadir	codewars/kata/Makefile	/^pkgdatadir = $(datadir)\/kata$/;"	m
+pkgdatadir	codewars/kata/src/Makefile	/^pkgdatadir = $(datadir)\/kata$/;"	m
+pkgdatadir	ea_test/Makefile	/^pkgdatadir = $(datadir)\/primer$/;"	m
+pkgdatadir	ea_test/src/Makefile	/^pkgdatadir = $(datadir)\/primer$/;"	m
+pkgdatadir	primer/examples/Makefile	/^pkgdatadir = $(datadir)\/primer$/;"	m
+pkgdatadir	primer/examples/src/Makefile	/^pkgdatadir = $(datadir)\/primer$/;"	m
+pkgincludedir	autotools/hello_example/Makefile	/^pkgincludedir = $(includedir)\/amhello$/;"	m
+pkgincludedir	autotools/hello_example/src/Makefile	/^pkgincludedir = $(includedir)\/amhello$/;"	m
+pkgincludedir	codewars/kata/Makefile	/^pkgincludedir = $(includedir)\/kata$/;"	m
+pkgincludedir	codewars/kata/src/Makefile	/^pkgincludedir = $(includedir)\/kata$/;"	m
+pkgincludedir	ea_test/Makefile	/^pkgincludedir = $(includedir)\/primer$/;"	m
+pkgincludedir	ea_test/src/Makefile	/^pkgincludedir = $(includedir)\/primer$/;"	m
+pkgincludedir	primer/examples/Makefile	/^pkgincludedir = $(includedir)\/primer$/;"	m
+pkgincludedir	primer/examples/src/Makefile	/^pkgincludedir = $(includedir)\/primer$/;"	m
+pkglibdir	autotools/hello_example/Makefile	/^pkglibdir = $(libdir)\/amhello$/;"	m
+pkglibdir	autotools/hello_example/src/Makefile	/^pkglibdir = $(libdir)\/amhello$/;"	m
+pkglibdir	codewars/kata/Makefile	/^pkglibdir = $(libdir)\/kata$/;"	m
+pkglibdir	codewars/kata/src/Makefile	/^pkglibdir = $(libdir)\/kata$/;"	m
+pkglibdir	ea_test/Makefile	/^pkglibdir = $(libdir)\/primer$/;"	m
+pkglibdir	ea_test/src/Makefile	/^pkglibdir = $(libdir)\/primer$/;"	m
+pkglibdir	primer/examples/Makefile	/^pkglibdir = $(libdir)\/primer$/;"	m
+pkglibdir	primer/examples/src/Makefile	/^pkglibdir = $(libdir)\/primer$/;"	m
+pkglibexecdir	autotools/hello_example/Makefile	/^pkglibexecdir = $(libexecdir)\/amhello$/;"	m
+pkglibexecdir	autotools/hello_example/src/Makefile	/^pkglibexecdir = $(libexecdir)\/amhello$/;"	m
+pkglibexecdir	codewars/kata/Makefile	/^pkglibexecdir = $(libexecdir)\/kata$/;"	m
+pkglibexecdir	codewars/kata/src/Makefile	/^pkglibexecdir = $(libexecdir)\/kata$/;"	m
+pkglibexecdir	ea_test/Makefile	/^pkglibexecdir = $(libexecdir)\/primer$/;"	m
+pkglibexecdir	ea_test/src/Makefile	/^pkglibexecdir = $(libexecdir)\/primer$/;"	m
+pkglibexecdir	primer/examples/Makefile	/^pkglibexecdir = $(libexecdir)\/primer$/;"	m
+pkglibexecdir	primer/examples/src/Makefile	/^pkglibexecdir = $(libexecdir)\/primer$/;"	m
+prefix	autotools/hello_example/Makefile	/^prefix = \/usr\/local$/;"	m
+prefix	autotools/hello_example/src/Makefile	/^prefix = \/usr\/local$/;"	m
+prefix	codewars/kata/Makefile	/^prefix = \/usr\/local$/;"	m
+prefix	codewars/kata/src/Makefile	/^prefix = \/usr\/local$/;"	m
+prefix	ea_test/Makefile	/^prefix = \/usr\/local$/;"	m
+prefix	ea_test/src/Makefile	/^prefix = \/usr\/local$/;"	m
+prefix	primer/examples/Makefile	/^prefix = \/usr\/local$/;"	m
+prefix	primer/examples/src/Makefile	/^prefix = \/usr\/local$/;"	m
+prime_decomp_LDADD	codewars/kata/src/Makefile	/^prime_decomp_LDADD = $(LDADD)$/;"	m
+prime_decomp_OBJECTS	codewars/kata/src/Makefile	/^prime_decomp_OBJECTS = $(am_prime_decomp_OBJECTS)$/;"	m
+prime_decomp_SOURCES	codewars/kata/src/Makefile	/^prime_decomp_SOURCES = prime_decomp.cpp$/;"	m
+print	codingame/puzzles/defibrillators.py	/^	def print(self):$/;"	m	class:Desfibrilator
+print	primer/examples/src/lambda.cpp	/^void print(const int* a)$/;"	f
+print	primer/examples/src/swapping.cpp	/^void print(const int &a, const int &b)$/;"	f
+printHello	primer/examples/src/threads1.cpp	/^void printHello(int N)$/;"	f
+prod	codingame/ghost_in_the_cell/ghost3.cpp	/^	uint prod;   \/*< troops\/round *\/$/;"	m	class:Factory	file:
+productFib	codewars/kata/src/fibonacci.cpp	/^std::vector<ull> productFib(ull prod)$/;"	f
+program_details	autotools/hello_example/missing	/^program_details ()$/;"	f
+program_details	codewars/kata/missing	/^program_details ()$/;"	f
+program_details	ea_test/missing	/^program_details ()$/;"	f
+program_details	primer/examples/missing	/^program_details ()$/;"	f
+program_transform_name	autotools/hello_example/Makefile	/^program_transform_name = s,x,x,$/;"	m
+program_transform_name	autotools/hello_example/src/Makefile	/^program_transform_name = s,x,x,$/;"	m
+program_transform_name	codewars/kata/Makefile	/^program_transform_name = s,x,x,$/;"	m
+program_transform_name	codewars/kata/src/Makefile	/^program_transform_name = s,x,x,$/;"	m
+program_transform_name	ea_test/Makefile	/^program_transform_name = s,x,x,$/;"	m
+program_transform_name	ea_test/src/Makefile	/^program_transform_name = s,x,x,$/;"	m
+program_transform_name	primer/examples/Makefile	/^program_transform_name = s,x,x,$/;"	m
+program_transform_name	primer/examples/src/Makefile	/^program_transform_name = s,x,x,$/;"	m
+properFractions	codewars/kata/src/proper_fractions.cpp	/^long properFractions(long den)$/;"	f
+proper_fractions_LDADD	codewars/kata/src/Makefile	/^proper_fractions_LDADD = $(LDADD)$/;"	m
+proper_fractions_OBJECTS	codewars/kata/src/Makefile	/^proper_fractions_OBJECTS = $(am_proper_fractions_OBJECTS)$/;"	m
+proper_fractions_SOURCES	codewars/kata/src/Makefile	/^proper_fractions_SOURCES = proper_fractions.cpp$/;"	m
+prototypes	autotools/hello_example/configure	/^   function prototypes and stuff, but not '\\xHH' hex character constants.$/;"	f
+prototypes	codewars/kata/configure	/^   function prototypes and stuff, but not '\\xHH' hex character constants.$/;"	f
+prototypes	ea_test/configure	/^   function prototypes and stuff, but not '\\xHH' hex character constants.$/;"	f
+prototypes	primer/examples/configure	/^   function prototypes and stuff, but not '\\xHH' hex character constants.$/;"	f
+psdir	autotools/hello_example/Makefile	/^psdir = ${docdir}$/;"	m
+psdir	autotools/hello_example/src/Makefile	/^psdir = ${docdir}$/;"	m
+psdir	codewars/kata/Makefile	/^psdir = ${docdir}$/;"	m
+psdir	codewars/kata/src/Makefile	/^psdir = ${docdir}$/;"	m
+psdir	ea_test/Makefile	/^psdir = ${docdir}$/;"	m
+psdir	ea_test/src/Makefile	/^psdir = ${docdir}$/;"	m
+psdir	primer/examples/Makefile	/^psdir = ${docdir}$/;"	m
+psdir	primer/examples/src/Makefile	/^psdir = ${docdir}$/;"	m
+push_filetype	tools/automake/update_makefile.sh	/^push_filetype() {$/;"	f
+push_filetype	tools/git/add2gitignore.sh	/^push_filetype() {$/;"	f
+q	codingame/puzzles/mime_types.py	/^q = int(input())  # Number Q of file names to be analyzed.$/;"	v
+recalculate	codingame/Spring_Challenge_2020/pac.py	/^				recalculate = 1$/;"	v
+result	codingame/puzzles/huffman_code.py	/^	def result(self):$/;"	m	class:SymbolTree
+results	codingame/puzzles/ghost_legs.py	/^results = []$/;"	v
+root	codingame/puzzles/mime_types.py	/^root = MimeBSTnode(None)$/;"	v
+row	codingame/Spring_Challenge_2020/pac.py	/^	row = input()  # one line of the grid: space " " is floor, pound "#" is wall$/;"	v
+runners	codingame/puzzles/ghost_legs.py	/^runners = []$/;"	v
+runstatedir	autotools/hello_example/Makefile	/^runstatedir = ${localstatedir}\/run$/;"	m
+runstatedir	autotools/hello_example/src/Makefile	/^runstatedir = ${localstatedir}\/run$/;"	m
+runstatedir	codewars/kata/Makefile	/^runstatedir = ${localstatedir}\/run$/;"	m
+runstatedir	codewars/kata/src/Makefile	/^runstatedir = ${localstatedir}\/run$/;"	m
+runstatedir	ea_test/Makefile	/^runstatedir = ${localstatedir}\/run$/;"	m
+runstatedir	ea_test/src/Makefile	/^runstatedir = ${localstatedir}\/run$/;"	m
+runstatedir	primer/examples/Makefile	/^runstatedir = ${localstatedir}\/run$/;"	m
+runstatedir	primer/examples/src/Makefile	/^runstatedir = ${localstatedir}\/run$/;"	m
+same_arrays_LDADD	codewars/kata/src/Makefile	/^same_arrays_LDADD = $(LDADD)$/;"	m
+same_arrays_OBJECTS	codewars/kata/src/Makefile	/^same_arrays_OBJECTS = $(am_same_arrays_OBJECTS)$/;"	m
+same_arrays_SOURCES	codewars/kata/src/Makefile	/^same_arrays_SOURCES = same_arrays.cpp$/;"	m
+sbindir	autotools/hello_example/Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sbindir	autotools/hello_example/src/Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sbindir	codewars/kata/Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sbindir	codewars/kata/src/Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sbindir	ea_test/Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sbindir	ea_test/src/Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sbindir	primer/examples/Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sbindir	primer/examples/src/Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+score	codewars/kata/src/greed_is_good.cpp	/^int score(const std::vector<int>& dice) {$/;"	f
+search	codingame/puzzles/mime_types.py	/^	def search(self, ex):$/;"	m	class:MimeBSTnode
+search	codingame/puzzles/mime_types.py	/^	def search(self, ex):$/;"	m	class:MimeList
+set	codingame/ghost_in_the_cell/ghost3.cpp	/^	void set(uint f1, uint f2, uint dis) {$/;"	f	class:Link
+set_alive	codingame/puzzles/code_vs_zombies.py	/^	def set_alive(self, zombie_turns):$/;"	m	class:Human
+set_base_from	autotools/hello_example/depcomp	/^set_base_from ()$/;"	f
+set_base_from	codewars/kata/depcomp	/^set_base_from ()$/;"	f
+set_base_from	ea_test/depcomp	/^set_base_from ()$/;"	f
+set_base_from	primer/examples/depcomp	/^set_base_from ()$/;"	f
+set_dir_from	autotools/hello_example/depcomp	/^set_dir_from ()$/;"	f
+set_dir_from	codewars/kata/depcomp	/^set_dir_from ()$/;"	f
+set_dir_from	ea_test/depcomp	/^set_dir_from ()$/;"	f
+set_dir_from	primer/examples/depcomp	/^set_dir_from ()$/;"	f
+set_distance	codingame/ghost_in_the_cell/ghost1.py	/^	def set_distance(self, x, y, d):$/;"	m	class:Map
+set_distance	codingame/ghost_in_the_cell/ghost2.py	/^	def set_distance(self, x, y, d):$/;"	m	class:Map
+set_distance	codingame/puzzles/code_vs_zombies.py	/^	def set_distance(self, ash_turns):$/;"	m	class:Human
+set_distance	codingame/puzzles/code_vs_zombies.py	/^	def set_distance(self, ash_turns):$/;"	m	class:Zombie
+set_factory	codingame/ghost_in_the_cell/ghost3.cpp	/^	void set_factory(Factory *f, uint index) {$/;"	f	class:Map
+set_link	codingame/ghost_in_the_cell/ghost3.cpp	/^	void set_link(Link *l, uint index) {$/;"	f	class:Map
+sharedstatedir	autotools/hello_example/Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+sharedstatedir	autotools/hello_example/src/Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+sharedstatedir	codewars/kata/Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+sharedstatedir	codewars/kata/src/Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+sharedstatedir	ea_test/Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+sharedstatedir	ea_test/src/Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+sharedstatedir	primer/examples/Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+sharedstatedir	primer/examples/src/Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+signature	codewars/kata/src/tribonacci.cpp	/^	std::vector<int> signature;$/;"	m	struct:test_vector_t	file:
+size	codingame/ghost_in_the_cell/ghost3.cpp	/^	uint size;$/;"	m	class:Map	file:
+smart_pointers_LDADD	primer/examples/src/Makefile	/^smart_pointers_LDADD = $(LDADD)$/;"	m
+smart_pointers_OBJECTS	primer/examples/src/Makefile	/^smart_pointers_OBJECTS = $(am_smart_pointers_OBJECTS)$/;"	m
+smart_pointers_SOURCES	primer/examples/src/Makefile	/^smart_pointers_SOURCES = smart_pointers.cpp$/;"	m
+speed_turns_left_list	codingame/Spring_Challenge_2020/pac.py	/^	speed_turns_left_list = []$/;"	v
+srcdir	autotools/hello_example/Makefile	/^srcdir = .$/;"	m
+srcdir	autotools/hello_example/src/Makefile	/^srcdir = .$/;"	m
+srcdir	codewars/kata/Makefile	/^srcdir = .$/;"	m
+srcdir	codewars/kata/src/Makefile	/^srcdir = .$/;"	m
+srcdir	ea_test/Makefile	/^srcdir = .$/;"	m
+srcdir	ea_test/src/Makefile	/^srcdir = .$/;"	m
+srcdir	primer/examples/Makefile	/^srcdir = .$/;"	m
+srcdir	primer/examples/src/Makefile	/^srcdir = .$/;"	m
+str_out	codingame/Spring_Challenge_2020/pac.py	/^		str_out = str_out+ command_list[j] +" "+ str(pac_list[j]) + " " + str(x_obj[j]) + " " + str(y_obj[j])+"|"$/;"	v
+str_out	codingame/Spring_Challenge_2020/pac.py	/^	str_out = ""$/;"	v
+subdir	autotools/hello_example/Makefile	/^subdir = .$/;"	m
+subdir	autotools/hello_example/src/Makefile	/^subdir = src$/;"	m
+subdir	codewars/kata/Makefile	/^subdir = .$/;"	m
+subdir	codewars/kata/src/Makefile	/^subdir = src$/;"	m
+subdir	ea_test/Makefile	/^subdir = .$/;"	m
+subdir	ea_test/src/Makefile	/^subdir = src$/;"	m
+subdir	primer/examples/Makefile	/^subdir = .$/;"	m
+subdir	primer/examples/src/Makefile	/^subdir = src$/;"	m
+sum	primer/examples/src/swapping.cpp	/^int sum(int a, int b = 7)$/;"	f
+sum	primer/examples/src/swapping.cpp	/^long sum(long a, long b = 2)$/;"	f
+sumFracts	codewars/kata/src/sum_of_fractions.cpp	/^static std::pair <int, int> sumFracts(std::vector<std::vector<int>> &l)$/;"	f	file:
+sum_of_digits_digital_root_LDADD	codewars/kata/src/Makefile	/^sum_of_digits_digital_root_LDADD = $(LDADD)$/;"	m
+sum_of_digits_digital_root_OBJECTS	codewars/kata/src/Makefile	/^sum_of_digits_digital_root_OBJECTS =  \\$/;"	m
+sum_of_digits_digital_root_SOURCES	codewars/kata/src/Makefile	/^sum_of_digits_digital_root_SOURCES = sum_of_digits_digital_root.cpp$/;"	m
+sum_of_fractions_LDADD	codewars/kata/src/Makefile	/^sum_of_fractions_LDADD = $(LDADD)$/;"	m
+sum_of_fractions_OBJECTS	codewars/kata/src/Makefile	/^sum_of_fractions_OBJECTS = $(am_sum_of_fractions_OBJECTS)$/;"	m
+sum_of_fractions_SOURCES	codewars/kata/src/Makefile	/^sum_of_fractions_SOURCES = sum_of_fractions.cpp$/;"	m
+sum_of_numbers_LDADD	codewars/kata/src/Makefile	/^sum_of_numbers_LDADD = $(LDADD)$/;"	m
+sum_of_numbers_OBJECTS	codewars/kata/src/Makefile	/^sum_of_numbers_OBJECTS = $(am_sum_of_numbers_OBJECTS)$/;"	m
+sum_of_numbers_SOURCES	codewars/kata/src/Makefile	/^sum_of_numbers_SOURCES = sum_of_numbers.cpp$/;"	m
+swap	codingame/puzzles/ghost_legs.py	/^	def swap(self, line, max):$/;"	m	class:Runner
+swap_a	primer/examples/src/swapping.cpp	/^void swap_a(int* pa, int* pb)$/;"	f
+swap_b	primer/examples/src/swapping.cpp	/^void swap_b(int a, int b)$/;"	f
+swap_c	primer/examples/src/swapping.cpp	/^void swap_c(int &a, int &b)$/;"	f
+swapping_LDADD	primer/examples/src/Makefile	/^swapping_LDADD = $(LDADD)$/;"	m
+swapping_OBJECTS	primer/examples/src/Makefile	/^swapping_OBJECTS = $(am_swapping_OBJECTS)$/;"	m
+swapping_SOURCES	primer/examples/src/Makefile	/^swapping_SOURCES = swapping.cpp$/;"	m
+synch_local	tools/git/synch.sh	/^synch_local() {$/;"	f
+sysconfdir	autotools/hello_example/Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+sysconfdir	autotools/hello_example/src/Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+sysconfdir	codewars/kata/Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+sysconfdir	codewars/kata/src/Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+sysconfdir	ea_test/Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+sysconfdir	ea_test/src/Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+sysconfdir	primer/examples/Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+sysconfdir	primer/examples/src/Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+tail_recursion_LDADD	primer/examples/src/Makefile	/^tail_recursion_LDADD = $(LDADD)$/;"	m
+tail_recursion_OBJECTS	primer/examples/src/Makefile	/^tail_recursion_OBJECTS = $(am_tail_recursion_OBJECTS)$/;"	m
+tail_recursion_SOURCES	primer/examples/src/Makefile	/^tail_recursion_SOURCES = tail_recursion.cpp$/;"	m
+tardir	autotools/hello_example/Makefile	/^	tardir=$(distdir) && $(am__tar) | BZIP2=$${BZIP2--9} bzip2 -c >$(distdir).tar.bz2$/;"	m
+tardir	autotools/hello_example/Makefile	/^	tardir=$(distdir) && $(am__tar) | XZ_OPT=$${XZ_OPT--e} xz -c >$(distdir).tar.xz$/;"	m
+tardir	autotools/hello_example/Makefile	/^	tardir=$(distdir) && $(am__tar) | compress -c >$(distdir).tar.Z$/;"	m
+tardir	autotools/hello_example/Makefile	/^	tardir=$(distdir) && $(am__tar) | eval GZIP= gzip $(GZIP_ENV) -c >$(distdir).tar.gz$/;"	m
+tardir	autotools/hello_example/Makefile	/^	tardir=$(distdir) && $(am__tar) | lzip -c $${LZIP_OPT--9} >$(distdir).tar.lz$/;"	m
+tardir	codewars/kata/Makefile	/^	tardir=$(distdir) && $(am__tar) | BZIP2=$${BZIP2--9} bzip2 -c >$(distdir).tar.bz2$/;"	m
+tardir	codewars/kata/Makefile	/^	tardir=$(distdir) && $(am__tar) | XZ_OPT=$${XZ_OPT--e} xz -c >$(distdir).tar.xz$/;"	m
+tardir	codewars/kata/Makefile	/^	tardir=$(distdir) && $(am__tar) | compress -c >$(distdir).tar.Z$/;"	m
+tardir	codewars/kata/Makefile	/^	tardir=$(distdir) && $(am__tar) | eval GZIP= gzip $(GZIP_ENV) -c >$(distdir).tar.gz$/;"	m
+tardir	codewars/kata/Makefile	/^	tardir=$(distdir) && $(am__tar) | lzip -c $${LZIP_OPT--9} >$(distdir).tar.lz$/;"	m
+tardir	ea_test/Makefile	/^	tardir=$(distdir) && $(am__tar) | BZIP2=$${BZIP2--9} bzip2 -c >$(distdir).tar.bz2$/;"	m
+tardir	ea_test/Makefile	/^	tardir=$(distdir) && $(am__tar) | XZ_OPT=$${XZ_OPT--e} xz -c >$(distdir).tar.xz$/;"	m
+tardir	ea_test/Makefile	/^	tardir=$(distdir) && $(am__tar) | compress -c >$(distdir).tar.Z$/;"	m
+tardir	ea_test/Makefile	/^	tardir=$(distdir) && $(am__tar) | eval GZIP= gzip $(GZIP_ENV) -c >$(distdir).tar.gz$/;"	m
+tardir	ea_test/Makefile	/^	tardir=$(distdir) && $(am__tar) | lzip -c $${LZIP_OPT--9} >$(distdir).tar.lz$/;"	m
+tardir	primer/examples/Makefile	/^	tardir=$(distdir) && $(am__tar) | BZIP2=$${BZIP2--9} bzip2 -c >$(distdir).tar.bz2$/;"	m
+tardir	primer/examples/Makefile	/^	tardir=$(distdir) && $(am__tar) | XZ_OPT=$${XZ_OPT--e} xz -c >$(distdir).tar.xz$/;"	m
+tardir	primer/examples/Makefile	/^	tardir=$(distdir) && $(am__tar) | compress -c >$(distdir).tar.Z$/;"	m
+tardir	primer/examples/Makefile	/^	tardir=$(distdir) && $(am__tar) | eval GZIP= gzip $(GZIP_ENV) -c >$(distdir).tar.gz$/;"	m
+tardir	primer/examples/Makefile	/^	tardir=$(distdir) && $(am__tar) | lzip -c $${LZIP_OPT--9} >$(distdir).tar.lz$/;"	m
+target_alias	autotools/hello_example/Makefile	/^target_alias = $/;"	m
+target_alias	autotools/hello_example/src/Makefile	/^target_alias = $/;"	m
+target_alias	codewars/kata/Makefile	/^target_alias = $/;"	m
+target_alias	codewars/kata/src/Makefile	/^target_alias = $/;"	m
+target_alias	ea_test/Makefile	/^target_alias = $/;"	m
+target_alias	ea_test/src/Makefile	/^target_alias = $/;"	m
+target_alias	primer/examples/Makefile	/^target_alias = $/;"	m
+target_alias	primer/examples/src/Makefile	/^target_alias = $/;"	m
+tect_vector_t	codewars/kata/src/decomp.cpp	/^typedef struct tect_vector_t {$/;"	s	file:
+tect_vector_t	codewars/kata/src/decomp.cpp	/^} tect_vector_t;$/;"	t	typeref:struct:tect_vector_t	file:
+ten_minute_walk_LDADD	codewars/kata/src/Makefile	/^ten_minute_walk_LDADD = $(LDADD)$/;"	m
+ten_minute_walk_OBJECTS	codewars/kata/src/Makefile	/^ten_minute_walk_OBJECTS = $(am_ten_minute_walk_OBJECTS)$/;"	m
+ten_minute_walk_SOURCES	codewars/kata/src/Makefile	/^ten_minute_walk_SOURCES = ten_minute_walk.cpp$/;"	m
+test_vector_t	codewars/kata/src/tribonacci.cpp	/^typedef struct test_vector_t {$/;"	s	file:
+test_vector_t	codewars/kata/src/tribonacci.cpp	/^} test_vector_t;$/;"	t	typeref:struct:test_vector_t	file:
+testequal	codewars/kata/src/prime_decomp.cpp	/^void testequal(std::string ans, std::string sol) {$/;"	f
+threads1_LDADD	primer/examples/src/Makefile	/^threads1_LDADD = $(LDADD)$/;"	m
+threads1_OBJECTS	primer/examples/src/Makefile	/^threads1_OBJECTS = $(am_threads1_OBJECTS)$/;"	m
+threads1_SOURCES	primer/examples/src/Makefile	/^threads1_SOURCES = threads1.cpp$/;"	m
+tickets	codewars/kata/src/tickets.cpp	/^std::string tickets(const std::vector<int>& peopleInLine) {$/;"	f
+tickets_LDADD	codewars/kata/src/Makefile	/^tickets_LDADD = $(LDADD)$/;"	m
+tickets_OBJECTS	codewars/kata/src/Makefile	/^tickets_OBJECTS = $(am_tickets_OBJECTS)$/;"	m
+tickets_SOURCES	codewars/kata/src/Makefile	/^tickets_SOURCES = tickets.cpp$/;"	m
+tmp_mime	codingame/puzzles/mime_types.py	/^	tmp_mime = Mime(ext, mt)$/;"	v
+top_build_prefix	autotools/hello_example/Makefile	/^top_build_prefix = $/;"	m
+top_build_prefix	autotools/hello_example/src/Makefile	/^top_build_prefix = ..\/$/;"	m
+top_build_prefix	codewars/kata/Makefile	/^top_build_prefix = $/;"	m
+top_build_prefix	codewars/kata/src/Makefile	/^top_build_prefix = ..\/$/;"	m
+top_build_prefix	ea_test/Makefile	/^top_build_prefix = $/;"	m
+top_build_prefix	ea_test/src/Makefile	/^top_build_prefix = ..\/$/;"	m
+top_build_prefix	primer/examples/Makefile	/^top_build_prefix = $/;"	m
+top_build_prefix	primer/examples/src/Makefile	/^top_build_prefix = ..\/$/;"	m
+top_builddir	autotools/hello_example/Makefile	/^top_builddir = .$/;"	m
+top_builddir	autotools/hello_example/src/Makefile	/^top_builddir = ..$/;"	m
+top_builddir	codewars/kata/Makefile	/^top_builddir = .$/;"	m
+top_builddir	codewars/kata/src/Makefile	/^top_builddir = ..$/;"	m
+top_builddir	ea_test/Makefile	/^top_builddir = .$/;"	m
+top_builddir	ea_test/src/Makefile	/^top_builddir = ..$/;"	m
+top_builddir	primer/examples/Makefile	/^top_builddir = .$/;"	m
+top_builddir	primer/examples/src/Makefile	/^top_builddir = ..$/;"	m
+top_distdir	autotools/hello_example/Makefile	/^top_distdir = $(distdir)$/;"	m
+top_distdir	codewars/kata/Makefile	/^top_distdir = $(distdir)$/;"	m
+top_distdir	ea_test/Makefile	/^top_distdir = $(distdir)$/;"	m
+top_distdir	primer/examples/Makefile	/^top_distdir = $(distdir)$/;"	m
+top_srcdir	autotools/hello_example/Makefile	/^top_srcdir = .$/;"	m
+top_srcdir	autotools/hello_example/src/Makefile	/^top_srcdir = ..$/;"	m
+top_srcdir	codewars/kata/Makefile	/^top_srcdir = .$/;"	m
+top_srcdir	codewars/kata/src/Makefile	/^top_srcdir = ..$/;"	m
+top_srcdir	ea_test/Makefile	/^top_srcdir = .$/;"	m
+top_srcdir	ea_test/src/Makefile	/^top_srcdir = ..$/;"	m
+top_srcdir	primer/examples/Makefile	/^top_srcdir = .$/;"	m
+top_srcdir	primer/examples/src/Makefile	/^top_srcdir = ..$/;"	m
+transform	autotools/hello_example/Makefile	/^transform = $(program_transform_name)$/;"	m
+transform	autotools/hello_example/src/Makefile	/^transform = $(program_transform_name)$/;"	m
+transform	codewars/kata/Makefile	/^transform = $(program_transform_name)$/;"	m
+transform	codewars/kata/src/Makefile	/^transform = $(program_transform_name)$/;"	m
+transform	ea_test/Makefile	/^transform = $(program_transform_name)$/;"	m
+transform	ea_test/src/Makefile	/^transform = $(program_transform_name)$/;"	m
+transform	primer/examples/Makefile	/^transform = $(program_transform_name)$/;"	m
+transform	primer/examples/src/Makefile	/^transform = $(program_transform_name)$/;"	m
+tribonacci	codewars/kata/src/tribonacci.cpp	/^std::vector<int> tribonacci(std::vector<int> signature, int n)$/;"	f
+tribonacci_LDADD	codewars/kata/src/Makefile	/^tribonacci_LDADD = $(LDADD)$/;"	m
+tribonacci_OBJECTS	codewars/kata/src/Makefile	/^tribonacci_OBJECTS = $(am_tribonacci_OBJECTS)$/;"	m
+tribonacci_SOURCES	codewars/kata/src/Makefile	/^tribonacci_SOURCES = tribonacci.cpp$/;"	m
+troops	codingame/ghost_in_the_cell/ghost3.cpp	/^	uint troops; \/*< actual number *\/$/;"	m	class:Factory	file:
+two_sum	codewars/kata/src/two_sum.cpp	/^std::pair<std::size_t, std::size_t> two_sum(const std::vector<int>& numbers,$/;"	f
+two_sum_LDADD	codewars/kata/src/Makefile	/^two_sum_LDADD = $(LDADD)$/;"	m
+two_sum_OBJECTS	codewars/kata/src/Makefile	/^two_sum_OBJECTS = $(am_two_sum_OBJECTS)$/;"	m
+two_sum_SOURCES	codewars/kata/src/Makefile	/^two_sum_SOURCES = two_sum.cpp$/;"	m
+uint	codingame/ghost_in_the_cell/ghost3.cpp	8;"	d	file:
+ull	codewars/kata/src/fibonacci.cpp	/^typedef unsigned long long ull;$/;"	t	file:
+update_humans	codingame/puzzles/code_vs_zombies.py	/^	def update_humans(self):$/;"	m	class:Actors
+update_map	codingame/ghost_in_the_cell/ghost1.py	/^	def update_map(self, data):$/;"	m	class:Map
+update_map	codingame/ghost_in_the_cell/ghost2.py	/^	def update_map(self, data):$/;"	m	class:Map
+update_priority	codingame/puzzles/code_vs_zombies.py	/^	def update_priority(self):$/;"	m	class:Human
+update_voronoi	codingame/ghost_in_the_cell/ghost3.cpp	/^	void update_voronoi() {$/;"	f	class:Map
+update_zombies	codingame/puzzles/code_vs_zombies.py	/^	def update_zombies(self):$/;"	m	class:Actors
+usage	tools/automake/update_makefile.sh	/^usage () {$/;"	f
+usage	tools/git/add2gitignore.sh	/^usage () {$/;"	f
+usage	tools/git/clean.sh	/^usage () {$/;"	f
+usage	tools/git/synch.sh	/^usage () {$/;"	f
+usage	tools/git/update_libs.sh	/^usage () {$/;"	f
+val	codingame/Spring_Challenge_2020/pac.py	/^			val = calc_value(x, y, x_list[j], y_list[j], value)$/;"	v
+validParentheses	codewars/kata/src/valid_parentheses.c	/^bool validParentheses(const char *str_in)$/;"	f
+valid_braces	codewars/kata/src/valid_braces.cpp	/^bool valid_braces(std::string braces)$/;"	f
+valid_braces_LDADD	codewars/kata/src/Makefile	/^valid_braces_LDADD = $(LDADD)$/;"	m
+valid_braces_OBJECTS	codewars/kata/src/Makefile	/^valid_braces_OBJECTS = $(am_valid_braces_OBJECTS)$/;"	m
+valid_braces_SOURCES	codewars/kata/src/Makefile	/^valid_braces_SOURCES = valid_braces.cpp$/;"	m
+valid_parentheses_LDADD	codewars/kata/src/Makefile	/^valid_parentheses_LDADD = $(LDADD)$/;"	m
+valid_parentheses_OBJECTS	codewars/kata/src/Makefile	/^valid_parentheses_OBJECTS = $(am_valid_parentheses_OBJECTS)$/;"	m
+valid_parentheses_SOURCES	codewars/kata/src/Makefile	/^valid_parentheses_SOURCES = valid_parentheses.c$/;"	m
+version	primer/examples/src/swapping.cpp	/^const std::string & version(std::string & s1, const std::string & s2)$/;"	f
+version2	primer/examples/src/swapping.cpp	/^const std::string & version2(const std::string & s1, const std::string & s2)$/;"	f
+visible_pac_count	codingame/Spring_Challenge_2020/pac.py	/^	visible_pac_count = int(input())  # all your pacs and enemy pacs in sight$/;"	v
+visible_pellet_count	codingame/Spring_Challenge_2020/pac.py	/^	visible_pellet_count = int(input())  # all pellets in sight$/;"	v
+waitting_LDADD	primer/examples/src/Makefile	/^waitting_LDADD = $(LDADD)$/;"	m
+waitting_OBJECTS	primer/examples/src/Makefile	/^waitting_OBJECTS = $(am_waitting_OBJECTS)$/;"	m
+waitting_SOURCES	primer/examples/src/Makefile	/^waitting_SOURCES = waitting.cpp$/;"	m
+weigth	codingame/puzzles/mime_types.c	/^	unsigned long weigth;$/;"	m	struct:ext_mime_t	file:
+which_are_in_LDADD	codewars/kata/src/Makefile	/^which_are_in_LDADD = $(LDADD)$/;"	m
+which_are_in_OBJECTS	codewars/kata/src/Makefile	/^which_are_in_OBJECTS = $(am_which_are_in_OBJECTS)$/;"	m
+which_are_in_SOURCES	codewars/kata/src/Makefile	/^which_are_in_SOURCES = which_are_in.cpp$/;"	m
+wi	codingame/puzzles/huffman_code.py	/^wi=[]$/;"	v
+x1	codingame/puzzles/mars_lander_2.c	/^	int x1;$/;"	m	struct:objective_t	file:
+x2	codingame/puzzles/mars_lander_2.c	/^	int x2;$/;"	m	struct:objective_t	file:
+x_last	codingame/Spring_Challenge_2020/pac.py	/^		x_last = [-1]*len(x_list)$/;"	v
+x_list	codingame/Spring_Challenge_2020/pac.py	/^	x_list = []$/;"	v
+x_obj	codingame/Spring_Challenge_2020/pac.py	/^	x_obj = [0]*len(x_list)$/;"	v
+y	codingame/puzzles/mars_lander_2.c	/^	int y;$/;"	m	struct:objective_t	file:
+y_last	codingame/Spring_Challenge_2020/pac.py	/^		y_last = [-1]*len(x_list)$/;"	v
+y_list	codingame/Spring_Challenge_2020/pac.py	/^	y_list = [] $/;"	v
+y_list	codingame/Spring_Challenge_2020/pac.py	/^	y_list = []$/;"	v
+y_obj	codingame/Spring_Challenge_2020/pac.py	/^	y_obj = [0]*len(x_list)$/;"	v
+zombie_count	codingame/puzzles/code_vs_zombies.py	/^	zombie_count = int(input())$/;"	v	class:Actors
+~BootstrapTest	primer/examples/src/hello.cpp	/^	~BootstrapTest() {$/;"	f	class:BootstrapTest
+~Test	primer/examples/src/smart_pointers.cpp	/^	~Test()$/;"	f	class:Test

@@ -1,0 +1,38 @@
+-- w3resource.com/mysql-exercises/basic-simple-exercises/
+
+SELECT first_name "FIRST NAME", last_name "LAST NAME"
+FROM employees;
+
+SELECT DISTINCT depertment_id
+FROM employees;
+
+SELECT *
+  FROM employees
+ ORDER BY first_name DESC;
+
+SELECT first_name, last_name, salary, salary * 0.15 "PF"
+  FROM employees;
+
+SELECT first_name, last_name, salary
+  FROM employees
+ ORDER BY salary ASC;
+
+SELECT SUM(salary)
+  FROM employees;
+
+SELECT MAX(salary), MIN(salary)
+  FROM employees;
+
+
+SELECT a.CustomerName, a.City, b.Salesman, b.Commision
+  FROM Customer a
+ INNER JOIN Salesman b
+    ON a.CustomerID = b.CustomerID
+ WHERE b.Commision > 0.12
+
+SELECT SalesmanId
+  FROM orders a
+ INNER JOIN customer b
+    ON a.SalesmanId ==
+       (SELECT SalesmanId
+	      FROM b )

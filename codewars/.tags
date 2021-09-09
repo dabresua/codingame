@@ -1,0 +1,575 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACLOCAL	kata/Makefile	/^ACLOCAL = ${SHELL} \/home\/bret\/workspace\/training\/codewars\/kata\/missing aclocal-1.15$/;"	m
+ACLOCAL	kata/src/Makefile	/^ACLOCAL = ${SHELL} \/home\/bret\/workspace\/training\/codewars\/kata\/missing aclocal-1.15$/;"	m
+ACLOCAL_M4	kata/Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ACLOCAL_M4	kata/src/Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+AMTAR	kata/Makefile	/^AMTAR = $${TAR-tar}$/;"	m
+AMTAR	kata/src/Makefile	/^AMTAR = $${TAR-tar}$/;"	m
+AM_DEFAULT_VERBOSITY	kata/Makefile	/^AM_DEFAULT_VERBOSITY = 1$/;"	m
+AM_DEFAULT_VERBOSITY	kata/src/Makefile	/^AM_DEFAULT_VERBOSITY = 1$/;"	m
+AM_RECURSIVE_TARGETS	kata/Makefile	/^AM_RECURSIVE_TARGETS = $(am__recursive_targets:-recursive=) TAGS CTAGS \\$/;"	m
+AM_V_CC	kata/src/Makefile	/^AM_V_CC = $(am__v_CC_$(V))$/;"	m
+AM_V_CCLD	kata/src/Makefile	/^AM_V_CCLD = $(am__v_CCLD_$(V))$/;"	m
+AM_V_CXX	kata/src/Makefile	/^AM_V_CXX = $(am__v_CXX_$(V))$/;"	m
+AM_V_CXXLD	kata/src/Makefile	/^AM_V_CXXLD = $(am__v_CXXLD_$(V))$/;"	m
+AM_V_GEN	kata/Makefile	/^AM_V_GEN = $(am__v_GEN_$(V))$/;"	m
+AM_V_GEN	kata/src/Makefile	/^AM_V_GEN = $(am__v_GEN_$(V))$/;"	m
+AM_V_P	kata/Makefile	/^AM_V_P = $(am__v_P_$(V))$/;"	m
+AM_V_P	kata/src/Makefile	/^AM_V_P = $(am__v_P_$(V))$/;"	m
+AM_V_at	kata/Makefile	/^AM_V_at = $(am__v_at_$(V))$/;"	m
+AM_V_at	kata/src/Makefile	/^AM_V_at = $(am__v_at_$(V))$/;"	m
+AUTOCONF	kata/Makefile	/^AUTOCONF = ${SHELL} \/home\/bret\/workspace\/training\/codewars\/kata\/missing autoconf$/;"	m
+AUTOCONF	kata/src/Makefile	/^AUTOCONF = ${SHELL} \/home\/bret\/workspace\/training\/codewars\/kata\/missing autoconf$/;"	m
+AUTOHEADER	kata/Makefile	/^AUTOHEADER = ${SHELL} \/home\/bret\/workspace\/training\/codewars\/kata\/missing autoheader$/;"	m
+AUTOHEADER	kata/src/Makefile	/^AUTOHEADER = ${SHELL} \/home\/bret\/workspace\/training\/codewars\/kata\/missing autoheader$/;"	m
+AUTOMAKE	kata/Makefile	/^AUTOMAKE = ${SHELL} \/home\/bret\/workspace\/training\/codewars\/kata\/missing automake-1.15$/;"	m
+AUTOMAKE	kata/src/Makefile	/^AUTOMAKE = ${SHELL} \/home\/bret\/workspace\/training\/codewars\/kata\/missing automake-1.15$/;"	m
+AWK	kata/Makefile	/^AWK = gawk$/;"	m
+AWK	kata/src/Makefile	/^AWK = gawk$/;"	m
+CC	kata/Makefile	/^CC = gcc$/;"	m
+CC	kata/src/Makefile	/^CC = gcc$/;"	m
+CCDEPMODE	kata/Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCDEPMODE	kata/src/Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCLD	kata/src/Makefile	/^CCLD = $(CC)$/;"	m
+CFLAGS	kata/Makefile	/^CFLAGS = -g -O2$/;"	m
+CFLAGS	kata/src/Makefile	/^CFLAGS = -g -O2$/;"	m
+CLEAN_CHAR	kata/src/valid_braces.cpp	7;"	d	file:
+COMPILE	kata/src/Makefile	/^COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \\$/;"	m
+CONFIG_CLEAN_FILES	kata/Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_FILES	kata/src/Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	kata/Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	kata/src/Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_HEADER	kata/Makefile	/^CONFIG_HEADER = config.h$/;"	m
+CONFIG_HEADER	kata/src/Makefile	/^CONFIG_HEADER = $(top_builddir)\/config.h$/;"	m
+CPPFLAGS	kata/Makefile	/^CPPFLAGS = $/;"	m
+CPPFLAGS	kata/src/Makefile	/^CPPFLAGS = $/;"	m
+CSCOPE	kata/Makefile	/^CSCOPE = cscope$/;"	m
+CTAGS	kata/Makefile	/^CTAGS = ctags$/;"	m
+CTAGS	kata/src/Makefile	/^CTAGS = ctags$/;"	m
+CXX	kata/Makefile	/^CXX = g++$/;"	m
+CXX	kata/src/Makefile	/^CXX = g++$/;"	m
+CXXCOMPILE	kata/src/Makefile	/^CXXCOMPILE = $(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) \\$/;"	m
+CXXDEPMODE	kata/Makefile	/^CXXDEPMODE = depmode=gcc3$/;"	m
+CXXDEPMODE	kata/src/Makefile	/^CXXDEPMODE = depmode=gcc3$/;"	m
+CXXFLAGS	kata/Makefile	/^CXXFLAGS = -g -O2$/;"	m
+CXXFLAGS	kata/src/Makefile	/^CXXFLAGS = -g -O2$/;"	m
+CXXLD	kata/src/Makefile	/^CXXLD = $(CXX)$/;"	m
+CXXLINK	kata/src/Makefile	/^CXXLINK = $(CXXLD) $(AM_CXXFLAGS) $(CXXFLAGS) $(AM_LDFLAGS) $(LDFLAGS) \\$/;"	m
+CYGPATH_W	kata/Makefile	/^CYGPATH_W = echo$/;"	m
+CYGPATH_W	kata/src/Makefile	/^CYGPATH_W = echo$/;"	m
+DATA	kata/Makefile	/^DATA = $(dist_doc_DATA)$/;"	m
+DEFAULT_INCLUDES	kata/src/Makefile	/^DEFAULT_INCLUDES = -I. -I$(top_builddir)$/;"	m
+DEFS	kata/Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEFS	kata/src/Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEPDIR	kata/Makefile	/^DEPDIR = .deps$/;"	m
+DEPDIR	kata/src/Makefile	/^DEPDIR = .deps$/;"	m
+DISTFILES	kata/Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DISTFILES	kata/src/Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DIST_ARCHIVES	kata/Makefile	/^DIST_ARCHIVES = $(distdir).tar.gz$/;"	m
+DIST_COMMON	kata/Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.am $(top_srcdir)\/configure \\$/;"	m
+DIST_COMMON	kata/src/Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.am $(am__DIST_COMMON)$/;"	m
+DIST_SOURCES	kata/Makefile	/^DIST_SOURCES =$/;"	m
+DIST_SOURCES	kata/src/Makefile	/^DIST_SOURCES = $(bit_counting_SOURCES) $(decomp_SOURCES) \\$/;"	m
+DIST_SUBDIRS	kata/Makefile	/^DIST_SUBDIRS = $(SUBDIRS)$/;"	m
+DIST_TARGETS	kata/Makefile	/^DIST_TARGETS = dist-gzip$/;"	m
+Decomp	kata/src/decomp.cpp	/^class Decomp$/;"	c	file:
+ECHO_C	kata/Makefile	/^ECHO_C = $/;"	m
+ECHO_C	kata/src/Makefile	/^ECHO_C = $/;"	m
+ECHO_N	kata/Makefile	/^ECHO_N = -n$/;"	m
+ECHO_N	kata/src/Makefile	/^ECHO_N = -n$/;"	m
+ECHO_T	kata/Makefile	/^ECHO_T = $/;"	m
+ECHO_T	kata/src/Makefile	/^ECHO_T = $/;"	m
+ETAGS	kata/Makefile	/^ETAGS = etags$/;"	m
+ETAGS	kata/src/Makefile	/^ETAGS = etags$/;"	m
+EXEEXT	kata/Makefile	/^EXEEXT = $/;"	m
+EXEEXT	kata/src/Makefile	/^EXEEXT = $/;"	m
+GZIP_ENV	kata/Makefile	/^GZIP_ENV = --best$/;"	m
+INSTALL	kata/Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL	kata/src/Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL_DATA	kata/Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_DATA	kata/src/Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_HEADER	kata/Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_HEADER	kata/src/Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_PROGRAM	kata/Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_PROGRAM	kata/src/Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	kata/Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	kata/src/Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_STRIP_PROGRAM	kata/Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+INSTALL_STRIP_PROGRAM	kata/src/Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+LDFLAGS	kata/Makefile	/^LDFLAGS = $/;"	m
+LDFLAGS	kata/src/Makefile	/^LDFLAGS = $/;"	m
+LIBOBJS	kata/Makefile	/^LIBOBJS = $/;"	m
+LIBOBJS	kata/src/Makefile	/^LIBOBJS = $/;"	m
+LIBS	kata/Makefile	/^LIBS = $/;"	m
+LIBS	kata/src/Makefile	/^LIBS = $/;"	m
+LINK	kata/src/Makefile	/^LINK = $(CCLD) $(AM_CFLAGS) $(CFLAGS) $(AM_LDFLAGS) $(LDFLAGS) -o $@$/;"	m
+LTLIBOBJS	kata/Makefile	/^LTLIBOBJS = $/;"	m
+LTLIBOBJS	kata/src/Makefile	/^LTLIBOBJS = $/;"	m
+MAKEINFO	kata/Makefile	/^MAKEINFO = ${SHELL} \/home\/bret\/workspace\/training\/codewars\/kata\/missing makeinfo$/;"	m
+MAKEINFO	kata/src/Makefile	/^MAKEINFO = ${SHELL} \/home\/bret\/workspace\/training\/codewars\/kata\/missing makeinfo$/;"	m
+MKDIR_P	kata/Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+MKDIR_P	kata/src/Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+NORMAL_INSTALL	kata/Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_INSTALL	kata/src/Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_UNINSTALL	kata/Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NORMAL_UNINSTALL	kata/src/Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+OBJEXT	kata/Makefile	/^OBJEXT = o$/;"	m
+OBJEXT	kata/src/Makefile	/^OBJEXT = o$/;"	m
+PACKAGE	kata/Makefile	/^PACKAGE = kata$/;"	m
+PACKAGE	kata/config.h	5;"	d
+PACKAGE	kata/src/Makefile	/^PACKAGE = kata$/;"	m
+PACKAGE_BUGREPORT	kata/Makefile	/^PACKAGE_BUGREPORT = d.breton.suarez@gmail.com$/;"	m
+PACKAGE_BUGREPORT	kata/config.h	8;"	d
+PACKAGE_BUGREPORT	kata/src/Makefile	/^PACKAGE_BUGREPORT = d.breton.suarez@gmail.com$/;"	m
+PACKAGE_NAME	kata/Makefile	/^PACKAGE_NAME = kata$/;"	m
+PACKAGE_NAME	kata/config.h	11;"	d
+PACKAGE_NAME	kata/src/Makefile	/^PACKAGE_NAME = kata$/;"	m
+PACKAGE_STRING	kata/Makefile	/^PACKAGE_STRING = kata 1.0$/;"	m
+PACKAGE_STRING	kata/config.h	14;"	d
+PACKAGE_STRING	kata/src/Makefile	/^PACKAGE_STRING = kata 1.0$/;"	m
+PACKAGE_TARNAME	kata/Makefile	/^PACKAGE_TARNAME = kata$/;"	m
+PACKAGE_TARNAME	kata/config.h	17;"	d
+PACKAGE_TARNAME	kata/src/Makefile	/^PACKAGE_TARNAME = kata$/;"	m
+PACKAGE_URL	kata/Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_URL	kata/config.h	20;"	d
+PACKAGE_URL	kata/src/Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_VERSION	kata/Makefile	/^PACKAGE_VERSION = 1.0$/;"	m
+PACKAGE_VERSION	kata/config.h	23;"	d
+PACKAGE_VERSION	kata/src/Makefile	/^PACKAGE_VERSION = 1.0$/;"	m
+PATH_SEPARATOR	kata/Makefile	/^PATH_SEPARATOR = :$/;"	m
+PATH_SEPARATOR	kata/src/Makefile	/^PATH_SEPARATOR = :$/;"	m
+POST_INSTALL	kata/Makefile	/^POST_INSTALL = :$/;"	m
+POST_INSTALL	kata/src/Makefile	/^POST_INSTALL = :$/;"	m
+POST_UNINSTALL	kata/Makefile	/^POST_UNINSTALL = :$/;"	m
+POST_UNINSTALL	kata/src/Makefile	/^POST_UNINSTALL = :$/;"	m
+PRE_INSTALL	kata/Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_INSTALL	kata/src/Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_UNINSTALL	kata/Makefile	/^PRE_UNINSTALL = :$/;"	m
+PRE_UNINSTALL	kata/src/Makefile	/^PRE_UNINSTALL = :$/;"	m
+PROGRAMS	kata/src/Makefile	/^PROGRAMS = $(bin_PROGRAMS)$/;"	m
+PrimeDecomp	kata/src/prime_decomp.cpp	/^class PrimeDecomp$/;"	c	file:
+RECURSIVE_CLEAN_TARGETS	kata/Makefile	/^RECURSIVE_CLEAN_TARGETS = mostlyclean-recursive clean-recursive	\\$/;"	m
+RECURSIVE_TARGETS	kata/Makefile	/^RECURSIVE_TARGETS = all-recursive check-recursive cscopelist-recursive \\$/;"	m
+SET_MAKE	kata/Makefile	/^SET_MAKE = $/;"	m
+SET_MAKE	kata/src/Makefile	/^SET_MAKE = $/;"	m
+SHELL	kata/Makefile	/^SHELL = \/bin\/bash$/;"	m
+SHELL	kata/src/Makefile	/^SHELL = \/bin\/bash$/;"	m
+SOURCES	kata/Makefile	/^SOURCES =$/;"	m
+SOURCES	kata/src/Makefile	/^SOURCES = $(bit_counting_SOURCES) $(decomp_SOURCES) \\$/;"	m
+STRIP	kata/Makefile	/^STRIP = $/;"	m
+STRIP	kata/src/Makefile	/^STRIP = $/;"	m
+SUBDIRS	kata/Makefile	/^SUBDIRS = src$/;"	m
+TEST_LEN	kata/src/is_square.cpp	12;"	d	file:
+TEST_LEN	kata/src/middle_char.cpp	14;"	d	file:
+TEST_LEN	kata/src/mult_table.cpp	19;"	d	file:
+VERSION	kata/Makefile	/^VERSION = 1.0$/;"	m
+VERSION	kata/config.h	26;"	d
+VERSION	kata/src/Makefile	/^VERSION = 1.0$/;"	m
+XO	kata/src/exes_and_ohs.cpp	/^bool XO(const std::string& str)$/;"	f
+abs_builddir	kata/Makefile	/^abs_builddir = \/home\/bret\/workspace\/training\/codewars\/kata$/;"	m
+abs_builddir	kata/src/Makefile	/^abs_builddir = \/home\/bret\/workspace\/training\/codewars\/kata\/src$/;"	m
+abs_srcdir	kata/Makefile	/^abs_srcdir = \/home\/bret\/workspace\/training\/codewars\/kata$/;"	m
+abs_srcdir	kata/src/Makefile	/^abs_srcdir = \/home\/bret\/workspace\/training\/codewars\/kata\/src$/;"	m
+abs_top_builddir	kata/Makefile	/^abs_top_builddir = \/home\/bret\/workspace\/training\/codewars\/kata$/;"	m
+abs_top_builddir	kata/src/Makefile	/^abs_top_builddir = \/home\/bret\/workspace\/training\/codewars\/kata$/;"	m
+abs_top_srcdir	kata/Makefile	/^abs_top_srcdir = \/home\/bret\/workspace\/training\/codewars\/kata$/;"	m
+abs_top_srcdir	kata/src/Makefile	/^abs_top_srcdir = \/home\/bret\/workspace\/training\/codewars\/kata$/;"	m
+ac_ct_CC	kata/Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CC	kata/src/Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CXX	kata/Makefile	/^ac_ct_CXX = g++$/;"	m
+ac_ct_CXX	kata/src/Makefile	/^ac_ct_CXX = g++$/;"	m
+ac_fn_c_try_compile	kata/configure	/^ac_fn_c_try_compile ()$/;"	f
+ac_fn_cxx_try_compile	kata/configure	/^ac_fn_cxx_try_compile ()$/;"	f
+aix_post_process_depfile	kata/depcomp	/^aix_post_process_depfile ()$/;"	f
+am__CONFIG_DISTCLEAN_FILES	kata/Makefile	/^am__CONFIG_DISTCLEAN_FILES = config.status config.cache config.log \\$/;"	m
+am__DIST_COMMON	kata/Makefile	/^am__DIST_COMMON = $(srcdir)\/Makefile.in $(srcdir)\/config.h.in README \\$/;"	m
+am__DIST_COMMON	kata/src/Makefile	/^am__DIST_COMMON = $(srcdir)\/Makefile.in $(top_srcdir)\/depcomp$/;"	m
+am__aclocal_m4_deps	kata/Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/configure.ac$/;"	m
+am__aclocal_m4_deps	kata/src/Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/configure.ac$/;"	m
+am__base_list	kata/Makefile	/^am__base_list = \\$/;"	m
+am__can_run_installinfo	kata/Makefile	/^am__can_run_installinfo = \\$/;"	m
+am__can_run_installinfo	kata/src/Makefile	/^am__can_run_installinfo = \\$/;"	m
+am__cd	kata/Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__cd	kata/src/Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__configure_deps	kata/Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__configure_deps	kata/src/Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__define_uniq_tagged_files	kata/Makefile	/^am__define_uniq_tagged_files = \\$/;"	m
+am__define_uniq_tagged_files	kata/src/Makefile	/^am__define_uniq_tagged_files = \\$/;"	m
+am__depfiles_maybe	kata/src/Makefile	/^am__depfiles_maybe = depfiles$/;"	m
+am__distuninstallcheck_listfiles	kata/Makefile	/^am__distuninstallcheck_listfiles = $(distuninstallcheck_listfiles) \\$/;"	m
+am__include	kata/Makefile	/^am__include = include$/;"	m
+am__include	kata/src/Makefile	/^am__include = include$/;"	m
+am__install_max	kata/Makefile	/^am__install_max = 40$/;"	m
+am__installdirs	kata/Makefile	/^am__installdirs = "$(DESTDIR)$(docdir)"$/;"	m
+am__installdirs	kata/src/Makefile	/^am__installdirs = "$(DESTDIR)$(bindir)"$/;"	m
+am__is_gnu_make	kata/Makefile	/^am__is_gnu_make = { \\$/;"	m
+am__is_gnu_make	kata/src/Makefile	/^am__is_gnu_make = { \\$/;"	m
+am__leading_dot	kata/Makefile	/^am__leading_dot = .$/;"	m
+am__leading_dot	kata/src/Makefile	/^am__leading_dot = .$/;"	m
+am__make_dryrun	kata/Makefile	/^am__make_dryrun = (target_option=n; $(am__make_running_with_option))$/;"	m
+am__make_dryrun	kata/src/Makefile	/^am__make_dryrun = (target_option=n; $(am__make_running_with_option))$/;"	m
+am__make_keepgoing	kata/Makefile	/^am__make_keepgoing = (target_option=k; $(am__make_running_with_option))$/;"	m
+am__make_keepgoing	kata/src/Makefile	/^am__make_keepgoing = (target_option=k; $(am__make_running_with_option))$/;"	m
+am__make_running_with_option	kata/Makefile	/^am__make_running_with_option = \\$/;"	m
+am__make_running_with_option	kata/src/Makefile	/^am__make_running_with_option = \\$/;"	m
+am__mv	kata/src/Makefile	/^am__mv = mv -f$/;"	m
+am__nobase_list	kata/Makefile	/^am__nobase_list = $(am__nobase_strip_setup); \\$/;"	m
+am__nobase_strip	kata/Makefile	/^am__nobase_strip = \\$/;"	m
+am__nobase_strip_setup	kata/Makefile	/^am__nobase_strip_setup = \\$/;"	m
+am__post_remove_distdir	kata/Makefile	/^am__post_remove_distdir = $(am__remove_distdir)$/;"	m
+am__quote	kata/Makefile	/^am__quote = $/;"	m
+am__quote	kata/src/Makefile	/^am__quote = $/;"	m
+am__recursive_targets	kata/Makefile	/^am__recursive_targets = \\$/;"	m
+am__relativize	kata/Makefile	/^am__relativize = \\$/;"	m
+am__remove_distdir	kata/Makefile	/^am__remove_distdir = \\$/;"	m
+am__strip_dir	kata/Makefile	/^am__strip_dir = f=`echo $$p | sed -e 's|^.*\/||'`;$/;"	m
+am__tagged_files	kata/Makefile	/^am__tagged_files = $(HEADERS) $(SOURCES) $(TAGS_FILES) \\$/;"	m
+am__tagged_files	kata/src/Makefile	/^am__tagged_files = $(HEADERS) $(SOURCES) $(TAGS_FILES) $(LISP)$/;"	m
+am__tar	kata/Makefile	/^am__tar = $${TAR-tar} chof - "$$tardir"$/;"	m
+am__tar	kata/src/Makefile	/^am__tar = $${TAR-tar} chof - "$$tardir"$/;"	m
+am__uninstall_files_from_dir	kata/Makefile	/^am__uninstall_files_from_dir = { \\$/;"	m
+am__uniquify_input	kata/Makefile	/^am__uniquify_input = $(AWK) '\\$/;"	m
+am__uniquify_input	kata/src/Makefile	/^am__uniquify_input = $(AWK) '\\$/;"	m
+am__untar	kata/Makefile	/^am__untar = $${TAR-tar} xf -$/;"	m
+am__untar	kata/src/Makefile	/^am__untar = $${TAR-tar} xf -$/;"	m
+am__v_CCLD_	kata/src/Makefile	/^am__v_CCLD_ = $(am__v_CCLD_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CCLD_0	kata/src/Makefile	/^am__v_CCLD_0 = @echo "  CCLD    " $@;$/;"	m
+am__v_CCLD_1	kata/src/Makefile	/^am__v_CCLD_1 = $/;"	m
+am__v_CC_	kata/src/Makefile	/^am__v_CC_ = $(am__v_CC_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CC_0	kata/src/Makefile	/^am__v_CC_0 = @echo "  CC      " $@;$/;"	m
+am__v_CC_1	kata/src/Makefile	/^am__v_CC_1 = $/;"	m
+am__v_CXXLD_	kata/src/Makefile	/^am__v_CXXLD_ = $(am__v_CXXLD_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CXXLD_0	kata/src/Makefile	/^am__v_CXXLD_0 = @echo "  CXXLD   " $@;$/;"	m
+am__v_CXXLD_1	kata/src/Makefile	/^am__v_CXXLD_1 = $/;"	m
+am__v_CXX_	kata/src/Makefile	/^am__v_CXX_ = $(am__v_CXX_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CXX_0	kata/src/Makefile	/^am__v_CXX_0 = @echo "  CXX     " $@;$/;"	m
+am__v_CXX_1	kata/src/Makefile	/^am__v_CXX_1 = $/;"	m
+am__v_GEN_	kata/Makefile	/^am__v_GEN_ = $(am__v_GEN_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_GEN_	kata/src/Makefile	/^am__v_GEN_ = $(am__v_GEN_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_GEN_0	kata/Makefile	/^am__v_GEN_0 = @echo "  GEN     " $@;$/;"	m
+am__v_GEN_0	kata/src/Makefile	/^am__v_GEN_0 = @echo "  GEN     " $@;$/;"	m
+am__v_GEN_1	kata/Makefile	/^am__v_GEN_1 = $/;"	m
+am__v_GEN_1	kata/src/Makefile	/^am__v_GEN_1 = $/;"	m
+am__v_P_	kata/Makefile	/^am__v_P_ = $(am__v_P_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_P_	kata/src/Makefile	/^am__v_P_ = $(am__v_P_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_P_0	kata/Makefile	/^am__v_P_0 = false$/;"	m
+am__v_P_0	kata/src/Makefile	/^am__v_P_0 = false$/;"	m
+am__v_P_1	kata/Makefile	/^am__v_P_1 = :$/;"	m
+am__v_P_1	kata/src/Makefile	/^am__v_P_1 = :$/;"	m
+am__v_at_	kata/Makefile	/^am__v_at_ = $(am__v_at_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_at_	kata/src/Makefile	/^am__v_at_ = $(am__v_at_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_at_0	kata/Makefile	/^am__v_at_0 = @$/;"	m
+am__v_at_0	kata/src/Makefile	/^am__v_at_0 = @$/;"	m
+am__v_at_1	kata/Makefile	/^am__v_at_1 = $/;"	m
+am__v_at_1	kata/src/Makefile	/^am__v_at_1 = $/;"	m
+am__vpath_adj	kata/Makefile	/^am__vpath_adj = case $$p in \\$/;"	m
+am__vpath_adj_setup	kata/Makefile	/^am__vpath_adj_setup = srcdirstrip=`echo "$(srcdir)" | sed 's|.|.|g'`;$/;"	m
+am_bit_counting_OBJECTS	kata/src/Makefile	/^am_bit_counting_OBJECTS = bit_counting.$(OBJEXT)$/;"	m
+am_decomp_OBJECTS	kata/src/Makefile	/^am_decomp_OBJECTS = decomp.$(OBJEXT)$/;"	m
+am_duplicate_encoder_OBJECTS	kata/src/Makefile	/^am_duplicate_encoder_OBJECTS = duplicate_encoder.$(OBJEXT)$/;"	m
+am_enoughisenough_OBJECTS	kata/src/Makefile	/^am_enoughisenough_OBJECTS = enoughisenough.$(OBJEXT)$/;"	m
+am_exes_and_ohs_OBJECTS	kata/src/Makefile	/^am_exes_and_ohs_OBJECTS = exes_and_ohs.$(OBJEXT)$/;"	m
+am_fibonacci_OBJECTS	kata/src/Makefile	/^am_fibonacci_OBJECTS = fibonacci.$(OBJEXT)$/;"	m
+am_findOdd_OBJECTS	kata/src/Makefile	/^am_findOdd_OBJECTS = findOdd.$(OBJEXT)$/;"	m
+am_findnextsquare_OBJECTS	kata/src/Makefile	/^am_findnextsquare_OBJECTS = findnextsquare.$(OBJEXT)$/;"	m
+am_greed_is_good_OBJECTS	kata/src/Makefile	/^am_greed_is_good_OBJECTS = greed_is_good.$(OBJEXT)$/;"	m
+am_is_square_OBJECTS	kata/src/Makefile	/^am_is_square_OBJECTS = is_square.$(OBJEXT)$/;"	m
+am_likes_OBJECTS	kata/src/Makefile	/^am_likes_OBJECTS = likes.$(OBJEXT)$/;"	m
+am_middle_char_OBJECTS	kata/src/Makefile	/^am_middle_char_OBJECTS = middle_char.$(OBJEXT)$/;"	m
+am_mult_table_OBJECTS	kata/src/Makefile	/^am_mult_table_OBJECTS = mult_table.$(OBJEXT)$/;"	m
+am_multiplication_table_OBJECTS	kata/src/Makefile	/^am_multiplication_table_OBJECTS = multiplication_table.$(OBJEXT)$/;"	m
+am_prime_decomp_OBJECTS	kata/src/Makefile	/^am_prime_decomp_OBJECTS = prime_decomp.$(OBJEXT)$/;"	m
+am_proper_fractions_OBJECTS	kata/src/Makefile	/^am_proper_fractions_OBJECTS = proper_fractions.$(OBJEXT)$/;"	m
+am_same_arrays_OBJECTS	kata/src/Makefile	/^am_same_arrays_OBJECTS = same_arrays.$(OBJEXT)$/;"	m
+am_sum_of_digits_digital_root_OBJECTS	kata/src/Makefile	/^am_sum_of_digits_digital_root_OBJECTS =  \\$/;"	m
+am_sum_of_fractions_OBJECTS	kata/src/Makefile	/^am_sum_of_fractions_OBJECTS = sum_of_fractions.$(OBJEXT)$/;"	m
+am_sum_of_numbers_OBJECTS	kata/src/Makefile	/^am_sum_of_numbers_OBJECTS = sum_of_numbers.$(OBJEXT)$/;"	m
+am_ten_minute_walk_OBJECTS	kata/src/Makefile	/^am_ten_minute_walk_OBJECTS = ten_minute_walk.$(OBJEXT)$/;"	m
+am_tickets_OBJECTS	kata/src/Makefile	/^am_tickets_OBJECTS = tickets.$(OBJEXT)$/;"	m
+am_tribonacci_OBJECTS	kata/src/Makefile	/^am_tribonacci_OBJECTS = tribonacci.$(OBJEXT)$/;"	m
+am_two_sum_OBJECTS	kata/src/Makefile	/^am_two_sum_OBJECTS = two_sum.$(OBJEXT)$/;"	m
+am_valid_braces_OBJECTS	kata/src/Makefile	/^am_valid_braces_OBJECTS = valid_braces.$(OBJEXT)$/;"	m
+am_valid_parentheses_OBJECTS	kata/src/Makefile	/^am_valid_parentheses_OBJECTS = valid_parentheses.$(OBJEXT)$/;"	m
+am_which_are_in_OBJECTS	kata/src/Makefile	/^am_which_are_in_OBJECTS = which_are_in.$(OBJEXT)$/;"	m
+as_fn_append	kata/config.status	/^  as_fn_append ()$/;"	f
+as_fn_append	kata/configure	/^  as_fn_append ()$/;"	f
+as_fn_arith	kata/config.status	/^  as_fn_arith ()$/;"	f
+as_fn_arith	kata/configure	/^  as_fn_arith ()$/;"	f
+as_fn_error	kata/config.status	/^as_fn_error ()$/;"	f
+as_fn_error	kata/configure	/^as_fn_error ()$/;"	f
+as_fn_executable_p	kata/config.status	/^as_fn_executable_p ()$/;"	f
+as_fn_executable_p	kata/configure	/^as_fn_executable_p ()$/;"	f
+as_fn_exit	kata/config.status	/^as_fn_exit ()$/;"	f
+as_fn_exit	kata/configure	/^as_fn_exit ()$/;"	f
+as_fn_failure	kata/configure	/^as_fn_failure () { as_fn_return 1; }$/;"	f
+as_fn_mkdir_p	kata/config.status	/^as_fn_mkdir_p ()$/;"	f
+as_fn_mkdir_p	kata/configure	/^as_fn_mkdir_p ()$/;"	f
+as_fn_ret_failure	kata/configure	/^as_fn_ret_failure () { return 1; }$/;"	f
+as_fn_ret_success	kata/configure	/^as_fn_ret_success () { return 0; }$/;"	f
+as_fn_set_status	kata/config.status	/^as_fn_set_status ()$/;"	f
+as_fn_set_status	kata/configure	/^as_fn_set_status ()$/;"	f
+as_fn_success	kata/configure	/^as_fn_success () { as_fn_return 0; }$/;"	f
+as_fn_unset	kata/config.status	/^as_fn_unset ()$/;"	f
+as_fn_unset	kata/configure	/^as_fn_unset ()$/;"	f
+bin_PROGRAMS	kata/src/Makefile	/^bin_PROGRAMS = same_arrays$(EXEEXT) tickets$(EXEEXT) \\$/;"	m
+bindir	kata/Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+bindir	kata/src/Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+bit_counting_LDADD	kata/src/Makefile	/^bit_counting_LDADD = $(LDADD)$/;"	m
+bit_counting_OBJECTS	kata/src/Makefile	/^bit_counting_OBJECTS = $(am_bit_counting_OBJECTS)$/;"	m
+bit_counting_SOURCES	kata/src/Makefile	/^bit_counting_SOURCES = bit_counting.cpp$/;"	m
+build_alias	kata/Makefile	/^build_alias = $/;"	m
+build_alias	kata/src/Makefile	/^build_alias = $/;"	m
+builddir	kata/Makefile	/^builddir = .$/;"	m
+builddir	kata/src/Makefile	/^builddir = .$/;"	m
+charcmp	kata/src/duplicate_encoder.cpp	/^bool charcmp(char a, char b) {$/;"	f
+cmp_abs	kata/src/same_arrays.cpp	/^static bool cmp_abs(int a, int b)$/;"	f	file:
+comp	kata/src/same_arrays.cpp	/^static bool comp(std::vector<int>&a, std::vector<int>&b)$/;"	f	file:
+countBits	kata/src/bit_counting.cpp	/^unsigned int countBits(unsigned long long n){$/;"	f
+datadir	kata/Makefile	/^datadir = ${datarootdir}$/;"	m
+datadir	kata/src/Makefile	/^datadir = ${datarootdir}$/;"	m
+datarootdir	kata/Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+datarootdir	kata/src/Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+dec2	kata/src/decomp.cpp	/^static std::vector<long long> dec2(long long n, long long left)$/;"	f	file:
+decomp_LDADD	kata/src/Makefile	/^decomp_LDADD = $(LDADD)$/;"	m
+decomp_OBJECTS	kata/src/Makefile	/^decomp_OBJECTS = $(am_decomp_OBJECTS)$/;"	m
+decomp_SOURCES	kata/src/Makefile	/^decomp_SOURCES = decomp.cpp$/;"	m
+decompose	kata/src/decomp.cpp	/^static std::vector<long long> decompose(long long n)$/;"	f	file:
+deleteNth	kata/src/enoughisenough.cpp	/^std::vector<int> deleteNth(std::vector<int> arr, int n)$/;"	f
+depcomp	kata/src/Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/depcomp$/;"	m
+digital_root	kata/src/sum_of_digits_digital_root.cpp	/^int digital_root(int n)$/;"	f
+dist_doc_DATA	kata/Makefile	/^dist_doc_DATA = README$/;"	m
+distcleancheck_listfiles	kata/Makefile	/^distcleancheck_listfiles = find . -type f -print$/;"	m
+distdir	kata/Makefile	/^distdir = $(PACKAGE)-$(VERSION)$/;"	m
+distuninstallcheck_listfiles	kata/Makefile	/^distuninstallcheck_listfiles = find . -type f -print$/;"	m
+docdir	kata/Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+docdir	kata/src/Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+duplicate_encoder	kata/src/duplicate_encoder.cpp	/^string duplicate_encoder(const string& word) {$/;"	f
+duplicate_encoder_LDADD	kata/src/Makefile	/^duplicate_encoder_LDADD = $(LDADD)$/;"	m
+duplicate_encoder_OBJECTS	kata/src/Makefile	/^duplicate_encoder_OBJECTS = $(am_duplicate_encoder_OBJECTS)$/;"	m
+duplicate_encoder_SOURCES	kata/src/Makefile	/^duplicate_encoder_SOURCES = duplicate_encoder.cpp$/;"	m
+dvidir	kata/Makefile	/^dvidir = ${docdir}$/;"	m
+dvidir	kata/src/Makefile	/^dvidir = ${docdir}$/;"	m
+enoughisenough_LDADD	kata/src/Makefile	/^enoughisenough_LDADD = $(LDADD)$/;"	m
+enoughisenough_OBJECTS	kata/src/Makefile	/^enoughisenough_OBJECTS = $(am_enoughisenough_OBJECTS)$/;"	m
+enoughisenough_SOURCES	kata/src/Makefile	/^enoughisenough_SOURCES = enoughisenough.cpp$/;"	m
+exec_prefix	kata/Makefile	/^exec_prefix = ${prefix}$/;"	m
+exec_prefix	kata/src/Makefile	/^exec_prefix = ${prefix}$/;"	m
+exes_and_ohs_LDADD	kata/src/Makefile	/^exes_and_ohs_LDADD = $(LDADD)$/;"	m
+exes_and_ohs_OBJECTS	kata/src/Makefile	/^exes_and_ohs_OBJECTS = $(am_exes_and_ohs_OBJECTS)$/;"	m
+exes_and_ohs_SOURCES	kata/src/Makefile	/^exes_and_ohs_SOURCES = exes_and_ohs.cpp$/;"	m
+expected	kata/src/tribonacci.cpp	/^	std::vector<int> expected;$/;"	m	struct:test_vector_t	file:
+factors	kata/src/prime_decomp.cpp	/^std::string PrimeDecomp::factors(int lst)$/;"	f	class:PrimeDecomp
+fibonacci_LDADD	kata/src/Makefile	/^fibonacci_LDADD = $(LDADD)$/;"	m
+fibonacci_OBJECTS	kata/src/Makefile	/^fibonacci_OBJECTS = $(am_fibonacci_OBJECTS)$/;"	m
+fibonacci_SOURCES	kata/src/Makefile	/^fibonacci_SOURCES = fibonacci.cpp$/;"	m
+findNextSquare	kata/src/findnextsquare.cpp	/^long int findNextSquare(long int sq) {$/;"	f
+findOdd	kata/src/findOdd.cpp	/^int findOdd(const std::vector<int>& numbers){$/;"	f
+findOdd_LDADD	kata/src/Makefile	/^findOdd_LDADD = $(LDADD)$/;"	m
+findOdd_OBJECTS	kata/src/Makefile	/^findOdd_OBJECTS = $(am_findOdd_OBJECTS)$/;"	m
+findOdd_SOURCES	kata/src/Makefile	/^findOdd_SOURCES = findOdd.cpp$/;"	m
+findnextsquare_LDADD	kata/src/Makefile	/^findnextsquare_LDADD = $(LDADD)$/;"	m
+findnextsquare_OBJECTS	kata/src/Makefile	/^findnextsquare_OBJECTS = $(am_findnextsquare_OBJECTS)$/;"	m
+findnextsquare_SOURCES	kata/src/Makefile	/^findnextsquare_SOURCES = findnextsquare.cpp$/;"	m
+func_cl_dashL	kata/compile	/^func_cl_dashL ()$/;"	f
+func_cl_dashl	kata/compile	/^func_cl_dashl ()$/;"	f
+func_cl_wrapper	kata/compile	/^func_cl_wrapper ()$/;"	f
+func_file_conv	kata/compile	/^func_file_conv ()$/;"	f
+get_middle	kata/src/middle_char.cpp	/^std::string get_middle(std::string input)$/;"	f
+get_sum	kata/src/sum_of_numbers.cpp	/^int get_sum(int a, int b)$/;"	f
+give_advice	kata/missing	/^give_advice ()$/;"	f
+greed_is_good_LDADD	kata/src/Makefile	/^greed_is_good_LDADD = $(LDADD)$/;"	m
+greed_is_good_OBJECTS	kata/src/Makefile	/^greed_is_good_OBJECTS = $(am_greed_is_good_OBJECTS)$/;"	m
+greed_is_good_SOURCES	kata/src/Makefile	/^greed_is_good_SOURCES = greed_is_good.cpp$/;"	m
+host_alias	kata/Makefile	/^host_alias = $/;"	m
+host_alias	kata/src/Makefile	/^host_alias = $/;"	m
+htmldir	kata/Makefile	/^htmldir = ${docdir}$/;"	m
+htmldir	kata/src/Makefile	/^htmldir = ${docdir}$/;"	m
+in	kata/src/decomp.cpp	/^	int in;$/;"	m	struct:tect_vector_t	file:
+inArray	kata/src/which_are_in.cpp	/^static std::vector<std::string> inArray(std::vector<std::string> &array1,$/;"	f	file:
+includedir	kata/Makefile	/^includedir = ${prefix}\/include$/;"	m
+includedir	kata/src/Makefile	/^includedir = ${prefix}\/include$/;"	m
+infodir	kata/Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+infodir	kata/src/Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+install_sh	kata/Makefile	/^install_sh = ${SHELL} \/home\/bret\/workspace\/training\/codewars\/kata\/install-sh$/;"	m
+install_sh	kata/src/Makefile	/^install_sh = ${SHELL} \/home\/bret\/workspace\/training\/codewars\/kata\/install-sh$/;"	m
+install_sh_DATA	kata/Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_DATA	kata/src/Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_PROGRAM	kata/Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_PROGRAM	kata/src/Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	kata/Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	kata/src/Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+isValidWalk	kata/src/ten_minute_walk.cpp	/^bool isValidWalk(std::vector<char> walk) {$/;"	f
+is_square	kata/src/is_square.cpp	/^bool is_square(int n)$/;"	f
+is_square_LDADD	kata/src/Makefile	/^is_square_LDADD = $(LDADD)$/;"	m
+is_square_OBJECTS	kata/src/Makefile	/^is_square_OBJECTS = $(am_is_square_OBJECTS)$/;"	m
+is_square_SOURCES	kata/src/Makefile	/^is_square_SOURCES = is_square.cpp$/;"	m
+libdir	kata/Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libdir	kata/src/Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libexecdir	kata/Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+libexecdir	kata/src/Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+likes	kata/src/likes.cpp	/^std::string likes(const std::vector<std::string> &names)$/;"	f
+likes_LDADD	kata/src/Makefile	/^likes_LDADD = $(LDADD)$/;"	m
+likes_OBJECTS	kata/src/Makefile	/^likes_OBJECTS = $(am_likes_OBJECTS)$/;"	m
+likes_SOURCES	kata/src/Makefile	/^likes_SOURCES = likes.cpp$/;"	m
+localedir	kata/Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localedir	kata/src/Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localstatedir	kata/Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+localstatedir	kata/src/Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+main	kata/src/bit_counting.cpp	/^int main()$/;"	f
+main	kata/src/decomp.cpp	/^int main()$/;"	f
+main	kata/src/duplicate_encoder.cpp	/^int main()$/;"	f
+main	kata/src/enoughisenough.cpp	/^int main()$/;"	f
+main	kata/src/exes_and_ohs.cpp	/^int main()$/;"	f
+main	kata/src/fibonacci.cpp	/^int main()$/;"	f
+main	kata/src/findOdd.cpp	/^int main()$/;"	f
+main	kata/src/findnextsquare.cpp	/^int main()$/;"	f
+main	kata/src/greed_is_good.cpp	/^int main()$/;"	f
+main	kata/src/is_square.cpp	/^int main()$/;"	f
+main	kata/src/likes.cpp	/^int main()$/;"	f
+main	kata/src/middle_char.cpp	/^int main()$/;"	f
+main	kata/src/mult_table.cpp	/^int main()$/;"	f
+main	kata/src/multiplication_table.cpp	/^int main()$/;"	f
+main	kata/src/prime_decomp.cpp	/^int main()$/;"	f
+main	kata/src/proper_fractions.cpp	/^int main()$/;"	f
+main	kata/src/same_arrays.cpp	/^int main(void)$/;"	f
+main	kata/src/sum_of_digits_digital_root.cpp	/^int main(void)$/;"	f
+main	kata/src/sum_of_fractions.cpp	/^int main()$/;"	f
+main	kata/src/sum_of_numbers.cpp	/^int main()$/;"	f
+main	kata/src/ten_minute_walk.cpp	/^int main(void)$/;"	f
+main	kata/src/tickets.cpp	/^int main()$/;"	f
+main	kata/src/tribonacci.cpp	/^int main(void)$/;"	f
+main	kata/src/two_sum.cpp	/^int main()$/;"	f
+main	kata/src/valid_braces.cpp	/^int main(void)$/;"	f
+main	kata/src/valid_parentheses.c	/^int main(void)$/;"	f
+main	kata/src/which_are_in.cpp	/^int main()$/;"	f
+make_dummy_depfile	kata/depcomp	/^make_dummy_depfile ()$/;"	f
+mandir	kata/Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mandir	kata/src/Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+middle_char_LDADD	kata/src/Makefile	/^middle_char_LDADD = $(LDADD)$/;"	m
+middle_char_OBJECTS	kata/src/Makefile	/^middle_char_OBJECTS = $(am_middle_char_OBJECTS)$/;"	m
+middle_char_SOURCES	kata/src/Makefile	/^middle_char_SOURCES = middle_char.cpp$/;"	m
+mkdir_p	kata/Makefile	/^mkdir_p = $(MKDIR_P)$/;"	m
+mkdir_p	kata/src/Makefile	/^mkdir_p = $(MKDIR_P)$/;"	m
+mkinstalldirs	kata/Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+mkinstalldirs	kata/src/Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+mult_table_LDADD	kata/src/Makefile	/^mult_table_LDADD = $(LDADD)$/;"	m
+mult_table_OBJECTS	kata/src/Makefile	/^mult_table_OBJECTS = $(am_mult_table_OBJECTS)$/;"	m
+mult_table_SOURCES	kata/src/Makefile	/^mult_table_SOURCES = mult_table.cpp$/;"	m
+multi_table	kata/src/mult_table.cpp	/^std::string multi_table(int number)$/;"	f
+multiplication_table	kata/src/multiplication_table.cpp	/^vector<vector<int>> multiplication_table(int n){$/;"	f
+multiplication_table_LDADD	kata/src/Makefile	/^multiplication_table_LDADD = $(LDADD)$/;"	m
+multiplication_table_OBJECTS	kata/src/Makefile	/^multiplication_table_OBJECTS = $(am_multiplication_table_OBJECTS)$/;"	m
+multiplication_table_SOURCES	kata/src/Makefile	/^multiplication_table_SOURCES = multiplication_table.cpp$/;"	m
+nextPrime	kata/src/prime_decomp.cpp	/^std::vector<int>& PrimeDecomp::nextPrime(std::vector<int> &primes)$/;"	f	class:PrimeDecomp
+oldincludedir	kata/Makefile	/^oldincludedir = \/usr\/include$/;"	m
+oldincludedir	kata/src/Makefile	/^oldincludedir = \/usr\/include$/;"	m
+operator <<	kata/src/prime_decomp.cpp	/^std::ostream& operator<<(std::ostream& os, std::vector<int> v)$/;"	f
+out	kata/src/decomp.cpp	/^	std::vector<long long> out;$/;"	m	struct:tect_vector_t	file:
+pdfdir	kata/Makefile	/^pdfdir = ${docdir}$/;"	m
+pdfdir	kata/src/Makefile	/^pdfdir = ${docdir}$/;"	m
+pkgdatadir	kata/Makefile	/^pkgdatadir = $(datadir)\/kata$/;"	m
+pkgdatadir	kata/src/Makefile	/^pkgdatadir = $(datadir)\/kata$/;"	m
+pkgincludedir	kata/Makefile	/^pkgincludedir = $(includedir)\/kata$/;"	m
+pkgincludedir	kata/src/Makefile	/^pkgincludedir = $(includedir)\/kata$/;"	m
+pkglibdir	kata/Makefile	/^pkglibdir = $(libdir)\/kata$/;"	m
+pkglibdir	kata/src/Makefile	/^pkglibdir = $(libdir)\/kata$/;"	m
+pkglibexecdir	kata/Makefile	/^pkglibexecdir = $(libexecdir)\/kata$/;"	m
+pkglibexecdir	kata/src/Makefile	/^pkglibexecdir = $(libexecdir)\/kata$/;"	m
+prefix	kata/Makefile	/^prefix = \/usr\/local$/;"	m
+prefix	kata/src/Makefile	/^prefix = \/usr\/local$/;"	m
+prime_decomp_LDADD	kata/src/Makefile	/^prime_decomp_LDADD = $(LDADD)$/;"	m
+prime_decomp_OBJECTS	kata/src/Makefile	/^prime_decomp_OBJECTS = $(am_prime_decomp_OBJECTS)$/;"	m
+prime_decomp_SOURCES	kata/src/Makefile	/^prime_decomp_SOURCES = prime_decomp.cpp$/;"	m
+productFib	kata/src/fibonacci.cpp	/^std::vector<ull> productFib(ull prod)$/;"	f
+program_details	kata/missing	/^program_details ()$/;"	f
+program_transform_name	kata/Makefile	/^program_transform_name = s,x,x,$/;"	m
+program_transform_name	kata/src/Makefile	/^program_transform_name = s,x,x,$/;"	m
+properFractions	kata/src/proper_fractions.cpp	/^long properFractions(long den)$/;"	f
+proper_fractions_LDADD	kata/src/Makefile	/^proper_fractions_LDADD = $(LDADD)$/;"	m
+proper_fractions_OBJECTS	kata/src/Makefile	/^proper_fractions_OBJECTS = $(am_proper_fractions_OBJECTS)$/;"	m
+proper_fractions_SOURCES	kata/src/Makefile	/^proper_fractions_SOURCES = proper_fractions.cpp$/;"	m
+prototypes	kata/configure	/^   function prototypes and stuff, but not '\\xHH' hex character constants.$/;"	f
+psdir	kata/Makefile	/^psdir = ${docdir}$/;"	m
+psdir	kata/src/Makefile	/^psdir = ${docdir}$/;"	m
+runstatedir	kata/Makefile	/^runstatedir = ${localstatedir}\/run$/;"	m
+runstatedir	kata/src/Makefile	/^runstatedir = ${localstatedir}\/run$/;"	m
+same_arrays_LDADD	kata/src/Makefile	/^same_arrays_LDADD = $(LDADD)$/;"	m
+same_arrays_OBJECTS	kata/src/Makefile	/^same_arrays_OBJECTS = $(am_same_arrays_OBJECTS)$/;"	m
+same_arrays_SOURCES	kata/src/Makefile	/^same_arrays_SOURCES = same_arrays.cpp$/;"	m
+sbindir	kata/Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sbindir	kata/src/Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+score	kata/src/greed_is_good.cpp	/^int score(const std::vector<int>& dice) {$/;"	f
+set_base_from	kata/depcomp	/^set_base_from ()$/;"	f
+set_dir_from	kata/depcomp	/^set_dir_from ()$/;"	f
+sharedstatedir	kata/Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+sharedstatedir	kata/src/Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+signature	kata/src/tribonacci.cpp	/^	std::vector<int> signature;$/;"	m	struct:test_vector_t	file:
+srcdir	kata/Makefile	/^srcdir = .$/;"	m
+srcdir	kata/src/Makefile	/^srcdir = .$/;"	m
+subdir	kata/Makefile	/^subdir = .$/;"	m
+subdir	kata/src/Makefile	/^subdir = src$/;"	m
+sumFracts	kata/src/sum_of_fractions.cpp	/^static std::pair <int, int> sumFracts(std::vector<std::vector<int>> &l)$/;"	f	file:
+sum_of_digits_digital_root_LDADD	kata/src/Makefile	/^sum_of_digits_digital_root_LDADD = $(LDADD)$/;"	m
+sum_of_digits_digital_root_OBJECTS	kata/src/Makefile	/^sum_of_digits_digital_root_OBJECTS =  \\$/;"	m
+sum_of_digits_digital_root_SOURCES	kata/src/Makefile	/^sum_of_digits_digital_root_SOURCES = sum_of_digits_digital_root.cpp$/;"	m
+sum_of_fractions_LDADD	kata/src/Makefile	/^sum_of_fractions_LDADD = $(LDADD)$/;"	m
+sum_of_fractions_OBJECTS	kata/src/Makefile	/^sum_of_fractions_OBJECTS = $(am_sum_of_fractions_OBJECTS)$/;"	m
+sum_of_fractions_SOURCES	kata/src/Makefile	/^sum_of_fractions_SOURCES = sum_of_fractions.cpp$/;"	m
+sum_of_numbers_LDADD	kata/src/Makefile	/^sum_of_numbers_LDADD = $(LDADD)$/;"	m
+sum_of_numbers_OBJECTS	kata/src/Makefile	/^sum_of_numbers_OBJECTS = $(am_sum_of_numbers_OBJECTS)$/;"	m
+sum_of_numbers_SOURCES	kata/src/Makefile	/^sum_of_numbers_SOURCES = sum_of_numbers.cpp$/;"	m
+sysconfdir	kata/Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+sysconfdir	kata/src/Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+tardir	kata/Makefile	/^	tardir=$(distdir) && $(am__tar) | BZIP2=$${BZIP2--9} bzip2 -c >$(distdir).tar.bz2$/;"	m
+tardir	kata/Makefile	/^	tardir=$(distdir) && $(am__tar) | XZ_OPT=$${XZ_OPT--e} xz -c >$(distdir).tar.xz$/;"	m
+tardir	kata/Makefile	/^	tardir=$(distdir) && $(am__tar) | compress -c >$(distdir).tar.Z$/;"	m
+tardir	kata/Makefile	/^	tardir=$(distdir) && $(am__tar) | eval GZIP= gzip $(GZIP_ENV) -c >$(distdir).tar.gz$/;"	m
+tardir	kata/Makefile	/^	tardir=$(distdir) && $(am__tar) | lzip -c $${LZIP_OPT--9} >$(distdir).tar.lz$/;"	m
+target_alias	kata/Makefile	/^target_alias = $/;"	m
+target_alias	kata/src/Makefile	/^target_alias = $/;"	m
+tect_vector_t	kata/src/decomp.cpp	/^typedef struct tect_vector_t {$/;"	s	file:
+tect_vector_t	kata/src/decomp.cpp	/^} tect_vector_t;$/;"	t	typeref:struct:tect_vector_t	file:
+ten_minute_walk_LDADD	kata/src/Makefile	/^ten_minute_walk_LDADD = $(LDADD)$/;"	m
+ten_minute_walk_OBJECTS	kata/src/Makefile	/^ten_minute_walk_OBJECTS = $(am_ten_minute_walk_OBJECTS)$/;"	m
+ten_minute_walk_SOURCES	kata/src/Makefile	/^ten_minute_walk_SOURCES = ten_minute_walk.cpp$/;"	m
+test_vector_t	kata/src/tribonacci.cpp	/^typedef struct test_vector_t {$/;"	s	file:
+test_vector_t	kata/src/tribonacci.cpp	/^} test_vector_t;$/;"	t	typeref:struct:test_vector_t	file:
+testequal	kata/src/prime_decomp.cpp	/^void testequal(std::string ans, std::string sol) {$/;"	f
+tickets	kata/src/tickets.cpp	/^std::string tickets(const std::vector<int>& peopleInLine) {$/;"	f
+tickets_LDADD	kata/src/Makefile	/^tickets_LDADD = $(LDADD)$/;"	m
+tickets_OBJECTS	kata/src/Makefile	/^tickets_OBJECTS = $(am_tickets_OBJECTS)$/;"	m
+tickets_SOURCES	kata/src/Makefile	/^tickets_SOURCES = tickets.cpp$/;"	m
+top_build_prefix	kata/Makefile	/^top_build_prefix = $/;"	m
+top_build_prefix	kata/src/Makefile	/^top_build_prefix = ..\/$/;"	m
+top_builddir	kata/Makefile	/^top_builddir = .$/;"	m
+top_builddir	kata/src/Makefile	/^top_builddir = ..$/;"	m
+top_distdir	kata/Makefile	/^top_distdir = $(distdir)$/;"	m
+top_srcdir	kata/Makefile	/^top_srcdir = .$/;"	m
+top_srcdir	kata/src/Makefile	/^top_srcdir = ..$/;"	m
+transform	kata/Makefile	/^transform = $(program_transform_name)$/;"	m
+transform	kata/src/Makefile	/^transform = $(program_transform_name)$/;"	m
+tribonacci	kata/src/tribonacci.cpp	/^std::vector<int> tribonacci(std::vector<int> signature, int n)$/;"	f
+tribonacci_LDADD	kata/src/Makefile	/^tribonacci_LDADD = $(LDADD)$/;"	m
+tribonacci_OBJECTS	kata/src/Makefile	/^tribonacci_OBJECTS = $(am_tribonacci_OBJECTS)$/;"	m
+tribonacci_SOURCES	kata/src/Makefile	/^tribonacci_SOURCES = tribonacci.cpp$/;"	m
+two_sum	kata/src/two_sum.cpp	/^std::pair<std::size_t, std::size_t> two_sum(const std::vector<int>& numbers,$/;"	f
+two_sum_LDADD	kata/src/Makefile	/^two_sum_LDADD = $(LDADD)$/;"	m
+two_sum_OBJECTS	kata/src/Makefile	/^two_sum_OBJECTS = $(am_two_sum_OBJECTS)$/;"	m
+two_sum_SOURCES	kata/src/Makefile	/^two_sum_SOURCES = two_sum.cpp$/;"	m
+ull	kata/src/fibonacci.cpp	/^typedef unsigned long long ull;$/;"	t	file:
+validParentheses	kata/src/valid_parentheses.c	/^bool validParentheses(const char *str_in)$/;"	f
+valid_braces	kata/src/valid_braces.cpp	/^bool valid_braces(std::string braces)$/;"	f
+valid_braces_LDADD	kata/src/Makefile	/^valid_braces_LDADD = $(LDADD)$/;"	m
+valid_braces_OBJECTS	kata/src/Makefile	/^valid_braces_OBJECTS = $(am_valid_braces_OBJECTS)$/;"	m
+valid_braces_SOURCES	kata/src/Makefile	/^valid_braces_SOURCES = valid_braces.cpp$/;"	m
+valid_parentheses_LDADD	kata/src/Makefile	/^valid_parentheses_LDADD = $(LDADD)$/;"	m
+valid_parentheses_OBJECTS	kata/src/Makefile	/^valid_parentheses_OBJECTS = $(am_valid_parentheses_OBJECTS)$/;"	m
+valid_parentheses_SOURCES	kata/src/Makefile	/^valid_parentheses_SOURCES = valid_parentheses.c$/;"	m
+which_are_in_LDADD	kata/src/Makefile	/^which_are_in_LDADD = $(LDADD)$/;"	m
+which_are_in_OBJECTS	kata/src/Makefile	/^which_are_in_OBJECTS = $(am_which_are_in_OBJECTS)$/;"	m
+which_are_in_SOURCES	kata/src/Makefile	/^which_are_in_SOURCES = which_are_in.cpp$/;"	m
