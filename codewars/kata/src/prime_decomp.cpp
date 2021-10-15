@@ -62,7 +62,7 @@ std::string PrimeDecomp::factors(int lst)
 			os << "**" << v[i].times;
 		os << ")";
 	}
-	std::cout << primes << std::cendl;
+	std::cout << primes << std::endl;
 	return os.str();
 }
 

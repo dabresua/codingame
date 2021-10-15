@@ -12,3 +12,7 @@ depcomp
 install-sh
 missing
 stamp-h1
+src/fibonacci
+src/prime_decomp
+src/sum_of_fractions
+src/egiptian_fractions
