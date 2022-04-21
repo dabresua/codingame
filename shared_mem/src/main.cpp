@@ -11,11 +11,17 @@
  *        @code {.bash}
  *            g++ -I /usr/lib/boost_1_79_0 src/main.cpp -o main -lrt
  *        @endcode
+ *        @code {.powershell}
+ *            g++ -I C:\Users\vagrant\boost_1_79_0\ .\src\main.cpp -o main
+ *        @endcode
+ * 
  * 
  * @param argc 
  * @param argv 
  * @return int 
  */
+
+#define REGION_SIZE (100)
 
 int main(int argc, char *argv[])
 {
@@ -36,7 +42,7 @@ int main(int argc, char *argv[])
       shared_memory_object shm (create_only, "MySharedMemory", read_write);
 
       //Set size
-      shm.truncate(1000);
+      shm.truncate(REGION_SIZE);
 
       //Map the whole shared memory in this process
       mapped_region region(shm, read_write);
@@ -44,12 +50,8 @@ int main(int argc, char *argv[])
       //Write all the memory to 1      
       char *mem = static_cast<char*>(region.get_address());
       for (std::size_t i = 0; i < region.get_size(); i++)
-      {
-        *mem = i;
-      }
+        *mem++ = static_cast<char>(i);
       
-      std::memset(region.get_address(), 1, region.get_size());
-
       printf("PARENT region starts at %p, size %ld\n", region.get_address(), region.get_size());
 
       //Launch child process
@@ -70,7 +72,7 @@ int main(int argc, char *argv[])
       printf("CHILD  region starts at %p, size %ld\n", region.get_address(), region.get_size());
 
       for(std::size_t i = 0; i < region.get_size(); ++i)
-         printf("%ld, ", i);
+         printf("%d, ", *mem++);
       printf("\n");
    }
 
